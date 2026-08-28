@@ -1,5 +1,6 @@
-.env
-.venv/
+# assistant/ — отдельный приватный проект, в этот (публичный) репозиторий не входит
+assistant/
+
+.DS_Store
 __pycache__/
 *.pyc
-.DS_Store

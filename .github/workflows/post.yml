@@ -16,7 +16,7 @@ permissions:
 jobs:
   post:
     runs-on: ubuntu-latest
-    concurrency: post-to-threads   # не запускать два раза параллельно
+    concurrency: post-to-threads
     steps:
       - uses: actions/checkout@v4
 
@@ -24,12 +24,14 @@ jobs:
         with:
           python-version: "3.12"
 
-      - run: pip install -r requirements.txt
+      - run: pip install -r flowers/requirements.txt
 
       - name: Publish
+        working-directory: flowers
         env:
           THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
           THREADS_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
+          IMAGE_BASE_URL: https://raw.githubusercontent.com/ulop-netizen/sreda/main/flowers/images
           DRY_RUN: ${{ vars.DRY_RUN || 'true' }}
         run: python -m src.post
 
@@ -37,6 +39,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add content/posted_log.json
+          git add flowers/content/posted_log.json
           git diff --cached --quiet || git commit -m "log: posted $(date -u +%FT%TZ)"
           git push

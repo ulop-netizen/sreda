@@ -1,13 +1,25 @@
-"""Точка входа: выбрать пост и опубликовать в Threads (или сухой прогон)."""
+"""Точка входа: выбрать пост и опубликовать в Threads (или сухой прогон).
+
+    python -m src.post            — следующий по очереди
+    python -m src.post --only ID  — конкретный пост из posts.yaml
+"""
 from __future__ import annotations
 
+import sys
+
 from . import config
-from .content import append_log, pick_next
+from .content import append_log, load_posts, pick_next
 from .threads_client import ThreadsClient
 
 
 def main() -> None:
-    post = pick_next()
+    if "--only" in sys.argv:
+        wanted = sys.argv[sys.argv.index("--only") + 1]
+        post = next((p for p in load_posts() if p["id"] == wanted), None)
+        if post is None:
+            raise SystemExit(f"Пост с id={wanted} не найден в posts.yaml")
+    else:
+        post = pick_next()
     text = post["caption"]
     img = config.image_url(post["image"]) if post["image"] else ""
 

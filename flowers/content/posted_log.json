@@ -21,5 +21,23 @@
     "post_id": null,
     "dry_run": true,
     "preview": "🌸 Dahlia & aster season is peaking"
+  },
+  {
+    "at": "2026-08-28T23:01:45+00:00",
+    "id": "roses-letters",
+    "fp": "9904a6197daf",
+    "image": "roses-letters.jpg",
+    "post_id": "18093941780335124",
+    "dry_run": false,
+    "preview": "Red rose letter boxes — spell your word or date 🌹"
+  },
+  {
+    "at": "2026-08-28T23:02:01+00:00",
+    "id": "peonies-coral",
+    "fp": "f4ab75d76f86",
+    "image": "peonies-coral.jpg",
+    "post_id": "18123414598823911",
+    "dry_run": false,
+    "preview": "Coral peonies — oversized statement bouquet 🌷"
   }
 ]
