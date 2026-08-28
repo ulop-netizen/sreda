@@ -1,0 +1,56 @@
+# Pula postów dla @july.concept.flowers. Rynek: Warszawa. Waluta: zł (PLN).
+#
+# defaults.template  – wspólny szablon podpisu
+# defaults.price_multiplier – cena wyświetlana = base_pln * multiplier (zaokr. do ...9)
+#
+# Wpis: id / image (plik w images/) / base_pln / name
+#       caption – (opcjonalnie) własny pełny tekst zamiast szablonu
+#       price_multiplier – (opcjonalnie) własny mnożnik dla tego wpisu
+
+defaults:
+  price_multiplier: 1.8
+  cta: "DM to order or customize your own!"
+  template: |
+    {name}
+    Price: {price}
+    Available for order in Warsaw 📍
+    {cta}
+
+posts:
+  - id: roses-letters
+    image: roses-letters.jpg
+    caption: |
+      Red rose letter boxes — spell your word or date 🌹
+      Price: from 490 zł / box
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
+
+  - id: peonies-coral
+    image: peonies-coral.jpg
+    caption: |
+      Coral peonies — oversized statement bouquet 🌷
+      Price: 1290 zł
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
+
+  - id: ranunculus-vase
+    image: ranunculus-vase.jpg
+    base_pln: 200
+    name: "Ranunculus & chamomile in a ceramic vase 🤍"
+
+  - id: hydrangea-pink
+    image: hydrangea-pink.jpg
+    base_pln: 220
+    price_multiplier: 1.0
+    name: "Pink hydrangea bunch 💗"
+
+  - id: dahlias-asters-day
+    image: ""
+    base_pln: 89
+    name: "Bouquet of the day — dahlias & asters, peak season 🌸"
+
+  - id: sunflowers
+    image: ""
+    base_pln: 69
+    price_multiplier: 1.2
+    name: "Field-fresh sunflowers, bunch of 7 🌻"
