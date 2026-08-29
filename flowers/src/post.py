@@ -20,6 +20,8 @@ def main() -> None:
             raise SystemExit(f"Пост с id={wanted} не найден в posts.yaml")
     else:
         post = pick_next()
+        if post is None:
+            raise SystemExit("Нет постов для публикации.")
     text = post["caption"]
     img = config.image_url(post["image"]) if post["image"] else ""
 

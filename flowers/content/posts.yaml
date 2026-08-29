@@ -1,8 +1,9 @@
-# Pula postów dla @july.concept.flowers. Rynek: Warszawa. Waluta: zł (PLN).
-# Pozycjonowanie: autorska / premium florystyka.
+# Pula postów dla @july.concept.flowers. Rynek: Warszawa.
+# Фото-посты — англ., премиум. Текстовые — рус., для охватов/вовлечения.
 #
-# Wpis: id / image (plik w images/) / name / price_pln (albo base_pln + mnożnik)
+# Wpis: id / image (plik w images/) / name / price_pln
 #       caption – (opcjonalnie) własny pełny tekst zamiast szablonu
+# Текстовый пост = запись без image, только id + caption.
 
 defaults:
   price_multiplier: 1.8
@@ -14,7 +15,7 @@ defaults:
     {cta}
 
 posts:
-  # --- нове фото, авторські роботи ---
+  # ---------- ФОТО (EN, премиум) ----------
   - id: crimson-drama
     image: crimson-drama.jpg
     price_pln: 320
@@ -60,7 +61,11 @@ posts:
     price_pln: 320
     name: "Ranunculus & chamomile in a ceramic vase 🤍"
 
-  # --- вже опубліковані (лишаються для ротації) ---
+  - id: peonies-coral
+    image: peonies-coral.jpg
+    price_pln: 1290
+    name: "Coral peonies — oversized statement bouquet 🌷"
+
   - id: roses-letters
     image: roses-letters.jpg
     caption: |
@@ -69,18 +74,51 @@ posts:
       Available for order in Warsaw 📍
       DM to order or customize your own!
 
-  - id: peonies-coral
-    image: peonies-coral.jpg
-    price_pln: 1290
-    name: "Coral peonies — oversized statement bouquet 🌷"
+  # ---------- ТЕКСТ (RU, охваты) ----------
+  - id: txt-buket-sebe
+    caption: |
+      Букет себе, без повода — это норма или перебор?
+      Моё мнение: норма. Но интересно, что скажете вы 👇
 
-  # --- текстові добивки ---
-  - id: dahlias-asters-day
-    image: ""
-    price_pln: 180
-    name: "Bouquet of the day — dahlias & asters, peak season 🌸"
+  - id: txt-pochemu-cena
+    caption: |
+      Почему авторский букет стоит 250, а не 100:
+      гортензия на оптовке — 20 zł/шт, антуриум — 12, плюс зелень, упаковка, доставка по Варшаве и час работы руками.
+      Это не наценка с потолка.
 
-  - id: sunflowers
-    image: ""
-    price_pln: 120
-    name: "Field-fresh sunflowers, bunch of 7 🌻"
+  - id: txt-uhod
+    caption: |
+      Чтобы букет простоял неделю:
+      — подрезать стебли под углом, каждый день
+      — менять воду
+      — убрать листья, которые в воде
+      — подальше от солнца, батареи и фруктов
+      Всё. Никаких таблеток и сахара.
+
+  - id: txt-chetnoe
+    caption: |
+      Чётное число цветов «только на похороны» — суеверие, от которого пора избавиться.
+      В остальном мире считают штуками, а не приметами. Решает композиция, а не количество.
+
+  - id: txt-za-kadrom
+    caption: |
+      5 утра, оптовый рынок, холодрыга, руки в земле.
+      Романтики — ноль.
+      А через три часа собираешь из этого букет — и всё окупается.
+
+  - id: txt-sezon
+    caption: |
+      Что сейчас в сезоне в Варшаве:
+      георгины, астры, гортензия, амарант, злаки.
+      Пионы — уже только импорт, дорого и недолго стоят. Не сезон.
+
+  - id: txt-istoria
+    caption: |
+      Заказали букет с запиской «прости, мам».
+      Собрала, отправила. Через час — «можно ещё один, теперь для бабушки».
+      Люблю такие дни.
+
+  - id: txt-tri-slova
+    caption: |
+      Опишите идеальный букет тремя словами.
+      Соберу вариант, который наберёт больше всего откликов, и подарю автору. Варшава, доставка моя.

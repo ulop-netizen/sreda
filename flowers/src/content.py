@@ -82,9 +82,20 @@ def append_log(post: dict, post_id: str | None, dry_run: bool) -> None:
     LOG_FILE.write_text(json.dumps(log, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def pick_next() -> dict:
-    """Пост, который дольше всех не публиковался (сухие прогоны не в счёт)."""
+def pick_next(kind: str | None = None) -> dict | None:
+    """Пост, который дольше всех не публиковался (сухие прогоны не в счёт).
+
+    kind="image" — только с картинкой; kind="text" — только текстовые;
+    None — любой. Возвращает None, если подходящих нет.
+    """
     posts = load_posts()
+    if kind == "image":
+        posts = [p for p in posts if p["image"]]
+    elif kind == "text":
+        posts = [p for p in posts if not p["image"]]
+    if not posts:
+        return None
+
     last_seen: dict[str, str] = {}
     for entry in load_log():
         if entry.get("dry_run"):
