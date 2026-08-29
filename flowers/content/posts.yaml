@@ -1,11 +1,8 @@
 # Pula postów dla @july.concept.flowers. Rynek: Warszawa. Waluta: zł (PLN).
+# Pozycjonowanie: autorska / premium florystyka.
 #
-# defaults.template  – wspólny szablon podpisu
-# defaults.price_multiplier – cena wyświetlana = base_pln * multiplier (zaokr. do ...9)
-#
-# Wpis: id / image (plik w images/) / base_pln / name
+# Wpis: id / image (plik w images/) / name / price_pln (albo base_pln + mnożnik)
 #       caption – (opcjonalnie) własny pełny tekst zamiast szablonu
-#       price_multiplier – (opcjonalnie) własny mnożnik dla tego wpisu
 
 defaults:
   price_multiplier: 1.8
@@ -17,6 +14,53 @@ defaults:
     {cta}
 
 posts:
+  # --- нове фото, авторські роботи ---
+  - id: crimson-drama
+    image: crimson-drama.jpg
+    price_pln: 320
+    name: "Crimson still life — strawflower, anthurium, smokebush 🍷"
+
+  - id: green-cascade
+    image: green-cascade.jpg
+    price_pln: 300
+    name: "Chartreuse cascade — bells of Ireland & hanging amaranth 🌿"
+
+  - id: calla-line
+    image: calla-line.jpg
+    price_pln: 340
+    name: "Peach calla lilies, drawn out in a line ✨"
+
+  - id: blush-anthurium
+    image: blush-anthurium.jpg
+    price_pln: 290
+    name: "Blush hydrangea & pink anthurium 🌸"
+
+  - id: dahlia-ember
+    image: dahlia-ember.jpg
+    price_pln: 300
+    name: "Ember dahlias on burgundy hydrangea 🔥"
+
+  - id: ranunculus-carnival
+    image: ranunculus-carnival.jpg
+    price_pln: 300
+    name: "Ranunculus carnival — orange, pink, yellow 🎪"
+
+  - id: soft-morning
+    image: soft-morning.jpg
+    price_pln: 260
+    name: "Soft morning — cream gerbera, spray roses, blue tweedia ☁️"
+
+  - id: autumn-pocket
+    image: autumn-pocket.jpg
+    price_pln: 180
+    name: "Pocket bouquet in autumn tones 🍂"
+
+  - id: ranunculus-vase
+    image: ranunculus-vase.jpg
+    price_pln: 320
+    name: "Ranunculus & chamomile in a ceramic vase 🤍"
+
+  # --- вже опубліковані (лишаються для ротації) ---
   - id: roses-letters
     image: roses-letters.jpg
     caption: |
@@ -27,30 +71,16 @@ posts:
 
   - id: peonies-coral
     image: peonies-coral.jpg
-    caption: |
-      Coral peonies — oversized statement bouquet 🌷
-      Price: 1290 zł
-      Available for order in Warsaw 📍
-      DM to order or customize your own!
+    price_pln: 1290
+    name: "Coral peonies — oversized statement bouquet 🌷"
 
-  - id: ranunculus-vase
-    image: ranunculus-vase.jpg
-    base_pln: 200
-    name: "Ranunculus & chamomile in a ceramic vase 🤍"
-
-  - id: hydrangea-pink
-    image: hydrangea-pink.jpg
-    base_pln: 220
-    price_multiplier: 1.0
-    name: "Pink hydrangea bunch 💗"
-
+  # --- текстові добивки ---
   - id: dahlias-asters-day
     image: ""
-    base_pln: 89
+    price_pln: 180
     name: "Bouquet of the day — dahlias & asters, peak season 🌸"
 
   - id: sunflowers
     image: ""
-    base_pln: 69
-    price_multiplier: 1.2
+    price_pln: 120
     name: "Field-fresh sunflowers, bunch of 7 🌻"

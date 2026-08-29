@@ -33,9 +33,12 @@ def load_posts() -> list[dict]:
 
     out = []
     for item in raw.get("posts") or []:
+        explicit = item.get("price_pln")
         subs = {
             "name": str(item.get("name", "")).strip(),
-            "price": _price(item.get("base_pln"), item.get("price_multiplier", multiplier)),
+            "price": f"{explicit} zł" if explicit else _price(
+                item.get("base_pln"), item.get("price_multiplier", multiplier)
+            ),
             "cta": str(defaults.get("cta", "")).strip(),
             "delivery": str(defaults.get("delivery", "")).strip(),
         }
