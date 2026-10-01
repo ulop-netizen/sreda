@@ -122,3 +122,145 @@ posts:
     caption: |
       Опишите идеальный букет тремя словами.
       Соберу вариант, который наберёт больше всего откликов, и подарю автору. Варшава, доставка моя.
+
+  # ---------- SASHA studio bouquets (prices TBD — VAC fills later) ----------
+  # No price_pln: content.py would leave empty 'Price:' via template; use full caption.
+  - id: sasha-01
+    image: sasha-01.jpg
+    caption: |
+      Studio bouquet 01
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
+
+  - id: sasha-02
+    image: sasha-02.jpg
+    caption: |
+      Studio bouquet 02
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
+
+  - id: sasha-03
+    image: sasha-03.jpg
+    caption: |
+      Studio bouquet 03
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
+
+  - id: sasha-04
+    image: sasha-04.jpg
+    caption: |
+      Studio bouquet 04
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
+
+  - id: sasha-05
+    image: sasha-05.jpg
+    caption: |
+      Studio bouquet 05
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
+
+  - id: sasha-06
+    image: sasha-06.jpg
+    caption: |
+      Studio bouquet 06
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
+
+  - id: sasha-07
+    image: sasha-07.jpg
+    caption: |
+      Studio bouquet 07
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
+
+  - id: sasha-08
+    image: sasha-08.jpg
+    caption: |
+      Studio bouquet 08
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
+
+  - id: sasha-09
+    image: sasha-09.jpg
+    caption: |
+      Studio bouquet 09
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
+
+  - id: sasha-10
+    image: sasha-10.jpg
+    caption: |
+      Studio bouquet 10
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
+
+  - id: sasha-11
+    image: sasha-11.jpg
+    caption: |
+      Studio bouquet 11
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
+
+  - id: sasha-12
+    image: sasha-12.jpg
+    caption: |
+      Studio bouquet 12
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
+
+  - id: sasha-13
+    image: sasha-13.jpg
+    caption: |
+      Studio bouquet 13
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
+
+  - id: sasha-14
+    image: sasha-14.jpg
+    caption: |
+      Studio bouquet 14
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
+
+  - id: sasha-15
+    image: sasha-15.jpg
+    caption: |
+      Studio bouquet 15
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
+
+  - id: sasha-16
+    image: sasha-16.jpg
+    caption: |
+      Studio bouquet 16
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
+
+  - id: sasha-17
+    image: sasha-17.jpg
+    caption: |
+      Studio bouquet 17
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
+
+  - id: sasha-18
+    image: sasha-18.jpg
+    caption: |
+      Studio bouquet 18
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
+
+  - id: sasha-19
+    image: sasha-19.jpg
+    caption: |
+      Studio bouquet 19
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
+
+  - id: sasha-20
+    image: sasha-20.jpg
+    caption: |
+      Studio bouquet 20
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
