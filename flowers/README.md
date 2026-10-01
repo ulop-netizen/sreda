@@ -1,6 +1,6 @@
 # sreda — автопостинг цветов в Threads
 
-Маленький бот: 5 раз в день берёт пост из пула `content/posts.yaml` и публикует
+Маленький бот: 3 раза в день берёт пост из пула `content/posts.yaml` и публикует
 в Threads через официальный API. Крутится на бесплатном кроне GitHub Actions.
 
 ## Локальный запуск (сухой прогон)
@@ -43,4 +43,4 @@ cp .env.example .env          # DRY_RUN=true уже стоит
 - Secrets: `THREADS_USER_ID`, `THREADS_ACCESS_TOKEN`
 - Variables: `DRY_RUN=false` (пока не готов — держи `true` или не создавай)
 
-Расписание и часовой пояс правятся в `.github/workflows/post.yml` (cron в UTC).
+Расписание: 3×/день (Варшава лето ~10:22 / 14:22 / 19:22). Правки — `.github/workflows/post.yml` (cron в UTC).

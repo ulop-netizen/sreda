@@ -125,142 +125,165 @@ posts:
 
   # ---------- SASHA studio bouquets (prices TBD — VAC fills later) ----------
   # No price_pln: content.py would leave empty 'Price:' via template; use full caption.
+
+  # ---------- SASHA studio (EN offer; prices TBD — no price_pln yet) ----------
   - id: sasha-01
     image: sasha-01.jpg
+    name: "Blushing peonies — pink & cream ruffles 🌸"
     caption: |
-      Studio bouquet 01
+      Blushing peonies — pink & cream ruffles 🌸
       Available for order in Warsaw 📍
       DM to order or customize your own!
 
   - id: sasha-02
     image: sasha-02.jpg
+    name: "Red anthurium, burgundy dahlia & physalis 🍂"
     caption: |
-      Studio bouquet 02
+      Red anthurium, burgundy dahlia & physalis 🍂
       Available for order in Warsaw 📍
       DM to order or customize your own!
 
   - id: sasha-03
     image: sasha-03.jpg
+    name: "Burgundy hydrangea with billy balls & dahlia 🟡"
     caption: |
-      Studio bouquet 03
+      Burgundy hydrangea with billy balls & dahlia 🟡
       Available for order in Warsaw 📍
       DM to order or customize your own!
 
   - id: sasha-04
     image: sasha-04.jpg
+    name: "Burgundy hydrangea, orange dahlia & green anthurium 🧡"
     caption: |
-      Studio bouquet 04
+      Burgundy hydrangea, orange dahlia & green anthurium 🧡
       Available for order in Warsaw 📍
       DM to order or customize your own!
 
   - id: sasha-05
     image: sasha-05.jpg
+    name: "Fiery crocosmia with glossy red berries 🔥"
     caption: |
-      Studio bouquet 05
+      Fiery crocosmia with glossy red berries 🔥
       Available for order in Warsaw 📍
       DM to order or customize your own!
 
   - id: sasha-06
     image: sasha-06.jpg
+    name: "Blush hydrangea, pink anthurium & bells of Ireland 🌿"
     caption: |
-      Studio bouquet 06
+      Blush hydrangea, pink anthurium & bells of Ireland 🌿
       Available for order in Warsaw 📍
       DM to order or customize your own!
 
   - id: sasha-07
     image: sasha-07.jpg
+    name: "Peach & rose pompon dahlias 🍑"
     caption: |
-      Studio bouquet 07
+      Peach & rose pompon dahlias 🍑
       Available for order in Warsaw 📍
       DM to order or customize your own!
 
   - id: sasha-08
     image: sasha-08.jpg
+    name: "Burgundy hydrangea, peach stock & white dahlias 🤍"
     caption: |
-      Studio bouquet 08
+      Burgundy hydrangea, peach stock & white dahlias 🤍
       Available for order in Warsaw 📍
       DM to order or customize your own!
 
   - id: sasha-09
     image: sasha-09.jpg
+    name: "Deep hydrangea with peach stock & white pompons ✨"
     caption: |
-      Studio bouquet 09
+      Deep hydrangea with peach stock & white pompons ✨
       Available for order in Warsaw 📍
       DM to order or customize your own!
 
   - id: sasha-10
     image: sasha-10.jpg
+    name: "Crimson & smoke — red anthurium, dark daisy, allium 🍷"
     caption: |
-      Studio bouquet 10
+      Crimson & smoke — red anthurium, dark daisy, allium 🍷
       Available for order in Warsaw 📍
       DM to order or customize your own!
 
   - id: sasha-11
     image: sasha-11.jpg
+    name: "Flame parrot blooms with orange berries & limonium 🧡"
     caption: |
-      Studio bouquet 11
+      Flame parrot blooms with orange berries & limonium 🧡
       Available for order in Warsaw 📍
       DM to order or customize your own!
 
   - id: sasha-12
     image: sasha-12.jpg
+    name: "Brunia & sea lavender in textured vase 🌿"
     caption: |
-      Studio bouquet 12
+      Brunia & sea lavender in textured vase 🌿
       Available for order in Warsaw 📍
       DM to order or customize your own!
 
   - id: sasha-13
     image: sasha-13.jpg
+    name: "Green berry cluster with lavender statice 💜"
     caption: |
-      Studio bouquet 13
+      Green berry cluster with lavender statice 💜
       Available for order in Warsaw 📍
       DM to order or customize your own!
 
   - id: sasha-14
     image: sasha-14.jpg
+    name: "Golden pompon chrysanthemums 💛"
     caption: |
-      Studio bouquet 14
+      Golden pompon chrysanthemums 💛
       Available for order in Warsaw 📍
       DM to order or customize your own!
 
   - id: sasha-15
     image: sasha-15.jpg
+    name: "Blush double roselilies — pink & cream 🌷"
     caption: |
-      Studio bouquet 15
+      Blush double roselilies — pink & cream 🌷
       Available for order in Warsaw 📍
       DM to order or customize your own!
 
   - id: sasha-16
     image: sasha-16.jpg
+    name: "Sunbeam yellow & autumn copper mums ☀️"
     caption: |
-      Studio bouquet 16
+      Sunbeam yellow & autumn copper mums ☀️
       Available for order in Warsaw 📍
       DM to order or customize your own!
 
   - id: sasha-17
     image: sasha-17.jpg
+    name: "Orange dahlia, sunset calla & blue gentian 💙"
     caption: |
-      Studio bouquet 17
+      Orange dahlia, sunset calla & blue gentian 💙
       Available for order in Warsaw 📍
       DM to order or customize your own!
 
   - id: sasha-18
     image: sasha-18.jpg
+    name: "Blue gentian with yellow dahlia & orange callas 🔵"
     caption: |
-      Studio bouquet 18
+      Blue gentian with yellow dahlia & orange callas 🔵
       Available for order in Warsaw 📍
       DM to order or customize your own!
 
   - id: sasha-19
     image: sasha-19.jpg
+    name: "Sunset callas, orange dahlias & sapphire blue 🌅"
     caption: |
-      Studio bouquet 19
+      Sunset callas, orange dahlias & sapphire blue 🌅
       Available for order in Warsaw 📍
       DM to order or customize your own!
 
   - id: sasha-20
     image: sasha-20.jpg
+    name: "Blue gentian, orange pompon dahlia & sunset calla ✨"
     caption: |
-      Studio bouquet 20
+      Blue gentian, orange pompon dahlia & sunset calla ✨
       Available for order in Warsaw 📍
       DM to order or customize your own!
+
