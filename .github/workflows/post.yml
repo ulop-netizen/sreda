@@ -2,11 +2,12 @@ name: post-to-threads
 
 on:
   schedule:
-    # 3 posts/day. UTC → Warsaw summer (UTC+2): ~10:22 / 14:22 / 19:22. Winter (UTC+1): ~09:22 / 13:22 / 18:22.
-    # VAC decided 3 posts/day (not 5).
-    - cron: "22 8 * * *"
-    - cron: "22 12 * * *"
-    - cron: "22 17 * * *"
+    # 3 posts/day at ~08:10 / 11:10 / 18:10 Warsaw.
+    # Oct = CEST (UTC+2) → UTC: 06:10 / 09:10 / 16:10.
+    # Winter (UTC+1): would fire ~07:10 / 10:10 / 17:10 — adjust when clocks change.
+    - cron: "10 6 * * *"
+    - cron: "10 9 * * *"
+    - cron: "10 16 * * *"
   workflow_dispatch: {}   # кнопка ручного запуска
 
 permissions:
