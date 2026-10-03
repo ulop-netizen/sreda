@@ -228,5 +228,23 @@
     "post_id": "18133329874734586",
     "dry_run": false,
     "preview": "Не ждите круглую дату, чтобы подарить цветы."
+  },
+  {
+    "at": "2026-10-03T09:13:11+00:00",
+    "id": "sasha-02",
+    "fp": "b243d5a01b15",
+    "image": "sasha-02.jpg",
+    "post_id": "18114687604824596",
+    "dry_run": false,
+    "preview": "Red anthurium, burgundy dahlia & physalis 🍂"
+  },
+  {
+    "at": "2026-10-03T21:45:35+00:00",
+    "id": "sasha-03",
+    "fp": "4260260f9f72",
+    "image": "sasha-03.jpg",
+    "post_id": "17912357733283829",
+    "dry_run": false,
+    "preview": "Burgundy hydrangea with billy balls & dahlia 🟡"
   }
 ]
