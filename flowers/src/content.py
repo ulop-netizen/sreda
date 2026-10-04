@@ -34,16 +34,26 @@ def load_posts() -> list[dict]:
     out = []
     for item in raw.get("posts") or []:
         explicit = item.get("price_pln")
+        price = f"{explicit} zł" if explicit else _price(
+            item.get("base_pln"), item.get("price_multiplier", multiplier)
+        )
         subs = {
             "name": str(item.get("name", "")).strip(),
-            "price": f"{explicit} zł" if explicit else _price(
-                item.get("base_pln"), item.get("price_multiplier", multiplier)
-            ),
+            "price": price,
+            # PL+RU. Puste, gdy ceny nie ma — linia z ceną nie trafia do posta.
+            "price_line": f"Cena: {price}\nЦена: {price}" if price else "",
             "cta": str(defaults.get("cta", "")).strip(),
             "delivery": str(defaults.get("delivery", "")).strip(),
         }
         caption = str(item.get("caption") or template)
-        for key, value in subs.items():
+        if not price:
+            caption = "\n".join(
+                line
+                for line in caption.splitlines()
+                if "{price}" not in line and "{price_line}" not in line
+            )
+        # Dłuższe klucze pierwsze, żeby {price} nie zjadło {price_line}.
+        for key, value in sorted(subs.items(), key=lambda kv: -len(kv[0])):
             caption = caption.replace("{" + key + "}", value)
         caption = "\n".join(line.rstrip() for line in caption.splitlines()).strip()
         if not caption:

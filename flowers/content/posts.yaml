@@ -1,5 +1,6 @@
-# Pula postów dla @july.concept.flowers. Rynek: Warszawa.
-# Фото-посты — англ., премиум. Текстовые — рус., для охватов/вовлечения.
+# Pula postów dla @july.concept.flowers. Rynek: #Warszawa.
+# Новые фото-посты — польский + русский, без цены, пока нет price_pln.
+# Уже опубликованные подписи не переписывать.
 #
 # Wpis: id / image (plik w images/) / name / price_pln
 #       caption – (opcjonalnie) własny pełny tekst zamiast szablonu
@@ -7,11 +8,12 @@
 
 defaults:
   price_multiplier: 1.8
-  cta: "DM to order or customize your own!"
+  cta: "Napisz w DM — zamówienie lub własna kompozycja.\nНапишите в DM — заказ или свой вариант."
   template: |
     {name}
-    Price: {price}
-    Available for order in Warsaw 📍
+    {price_line}
+    Na zamówienie #Warszawa 📍
+    На заказ #Warszawa
     {cta}
 
 posts:
@@ -20,51 +22,101 @@ posts:
     image: crimson-drama.jpg
     price_pln: 320
     name: "Crimson still life — strawflower, anthurium, smokebush 🍷"
+    caption: |
+      Crimson still life — strawflower, anthurium, smokebush 🍷
+      Price: 320 zł
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
 
   - id: green-cascade
     image: green-cascade.jpg
     price_pln: 300
     name: "Chartreuse cascade — bells of Ireland & hanging amaranth 🌿"
+    caption: |
+      Chartreuse cascade — bells of Ireland & hanging amaranth 🌿
+      Price: 300 zł
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
 
   - id: calla-line
     image: calla-line.jpg
     price_pln: 340
     name: "Peach calla lilies, drawn out in a line ✨"
+    caption: |
+      Peach calla lilies, drawn out in a line ✨
+      Price: 340 zł
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
 
   - id: blush-anthurium
     image: blush-anthurium.jpg
     price_pln: 290
     name: "Blush hydrangea & pink anthurium 🌸"
+    caption: |
+      Blush hydrangea & pink anthurium 🌸
+      Price: 290 zł
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
 
   - id: dahlia-ember
     image: dahlia-ember.jpg
     price_pln: 300
     name: "Ember dahlias on burgundy hydrangea 🔥"
+    caption: |
+      Ember dahlias on burgundy hydrangea 🔥
+      Price: 300 zł
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
 
   - id: ranunculus-carnival
     image: ranunculus-carnival.jpg
     price_pln: 300
     name: "Ranunculus carnival — orange, pink, yellow 🎪"
+    caption: |
+      Ranunculus carnival — orange, pink, yellow 🎪
+      Price: 300 zł
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
 
   - id: soft-morning
     image: soft-morning.jpg
     price_pln: 260
     name: "Soft morning — cream gerbera, spray roses, blue tweedia ☁️"
+    caption: |
+      Soft morning — cream gerbera, spray roses, blue tweedia ☁️
+      Price: 260 zł
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
 
   - id: autumn-pocket
     image: autumn-pocket.jpg
     price_pln: 180
     name: "Pocket bouquet in autumn tones 🍂"
+    caption: |
+      Pocket bouquet in autumn tones 🍂
+      Price: 180 zł
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
 
   - id: ranunculus-vase
     image: ranunculus-vase.jpg
     price_pln: 320
     name: "Ranunculus & chamomile in a ceramic vase 🤍"
+    caption: |
+      Ranunculus & chamomile in a ceramic vase 🤍
+      Price: 320 zł
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
 
   - id: peonies-coral
     image: peonies-coral.jpg
     price_pln: 1290
     name: "Coral peonies — oversized statement bouquet 🌷"
+    caption: |
+      Coral peonies — oversized statement bouquet 🌷
+      Price: 1290 zł
+      Available for order in Warsaw 📍
+      DM to order or customize your own!
 
   - id: roses-letters
     image: roses-letters.jpg
@@ -141,10 +193,8 @@ posts:
       «Просто так», «устала», «порадовала бы себя» — тоже поводы.
       А вы последний раз дарили букет без праздника?
 
-  # ---------- SASHA studio bouquets (prices TBD — VAC fills later) ----------
-  # No price_pln: content.py would leave empty 'Price:' via template; use full caption.
-
-  # ---------- SASHA studio (EN offer; prices TBD — no price_pln yet) ----------
+  # ---------- SASHA studio (PL+RU; bez ceny, dopóki nie ma price_pln) ----------
+  # sasha-01..04 już opublikowane — tekst zostaje.
   - id: sasha-01
     image: sasha-01.jpg
     name: "Blushing peonies — pink & cream ruffles 🌸"
@@ -179,129 +229,177 @@ posts:
 
   - id: sasha-05
     image: sasha-05.jpg
-    name: "Fiery crocosmia with glossy red berries 🔥"
+    name: "Ognista krokosmia z błyszczącymi czerwonymi jagodami 🔥"
     caption: |
-      Fiery crocosmia with glossy red berries 🔥
-      Available for order in Warsaw 📍
-      DM to order or customize your own!
+      Ognista krokosmia z błyszczącymi czerwonymi jagodami 🔥
+      Огненная крокосмия с блестящими красными ягодами 🔥
+      Na zamówienie #Warszawa 📍
+      На заказ #Warszawa
+      Napisz w DM — zamówienie lub własna kompozycja.
+      Напишите в DM — заказ или свой вариант.
 
   - id: sasha-06
     image: sasha-06.jpg
-    name: "Blush hydrangea, pink anthurium & bells of Ireland 🌿"
+    name: "Różowa hortensja, różowe anturium i dzwonki irlandzkie 🌿"
     caption: |
-      Blush hydrangea, pink anthurium & bells of Ireland 🌿
-      Available for order in Warsaw 📍
-      DM to order or customize your own!
+      Różowa hortensja, różowe anturium i dzwonki irlandzkie 🌿
+      Розовая гортензия, розовый антуриум и ирландские колокольчики 🌿
+      Na zamówienie #Warszawa 📍
+      На заказ #Warszawa
+      Napisz w DM — zamówienie lub własna kompozycja.
+      Напишите в DM — заказ или свой вариант.
 
   - id: sasha-07
     image: sasha-07.jpg
-    name: "Peach & rose pompon dahlias 🍑"
+    name: "Brzoskwiniowe i różowe dalie pomponowe 🍑"
     caption: |
-      Peach & rose pompon dahlias 🍑
-      Available for order in Warsaw 📍
-      DM to order or customize your own!
+      Brzoskwiniowe i różowe dalie pomponowe 🍑
+      Персиковые и розовые помпонные георгины 🍑
+      Na zamówienie #Warszawa 📍
+      На заказ #Warszawa
+      Napisz w DM — zamówienie lub własna kompozycja.
+      Напишите в DM — заказ или свой вариант.
 
   - id: sasha-08
     image: sasha-08.jpg
-    name: "Burgundy hydrangea, peach stock & white dahlias 🤍"
+    name: "Burgundowa hortensja, brzoskwiniowa lewkonia i białe dalie 🤍"
     caption: |
-      Burgundy hydrangea, peach stock & white dahlias 🤍
-      Available for order in Warsaw 📍
-      DM to order or customize your own!
+      Burgundowa hortensja, brzoskwiniowa lewkonia i białe dalie 🤍
+      Бордовая гортензия, персиковая левкоя и белые георгины 🤍
+      Na zamówienie #Warszawa 📍
+      На заказ #Warszawa
+      Napisz w DM — zamówienie lub własna kompozycja.
+      Напишите в DM — заказ или свой вариант.
 
   - id: sasha-09
     image: sasha-09.jpg
-    name: "Deep hydrangea with peach stock & white pompons ✨"
+    name: "Głęboka hortensja, brzoskwiniowa lewkonia i białe pompony ✨"
     caption: |
-      Deep hydrangea with peach stock & white pompons ✨
-      Available for order in Warsaw 📍
-      DM to order or customize your own!
+      Głęboka hortensja, brzoskwiniowa lewkonia i białe pompony ✨
+      Глубокая гортензия, персиковая левкоя и белые помпоны ✨
+      Na zamówienie #Warszawa 📍
+      На заказ #Warszawa
+      Napisz w DM — zamówienie lub własna kompozycja.
+      Напишите в DM — заказ или свой вариант.
 
   - id: sasha-10
     image: sasha-10.jpg
-    name: "Crimson & smoke — red anthurium, dark daisy, allium 🍷"
+    name: "Karmin i dym — czerwone anturium, ciemna margaretka, czosnek ozdobny 🍷"
     caption: |
-      Crimson & smoke — red anthurium, dark daisy, allium 🍷
-      Available for order in Warsaw 📍
-      DM to order or customize your own!
+      Karmin i dym — czerwone anturium, ciemna margaretka, czosnek ozdobny 🍷
+      Кармин и дым — красный антуриум, тёмная маргаритка, декоративный лук 🍷
+      Na zamówienie #Warszawa 📍
+      На заказ #Warszawa
+      Napisz w DM — zamówienie lub własna kompozycja.
+      Напишите в DM — заказ или свой вариант.
 
   - id: sasha-11
     image: sasha-11.jpg
-    name: "Flame parrot blooms with orange berries & limonium 🧡"
+    name: "Płomienne kwiaty papuzie, pomarańczowe jagody i limonium 🧡"
     caption: |
-      Flame parrot blooms with orange berries & limonium 🧡
-      Available for order in Warsaw 📍
-      DM to order or customize your own!
+      Płomienne kwiaty papuzie, pomarańczowe jagody i limonium 🧡
+      Огненные попугайные цветы, оранжевые ягоды и лимониум 🧡
+      Na zamówienie #Warszawa 📍
+      На заказ #Warszawa
+      Napisz w DM — zamówienie lub własna kompozycja.
+      Напишите в DM — заказ или свой вариант.
 
   - id: sasha-12
     image: sasha-12.jpg
-    name: "Brunia & sea lavender in textured vase 🌿"
+    name: "Brunia i lawenda morska w fakturowanym wazonie 🌿"
     caption: |
-      Brunia & sea lavender in textured vase 🌿
-      Available for order in Warsaw 📍
-      DM to order or customize your own!
+      Brunia i lawenda morska w fakturowanym wazonie 🌿
+      Бруния и морская лаванда в фактурной вазе 🌿
+      Na zamówienie #Warszawa 📍
+      На заказ #Warszawa
+      Napisz w DM — zamówienie lub własna kompozycja.
+      Напишите в DM — заказ или свой вариант.
 
   - id: sasha-13
     image: sasha-13.jpg
-    name: "Green berry cluster with lavender statice 💜"
+    name: "Zielone grona jagód i lawendowy zatrwian 💜"
     caption: |
-      Green berry cluster with lavender statice 💜
-      Available for order in Warsaw 📍
-      DM to order or customize your own!
+      Zielone grona jagód i lawendowy zatrwian 💜
+      Зелёные ягодные грозди и лавандовый статице 💜
+      Na zamówienie #Warszawa 📍
+      На заказ #Warszawa
+      Napisz w DM — zamówienie lub własna kompozycja.
+      Напишите в DM — заказ или свой вариант.
 
   - id: sasha-14
     image: sasha-14.jpg
-    name: "Golden pompon chrysanthemums 💛"
+    name: "Złote chryzantemy pomponowe 💛"
     caption: |
-      Golden pompon chrysanthemums 💛
-      Available for order in Warsaw 📍
-      DM to order or customize your own!
+      Złote chryzantemy pomponowe 💛
+      Золотые помпонные хризантемы 💛
+      Na zamówienie #Warszawa 📍
+      На заказ #Warszawa
+      Napisz w DM — zamówienie lub własna kompozycja.
+      Напишите в DM — заказ или свой вариант.
 
   - id: sasha-15
     image: sasha-15.jpg
-    name: "Blush double roselilies — pink & cream 🌷"
+    name: "Różowe podwójne lilie różane — róż i krem 🌷"
     caption: |
-      Blush double roselilies — pink & cream 🌷
-      Available for order in Warsaw 📍
-      DM to order or customize your own!
+      Różowe podwójne lilie różane — róż i krem 🌷
+      Нежно-розовые махровые розолилии — розовый и крем 🌷
+      Na zamówienie #Warszawa 📍
+      На заказ #Warszawa
+      Napisz w DM — zamówienie lub własna kompozycja.
+      Напишите в DM — заказ или свой вариант.
 
   - id: sasha-16
     image: sasha-16.jpg
-    name: "Sunbeam yellow & autumn copper mums ☀️"
+    name: "Słoneczne żółte i miedziane jesienne chryzantemy ☀️"
     caption: |
-      Sunbeam yellow & autumn copper mums ☀️
-      Available for order in Warsaw 📍
-      DM to order or customize your own!
+      Słoneczne żółte i miedziane jesienne chryzantemy ☀️
+      Солнечно-жёлтые и осенние медные хризантемы ☀️
+      Na zamówienie #Warszawa 📍
+      На заказ #Warszawa
+      Napisz w DM — zamówienie lub własna kompozycja.
+      Напишите в DM — заказ или свой вариант.
 
   - id: sasha-17
     image: sasha-17.jpg
-    name: "Orange dahlia, sunset calla & blue gentian 💙"
+    name: "Pomarańczowa dalia, kalia zachodu i niebieska goryczka 💙"
     caption: |
-      Orange dahlia, sunset calla & blue gentian 💙
-      Available for order in Warsaw 📍
-      DM to order or customize your own!
+      Pomarańczowa dalia, kalia zachodu i niebieska goryczka 💙
+      Оранжевая георгина, закатная калла и синяя горечавка 💙
+      Na zamówienie #Warszawa 📍
+      На заказ #Warszawa
+      Napisz w DM — zamówienie lub własna kompozycja.
+      Напишите в DM — заказ или свой вариант.
 
   - id: sasha-18
     image: sasha-18.jpg
-    name: "Blue gentian with yellow dahlia & orange callas 🔵"
+    name: "Niebieska goryczka, żółta dalia i pomarańczowe kalie 🔵"
     caption: |
-      Blue gentian with yellow dahlia & orange callas 🔵
-      Available for order in Warsaw 📍
-      DM to order or customize your own!
+      Niebieska goryczka, żółta dalia i pomarańczowe kalie 🔵
+      Синяя горечавка, жёлтая георгина и оранжевые каллы 🔵
+      Na zamówienie #Warszawa 📍
+      На заказ #Warszawa
+      Napisz w DM — zamówienie lub własna kompozycja.
+      Напишите в DM — заказ или свой вариант.
 
   - id: sasha-19
     image: sasha-19.jpg
-    name: "Sunset callas, orange dahlias & sapphire blue 🌅"
+    name: "Kalie zachodu, pomarańczowe dalie i szafirowy błękit 🌅"
     caption: |
-      Sunset callas, orange dahlias & sapphire blue 🌅
-      Available for order in Warsaw 📍
-      DM to order or customize your own!
+      Kalie zachodu, pomarańczowe dalie i szafirowy błękit 🌅
+      Закатные каллы, оранжевые георгины и сапфировая синева 🌅
+      Na zamówienie #Warszawa 📍
+      На заказ #Warszawa
+      Napisz w DM — zamówienie lub własna kompozycja.
+      Напишите в DM — заказ или свой вариант.
 
   - id: sasha-20
     image: sasha-20.jpg
-    name: "Blue gentian, orange pompon dahlia & sunset calla ✨"
+    name: "Niebieska goryczka, pomarańczowa dalia pomponowa i kalia zachodu ✨"
     caption: |
-      Blue gentian, orange pompon dahlia & sunset calla ✨
-      Available for order in Warsaw 📍
-      DM to order or customize your own!
+      Niebieska goryczka, pomarańczowa dalia pomponowa i kalia zachodu ✨
+      Синяя горечавка, оранжевая помпонная георгина и закатная калла ✨
+      Na zamówienie #Warszawa 📍
+      На заказ #Warszawa
+      Napisz w DM — zamówienie lub własna kompozycja.
+      Напишите в DM — заказ или свой вариант.
 
