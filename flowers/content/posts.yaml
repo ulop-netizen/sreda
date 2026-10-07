@@ -1,19 +1,17 @@
-# Pula postów dla @july.concept.flowers. Rynek: #Warszawa.
-# Новые фото-посты — польский + русский, без цены, пока нет price_pln.
-# Уже опубликованные подписи не переписывать.
+# Pool for @july.concept.flowers.
+# New batch posts: ONE language per caption (EN or RU), Malta hashtags, no prices.
+# Do not rewrite already-published captions.
 #
-# Wpis: id / image (plik w images/) / name / price_pln
-#       caption – (opcjonalnie) własny pełny tekst zamiast szablonu
-# Текстовый пост = запись без image, только id + caption.
+# Entry: id / image (file under images/) / name / optional caption / optional price_pln
+# Text-only = id + caption, no image.
 
 defaults:
   price_multiplier: 1.8
-  cta: "Napisz w DM — zamówienie lub własna kompozycja.\nНапишите в DM — заказ или свой вариант."
+  cta: "DM to order or customize your own!"
   template: |
     {name}
     {price_line}
-    Na zamówienie #Warszawa 📍
-    На заказ #Warszawa
+    Available to order in #Malta 📍
     {cta}
 
 posts:
@@ -361,45 +359,937 @@ posts:
 
   - id: sasha-17
     image: sasha-17.jpg
-    name: "Pomarańczowa dalia, kalia zachodu i niebieska goryczka 💙"
+    name: "Orange dahlia, sunset calla and blue gentian 💙"
+    lang: en
     caption: |
-      Pomarańczowa dalia, kalia zachodu i niebieska goryczka 💙
-      Оранжевая георгина, закатная калла и синяя горечавка 💙
-      Na zamówienie #Warszawa 📍
-      На заказ #Warszawa
-      Napisz w DM — zamówienie lub własna kompozycja.
-      Напишите в DM — заказ или свой вариант.
+      Orange dahlia, sunset calla and blue gentian 💙
+      Available to order in #Malta 📍
+      DM to order or customize your own!
 
   - id: sasha-18
     image: sasha-18.jpg
-    name: "Niebieska goryczka, żółta dalia i pomarańczowe kalie 🔵"
+    name: "Синяя горечавка, жёлтая георгина и оранжевые каллы 🔵"
+    lang: ru
     caption: |
-      Niebieska goryczka, żółta dalia i pomarańczowe kalie 🔵
       Синяя горечавка, жёлтая георгина и оранжевые каллы 🔵
-      Na zamówienie #Warszawa 📍
-      На заказ #Warszawa
-      Napisz w DM — zamówienie lub własna kompozycja.
+      На заказ в #Malta 📍
       Напишите в DM — заказ или свой вариант.
 
   - id: sasha-19
     image: sasha-19.jpg
-    name: "Kalie zachodu, pomarańczowe dalie i szafirowy błękit 🌅"
+    name: "Sunset callas, orange dahlias and sapphire blue 🌅"
+    lang: en
     caption: |
-      Kalie zachodu, pomarańczowe dalie i szafirowy błękit 🌅
-      Закатные каллы, оранжевые георгины и сапфировая синева 🌅
-      Na zamówienie #Warszawa 📍
-      На заказ #Warszawa
-      Napisz w DM — zamówienie lub własna kompozycja.
-      Напишите в DM — заказ или свой вариант.
+      Sunset callas, orange dahlias and sapphire blue 🌅
+      Custom arrangements for #Malta & #Gozo
+      Message me in DM to book.
 
   - id: sasha-20
     image: sasha-20.jpg
-    name: "Niebieska goryczka, pomarańczowa dalia pomponowa i kalia zachodu ✨"
+    name: "Синяя горечавка, оранжевая помпонная георгина и закатная калла ✨"
+    lang: ru
     caption: |
-      Niebieska goryczka, pomarańczowa dalia pomponowa i kalia zachodu ✨
       Синяя горечавка, оранжевая помпонная георгина и закатная калла ✨
-      Na zamówienie #Warszawa 📍
-      На заказ #Warszawa
-      Napisz w DM — zamówienie lub własna kompozycja.
-      Напишите в DM — заказ или свой вариант.
+      Доставка и самовывоз в #Malta
+      Пишите в DM для заказа.
 
+
+  # ---------- BATCH-100 (EN/RU single-lang, #Malta) ----------
+
+  - id: batch-001
+    image: batch-100/batch-001.jpg
+    name: 'Soft petals, bold mood — a bouquet made to linger.'
+    lang: en
+    caption: |
+      Soft petals, bold mood — a bouquet made to linger.
+      Available to order in #Malta 📍
+      DM to order or customize your own!
+
+  - id: batch-002
+    image: batch-100/batch-002.jpg
+    name: 'Мягкие лепестки и смелый характер — букет, который хочется рассматривать.'
+    lang: ru
+    caption: |
+      Мягкие лепестки и смелый характер — букет, который хочется рассматривать.
+      На заказ в #Malta 📍
+      Напишите в DM — соберём ваш вариант.
+
+  - id: batch-003
+    image: batch-100/batch-003.jpg
+    name: 'Colour therapy in a vase. Fresh, seasonal, made for you.'
+    lang: en
+    caption: |
+      Colour therapy in a vase. Fresh, seasonal, made for you.
+      Ship or pickup in #Malta
+      Message me in DM to book.
+
+  - id: batch-004
+    image: batch-100/batch-004.jpg
+    name: 'Цветотерапия в вазе. Свежие сезонные стебли под ваш запрос.'
+    lang: ru
+    caption: |
+      Цветотерапия в вазе. Свежие сезонные стебли под ваш запрос.
+      #Malta и #Gozo
+      Пишите в директ.
+
+  - id: batch-005
+    image: batch-100/batch-005.jpg
+    name: 'When words are not enough — send flowers that speak louder.'
+    lang: en
+    caption: |
+      When words are not enough — send flowers that speak louder.
+      Custom arrangements for #Malta & #Gozo
+      DM to order.
+
+  - id: batch-006
+    image: batch-100/batch-006.jpg
+    name: 'Когда слов мало — пусть скажут цветы.'
+    lang: ru
+    caption: |
+      Когда слов мало — пусть скажут цветы.
+      Доставка и самовывоз в #Malta
+      DM для заказа.
+
+  - id: batch-007
+    image: batch-100/batch-007.jpg
+    name: 'A quiet luxury: hand-tied blooms with character.'
+    lang: en
+    caption: |
+      A quiet luxury: hand-tied blooms with character.
+      Order for delivery across #Malta 🌸
+      Write in DM.
+
+  - id: batch-008
+    image: batch-100/batch-008.jpg
+    name: 'Тихая роскошь: ручная сборка и живой характер.'
+    lang: ru
+    caption: |
+      Тихая роскошь: ручная сборка и живой характер.
+      Студия цветов #Malta 🌸
+      Напишите в DM.
+
+  - id: batch-009
+    image: batch-100/batch-009.jpg
+    name: 'Bright stems for grey days. Studio favourites, ready on request.'
+    lang: en
+    caption: |
+      Bright stems for grey days. Studio favourites, ready on request.
+      #Malta flower studio
+      DM for yours.
+
+  - id: batch-010
+    image: batch-100/batch-010.jpg
+    name: 'Яркие стебли для серых дней. Любимые композиции студии.'
+    lang: ru
+    caption: |
+      Яркие стебли для серых дней. Любимые композиции студии.
+      Заказы по #Malta
+      Пишите в директ.
+
+  - id: batch-011
+    image: batch-100/batch-011.jpg
+    name: 'Texture, tone, and a little drama — our kind of bouquet.'
+    lang: en
+    caption: |
+      Texture, tone, and a little drama — our kind of bouquet.
+      Available in #Malta
+      DM to reserve.
+
+  - id: batch-012
+    image: batch-100/batch-012.jpg
+    name: 'Фактура, тон и чуть драмы — наш любимый рецепт.'
+    lang: ru
+    caption: |
+      Фактура, тон и чуть драмы — наш любимый рецепт.
+      Доступно в #Malta
+      DM, чтобы забронировать.
+
+  - id: batch-013
+    image: batch-100/batch-013.jpg
+    name: 'Not supermarket flowers. Thoughtful composition, seasonal picks.'
+    lang: en
+    caption: |
+      Not supermarket flowers. Thoughtful composition, seasonal picks.
+      Serving #Malta & #Gozo
+      DM to order.
+
+  - id: batch-014
+    image: batch-100/batch-014.jpg
+    name: 'Не «как из супермаркета». Продуманная композиция и сезон.'
+    lang: ru
+    caption: |
+      Не «как из супермаркета». Продуманная композиция и сезон.
+      #Malta · #Gozo
+      Напишите в DM.
+
+  - id: batch-015
+    image: batch-100/batch-015.jpg
+    name: 'Make an ordinary Tuesday feel special.'
+    lang: en
+    caption: |
+      Make an ordinary Tuesday feel special.
+      Bouquets on order — #Malta 📍
+      Message me in DM.
+
+  - id: batch-016
+    image: batch-100/batch-016.jpg
+    name: 'Пусть обычный вторник станет чуть особеннее.'
+    lang: ru
+    caption: |
+      Пусть обычный вторник станет чуть особеннее.
+      Букеты на заказ — #Malta 📍
+      Пишите в директ.
+
+  - id: batch-017
+    image: batch-100/batch-017.jpg
+    name: 'Soft blush tones for someone who deserves softness.'
+    lang: en
+    caption: |
+      Soft blush tones for someone who deserves softness.
+      Custom work for #Malta
+      DM to start.
+
+  - id: batch-018
+    image: batch-100/batch-018.jpg
+    name: 'Нежный румянец для тех, кому нужна мягкость.'
+    lang: ru
+    caption: |
+      Нежный румянец для тех, кому нужна мягкость.
+      Индивидуальные заказы в #Malta
+      DM, чтобы начать.
+
+  - id: batch-019
+    image: batch-100/batch-019.jpg
+    name: 'Deep colour, clean lines — florals with presence.'
+    lang: en
+    caption: |
+      Deep colour, clean lines — florals with presence.
+      #Malta · made to order
+      DM for details.
+
+  - id: batch-020
+    image: batch-100/batch-020.jpg
+    name: 'Глубокий цвет и чистые линии — цветы с присутствием.'
+    lang: ru
+    caption: |
+      Глубокий цвет и чистые линии — цветы с присутствием.
+      #Malta · под заказ
+      Напишите в DM.
+
+  - id: batch-021
+    image: batch-100/batch-021.jpg
+    name: 'A pocket of summer, tied by hand.'
+    lang: en
+    caption: |
+      A pocket of summer, tied by hand.
+      Delivery & pickup in #Malta
+      Write in DM.
+
+  - id: batch-022
+    image: batch-100/batch-022.jpg
+    name: 'Карман лета, связанный вручную.'
+    lang: ru
+    caption: |
+      Карман лета, связанный вручную.
+      Доставка и самовывоз в #Malta
+      Пишите в директ.
+
+  - id: batch-023
+    image: batch-100/batch-023.jpg
+    name: 'Statement blooms for a dinner table that means it.'
+    lang: en
+    caption: |
+      Statement blooms for a dinner table that means it.
+      #Malta floral studio
+      DM to order.
+
+  - id: batch-024
+    image: batch-100/batch-024.jpg
+    name: 'Акцент на стол, который задаёт настроение ужина.'
+    lang: ru
+    caption: |
+      Акцент на стол, который задаёт настроение ужина.
+      Цветочная студия #Malta
+      DM для заказа.
+
+  - id: batch-025
+    image: batch-100/batch-025.jpg
+    name: 'Peony energy even when peonies are scarce — we find the mood.'
+    lang: en
+    caption: |
+      Peony energy even when peonies are scarce — we find the mood.
+      Orders in #Malta
+      DM me.
+
+  - id: batch-026
+    image: batch-100/batch-026.jpg
+    name: 'Энергия пионов даже когда пионов мало — мы ловим настроение.'
+    lang: ru
+    caption: |
+      Энергия пионов даже когда пионов мало — мы ловим настроение.
+      Заказы в #Malta
+      Пишите в DM.
+
+  - id: batch-027
+    image: batch-100/batch-027.jpg
+    name: 'Gentle chaos of petals. Perfect for an unexpected gift.'
+    lang: en
+    caption: |
+      Gentle chaos of petals. Perfect for an unexpected gift.
+      #Malta & #Gozo
+      DM to book.
+
+  - id: batch-028
+    image: batch-100/batch-028.jpg
+    name: 'Лёгкий хаос лепестков. Идеально для неожиданного подарка.'
+    lang: ru
+    caption: |
+      Лёгкий хаос лепестков. Идеально для неожиданного подарка.
+      #Malta и #Gozo
+      Напишите в директ.
+
+  - id: batch-029
+    image: batch-100/batch-029.jpg
+    name: 'Rich burgundy and warm accents — autumn in a vase.'
+    lang: en
+    caption: |
+      Rich burgundy and warm accents — autumn in a vase.
+      Available across #Malta 🍂
+      DM to order.
+
+  - id: batch-030
+    image: batch-100/batch-030.jpg
+    name: 'Бордо и тёплые акценты — осень в вазе.'
+    lang: ru
+    caption: |
+      Бордо и тёплые акценты — осень в вазе.
+      По всему #Malta 🍂
+      DM для заказа.
+
+  - id: batch-031
+    image: batch-100/batch-031.jpg
+    name: 'Fresh cut, carefully packed, delivered with care.'
+    lang: en
+    caption: |
+      Fresh cut, carefully packed, delivered with care.
+      Flower orders for #Malta
+      Message in DM.
+
+  - id: batch-032
+    image: batch-100/batch-032.jpg
+    name: 'Свежий срез, аккуратная упаковка, бережная доставка.'
+    lang: ru
+    caption: |
+      Свежий срез, аккуратная упаковка, бережная доставка.
+      Цветы для #Malta
+      Пишите в директ.
+
+  - id: batch-033
+    image: batch-100/batch-033.jpg
+    name: 'Small bouquet, big feeling.'
+    lang: en
+    caption: |
+      Small bouquet, big feeling.
+      Custom sizes for #Malta clients
+      DM to choose.
+
+  - id: batch-034
+    image: batch-100/batch-034.jpg
+    name: 'Маленький букет — большое чувство.'
+    lang: ru
+    caption: |
+      Маленький букет — большое чувство.
+      Разные размеры для клиентов #Malta
+      DM, чтобы выбрать.
+
+  - id: batch-035
+    image: batch-100/batch-035.jpg
+    name: 'Hydrangea drama and supporting cast — full and lush.'
+    lang: en
+    caption: |
+      Hydrangea drama and supporting cast — full and lush.
+      #Malta studio
+      DM for yours.
+
+  - id: batch-036
+    image: batch-100/batch-036.jpg
+    name: 'Драма гортензии и поддерживающий «хор» стеблей.'
+    lang: ru
+    caption: |
+      Драма гортензии и поддерживающий «хор» стеблей.
+      Студия #Malta
+      Напишите в DM.
+
+  - id: batch-037
+    image: batch-100/batch-037.jpg
+    name: 'Orange fire meets soft green — a joyful clash.'
+    lang: en
+    caption: |
+      Orange fire meets soft green — a joyful clash.
+      On request in #Malta
+      Write in DM.
+
+  - id: batch-038
+    image: batch-100/batch-038.jpg
+    name: 'Оранжевый огонь и мягкая зелень — радостный контраст.'
+    lang: ru
+    caption: |
+      Оранжевый огонь и мягкая зелень — радостный контраст.
+      Под заказ в #Malta
+      Пишите в директ.
+
+  - id: batch-039
+    image: batch-100/batch-039.jpg
+    name: 'Classic romance, modern edit.'
+    lang: en
+    caption: |
+      Classic romance, modern edit.
+      Bouquets for #Malta 💐
+      DM to order or tweak.
+
+  - id: batch-040
+    image: batch-100/batch-040.jpg
+    name: 'Классическая романтика в современном прочтении.'
+    lang: ru
+    caption: |
+      Классическая романтика в современном прочтении.
+      Букеты для #Malta 💐
+      DM — закажем или подправим.
+
+  - id: batch-041
+    image: batch-100/batch-041.jpg
+    name: 'For birthdays, apologies, or just because.'
+    lang: en
+    caption: |
+      For birthdays, apologies, or just because.
+      Serving #Malta & #Gozo
+      DM anytime.
+
+  - id: batch-042
+    image: batch-100/batch-042.jpg
+    name: 'На день рождения, «прости» или просто так.'
+    lang: ru
+    caption: |
+      На день рождения, «прости» или просто так.
+      #Malta · #Gozo
+      Пишите в любое время.
+
+  - id: batch-043
+    image: batch-100/batch-043.jpg
+    name: 'Clean whites and soft creams — calm on a table.'
+    lang: en
+    caption: |
+      Clean whites and soft creams — calm on a table.
+      #Malta floral design
+      DM to reserve.
+
+  - id: batch-044
+    image: batch-100/batch-044.jpg
+    name: 'Чистые белые и кремовые тона — спокойствие на столе.'
+    lang: ru
+    caption: |
+      Чистые белые и кремовые тона — спокойствие на столе.
+      Флористика #Malta
+      DM, чтобы забронировать.
+
+  - id: batch-045
+    image: batch-100/batch-045.jpg
+    name: 'Wild-looking, carefully built. That is the point.'
+    lang: en
+    caption: |
+      Wild-looking, carefully built. That is the point.
+      Orders in #Malta
+      Message me.
+
+  - id: batch-046
+    image: batch-100/batch-046.jpg
+    name: 'Выглядит «дико», собрано очень осознанно. В этом и смысл.'
+    lang: ru
+    caption: |
+      Выглядит «дико», собрано очень осознанно. В этом и смысл.
+      Заказы в #Malta
+      Напишите в директ.
+
+  - id: batch-047
+    image: batch-100/batch-047.jpg
+    name: 'A gift that arrives looking expensive — because it is considered.'
+    lang: en
+    caption: |
+      A gift that arrives looking expensive — because it is considered.
+      #Malta delivery available
+      DM to book.
+
+  - id: batch-048
+    image: batch-100/batch-048.jpg
+    name: 'Подарок, который выглядит дорого — потому что продуман.'
+    lang: ru
+    caption: |
+      Подарок, который выглядит дорого — потому что продуман.
+      Доставка по #Malta
+      DM для брони.
+
+  - id: batch-049
+    image: batch-100/batch-049.jpg
+    name: 'Seasonal palette, no filler fluff.'
+    lang: en
+    caption: |
+      Seasonal palette, no filler fluff.
+      Hand-tied in #Malta
+      DM for a quote (no prices in posts).
+
+  - id: batch-050
+    image: batch-100/batch-050.jpg
+    name: 'Сезонная палитра, без пустого наполнителя.'
+    lang: ru
+    caption: |
+      Сезонная палитра, без пустого наполнителя.
+      Сборка вручную в #Malta
+      Пишите в DM.
+
+  - id: batch-051
+    image: batch-100/batch-051.jpg
+    name: 'Bring the garden indoors for one beautiful week.'
+    lang: en
+    caption: |
+      Bring the garden indoors for one beautiful week.
+      #Malta · #Gozo
+      DM to order.
+
+  - id: batch-052
+    image: batch-100/batch-052.jpg
+    name: 'Принесите сад в дом хотя бы на неделю.'
+    lang: ru
+    caption: |
+      Принесите сад в дом хотя бы на неделю.
+      #Malta · #Gozo
+      Напишите в директ для заказа.
+
+  - id: batch-053
+    image: batch-100/batch-053.jpg
+    name: 'Bold anthurium energy for modern interiors.'
+    lang: en
+    caption: |
+      Bold anthurium energy for modern interiors.
+      Available to order in #Malta
+      Write in DM.
+
+  - id: batch-054
+    image: batch-100/batch-054.jpg
+    name: 'Смелая энергия антуриума для современных интерьеров.'
+    lang: ru
+    caption: |
+      Смелая энергия антуриума для современных интерьеров.
+      На заказ в #Malta
+      Пишите в DM.
+
+  - id: batch-055
+    image: batch-100/batch-055.jpg
+    name: 'Dahlias that refuse to be boring.'
+    lang: en
+    caption: |
+      Dahlias that refuse to be boring.
+      Custom bouquets — #Malta 📍
+      DM me.
+
+  - id: batch-056
+    image: batch-100/batch-056.jpg
+    name: 'Георгины, которые отказываются быть скучными.'
+    lang: ru
+    caption: |
+      Георгины, которые отказываются быть скучными.
+      Авторские букеты — #Malta 📍
+      DM мне.
+
+  - id: batch-057
+    image: batch-100/batch-057.jpg
+    name: 'Soft morning light vibes, any time of day.'
+    lang: en
+    caption: |
+      Soft morning light vibes, any time of day.
+      #Malta flower studio
+      DM to start your order.
+
+  - id: batch-058
+    image: batch-100/batch-058.jpg
+    name: 'Настроение мягкого утра — в любое время дня.'
+    lang: ru
+    caption: |
+      Настроение мягкого утра — в любое время дня.
+      Цветочная студия #Malta
+      Напишите, чтобы начать заказ.
+
+  - id: batch-059
+    image: batch-100/batch-059.jpg
+    name: 'Wrapped with care, ready to surprise someone in #Malta.'
+    lang: en
+    caption: |
+      Wrapped with care, ready to surprise someone in #Malta.
+      Message in DM to arrange.
+
+  - id: batch-060
+    image: batch-100/batch-060.jpg
+    name: 'Упаковано с заботой — готово удивить кого-то в #Malta.'
+    lang: ru
+    caption: |
+      Упаковано с заботой — готово удивить кого-то в #Malta.
+      Пишите в DM, чтобы договориться.
+
+  - id: batch-061
+    image: batch-100/batch-061.jpg
+    name: 'Minimal vase, maximal colour.'
+    lang: en
+    caption: |
+      Minimal vase, maximal colour.
+      Studio pieces for #Malta homes
+      DM to order.
+
+  - id: batch-062
+    image: batch-100/batch-062.jpg
+    name: 'Минимальная ваза — максимум цвета.'
+    lang: ru
+    caption: |
+      Минимальная ваза — максимум цвета.
+      Студийные работы для домов #Malta
+      DM для заказа.
+
+  - id: batch-063
+    image: batch-100/batch-063.jpg
+    name: 'If you want “wow” without trying too hard — this is it.'
+    lang: en
+    caption: |
+      If you want “wow” without trying too hard — this is it.
+      #Malta & #Gozo
+      DM for yours.
+
+  - id: batch-064
+    image: batch-100/batch-064.jpg
+    name: 'Если нужно «вау» без лишних усилий — вот оно.'
+    lang: ru
+    caption: |
+      Если нужно «вау» без лишних усилий — вот оно.
+      #Malta и #Gozo
+      Напишите в директ.
+
+  - id: batch-065
+    image: batch-100/batch-065.jpg
+    name: 'Layered greens and a single bright accent.'
+    lang: en
+    caption: |
+      Layered greens and a single bright accent.
+      Made to order in #Malta
+      Write in DM.
+
+  - id: batch-066
+    image: batch-100/batch-066.jpg
+    name: 'Слои зелени и один яркий акцент.'
+    lang: ru
+    caption: |
+      Слои зелени и один яркий акцент.
+      Под заказ в #Malta
+      Пишите в DM.
+
+  - id: batch-067
+    image: batch-100/batch-067.jpg
+    name: 'Celebrate quietly. Flowers do the talking.'
+    lang: en
+    caption: |
+      Celebrate quietly. Flowers do the talking.
+      #Malta floral studio
+      DM to book.
+
+  - id: batch-068
+    image: batch-100/batch-068.jpg
+    name: 'Отметьте тихо. Цветы скажут за вас.'
+    lang: ru
+    caption: |
+      Отметьте тихо. Цветы скажут за вас.
+      Студия #Malta
+      DM для брони.
+
+  - id: batch-069
+    image: batch-100/batch-069.jpg
+    name: 'A bouquet that photographs as well as it looks in person.'
+    lang: en
+    caption: |
+      A bouquet that photographs as well as it looks in person.
+      Orders for #Malta
+      DM me.
+
+  - id: batch-070
+    image: batch-100/batch-070.jpg
+    name: 'Букет, который хорошо смотрится и вживую, и на фото.'
+    lang: ru
+    caption: |
+      Букет, который хорошо смотрится и вживую, и на фото.
+      Заказы для #Malta
+      Напишите мне.
+
+  - id: batch-071
+    image: batch-100/batch-071.jpg
+    name: 'Warm tones for cooler evenings.'
+    lang: en
+    caption: |
+      Warm tones for cooler evenings.
+      Seasonal work — #Malta 🍂
+      Message in DM.
+
+  - id: batch-072
+    image: batch-100/batch-072.jpg
+    name: 'Тёплые тона для прохладных вечеров.'
+    lang: ru
+    caption: |
+      Тёплые тона для прохладных вечеров.
+      Сезонные работы — #Malta 🍂
+      Пишите в директ.
+
+  - id: batch-073
+    image: batch-100/batch-073.jpg
+    name: 'Petals with personality — not a generic mix.'
+    lang: en
+    caption: |
+      Petals with personality — not a generic mix.
+      #Malta · custom only
+      DM to design together.
+
+  - id: batch-074
+    image: batch-100/batch-074.jpg
+    name: 'Лепестки с характером — не случайный микс.'
+    lang: ru
+    caption: |
+      Лепестки с характером — не случайный микс.
+      #Malta · только под заказ
+      DM, соберём вместе.
+
+  - id: batch-075
+    image: batch-100/batch-075.jpg
+    name: 'Same flowers, different story each time — ask for your version.'
+    lang: en
+    caption: |
+      Same flowers, different story each time — ask for your version.
+      Serving #Malta
+      DM to order.
+
+  - id: batch-076
+    image: batch-100/batch-076.jpg
+    name: 'Те же цветы — другая история. Попросите свою версию.'
+    lang: ru
+    caption: |
+      Те же цветы — другая история. Попросите свою версию.
+      Обслуживаем #Malta
+      Напишите в DM.
+
+  - id: batch-077
+    image: batch-100/batch-077.jpg
+    name: 'Elegant enough for a hotel lobby, personal enough for home.'
+    lang: en
+    caption: |
+      Elegant enough for a hotel lobby, personal enough for home.
+      #Malta & #Gozo
+      DM for delivery.
+
+  - id: batch-078
+    image: batch-100/batch-078.jpg
+    name: 'Достаточно элегантно для лобби и достаточно лично для дома.'
+    lang: ru
+    caption: |
+      Достаточно элегантно для лобби и достаточно лично для дома.
+      #Malta · #Gozo
+      DM по доставке.
+
+  - id: batch-079
+    image: batch-100/batch-079.jpg
+    name: 'Treat yourself. Seriously.'
+    lang: en
+    caption: |
+      Treat yourself. Seriously.
+      Bouquets on request in #Malta 🌸
+      Write in DM.
+
+  - id: batch-080
+    image: batch-100/batch-080.jpg
+    name: 'Подарите себе. Серьёзно.'
+    lang: ru
+    caption: |
+      Подарите себе. Серьёзно.
+      Букеты по запросу в #Malta 🌸
+      Пишите в директ.
+
+  - id: batch-081
+    image: batch-100/batch-081.jpg
+    name: 'Coral, cream, and a little sparkle of green.'
+    lang: en
+    caption: |
+      Coral, cream, and a little sparkle of green.
+      Available in #Malta
+      DM to reserve.
+
+  - id: batch-082
+    image: batch-100/batch-082.jpg
+    name: 'Коралл, крем и искорка зелени.'
+    lang: ru
+    caption: |
+      Коралл, крем и искорка зелени.
+      Доступно в #Malta
+      DM, чтобы зарезервировать.
+
+  - id: batch-083
+    image: batch-100/batch-083.jpg
+    name: 'When the table needs a centrepiece, not decoration.'
+    lang: en
+    caption: |
+      When the table needs a centrepiece, not decoration.
+      #Malta studio
+      DM to order.
+
+  - id: batch-084
+    image: batch-100/batch-084.jpg
+    name: 'Когда столу нужен центр, а не «просто украшение».'
+    lang: ru
+    caption: |
+      Когда столу нужен центр, а не «просто украшение».
+      Студия #Malta
+      Напишите для заказа.
+
+  - id: batch-085
+    image: batch-100/batch-085.jpg
+    name: 'Fresh stems, honest composition, no plastic shine.'
+    lang: en
+    caption: |
+      Fresh stems, honest composition, no plastic shine.
+      Flower orders — #Malta
+      Message me.
+
+  - id: batch-086
+    image: batch-100/batch-086.jpg
+    name: 'Свежие стебли, честная композиция, без пластикового блеска.'
+    lang: ru
+    caption: |
+      Свежие стебли, честная композиция, без пластикового блеска.
+      Цветы — #Malta
+      Пишите в DM.
+
+  - id: batch-087
+    image: batch-100/batch-087.jpg
+    name: 'A thank-you that feels like a thank-you.'
+    lang: en
+    caption: |
+      A thank-you that feels like a thank-you.
+      Custom gifts for #Malta & #Gozo
+      DM anytime.
+
+  - id: batch-088
+    image: batch-100/batch-088.jpg
+    name: '«Спасибо», которое ощущается как спасибо.'
+    lang: ru
+    caption: |
+      «Спасибо», которое ощущается как спасибо.
+      Подарки для #Malta и #Gozo
+      DM в любое время.
+
+  - id: batch-089
+    image: batch-100/batch-089.jpg
+    name: 'Moody florals for people who skip pastels.'
+    lang: en
+    caption: |
+      Moody florals for people who skip pastels.
+      #Malta made-to-order
+      DM for dark & rich.
+
+  - id: batch-090
+    image: batch-100/batch-090.jpg
+    name: 'Мрачные, насыщенные тона — для тех, кто минует пастель.'
+    lang: ru
+    caption: |
+      Мрачные, насыщенные тона — для тех, кто минует пастель.
+      #Malta под заказ
+      Пишите за тёмным и богатым.
+
+  - id: batch-091
+    image: batch-100/batch-091.jpg
+    name: 'Light, airy, and impossible to ignore.'
+    lang: en
+    caption: |
+      Light, airy, and impossible to ignore.
+      Pickup or delivery in #Malta
+      DM to book.
+
+  - id: batch-092
+    image: batch-100/batch-092.jpg
+    name: 'Лёгкий, воздушный и невозможно не заметить.'
+    lang: ru
+    caption: |
+      Лёгкий, воздушный и невозможно не заметить.
+      Самовывоз или доставка в #Malta
+      DM для брони.
+
+  - id: batch-093
+    image: batch-100/batch-093.jpg
+    name: 'Built stem by stem — nothing random.'
+    lang: en
+    caption: |
+      Built stem by stem — nothing random.
+      #Malta floral design
+      Write in DM.
+
+  - id: batch-094
+    image: batch-100/batch-094.jpg
+    name: 'Стебель за стеблем — ничего случайного.'
+    lang: ru
+    caption: |
+      Стебель за стеблем — ничего случайного.
+      Флористика #Malta
+      Напишите в директ.
+
+  - id: batch-095
+    image: batch-100/batch-095.jpg
+    name: 'Send colour to someone across the island.'
+    lang: en
+    caption: |
+      Send colour to someone across the island.
+      #Malta · #Gozo
+      DM to arrange.
+
+  - id: batch-096
+    image: batch-100/batch-096.jpg
+    name: 'Отправьте цвет кому-то через весь остров.'
+    lang: ru
+    caption: |
+      Отправьте цвет кому-то через весь остров.
+      #Malta · #Gozo
+      DM, чтобы организовать.
+
+  - id: batch-097
+    image: batch-100/batch-097.jpg
+    name: 'Studio drop: another favourite composition, ready when you are.'
+    lang: en
+    caption: |
+      Studio drop: another favourite composition, ready when you are.
+      Orders in #Malta
+      DM me.
+
+  - id: batch-098
+    image: batch-100/batch-098.jpg
+    name: 'Ещё одна любимая сборка студии — готова, когда вы готовы.'
+    lang: ru
+    caption: |
+      Ещё одна любимая сборка студии — готова, когда вы готовы.
+      Заказы в #Malta
+      Пишите мне.
+
+  - id: batch-099
+    image: batch-100/batch-099.jpg
+    name: 'Flowers that hold their shape through the week — with proper care tips on request.'
+    lang: en
+    caption: |
+      Flowers that hold their shape through the week — with proper care tips on request.
+      #Malta
+      DM to order.
+
+  - id: batch-100
+    image: batch-100/batch-100.jpg
+    name: 'Цветы, которые держат форму неделю — с советами по уходу по запросу.'
+    lang: ru
+    caption: |
+      Цветы, которые держат форму неделю — с советами по уходу по запросу.
+      #Malta
+      DM для заказа.

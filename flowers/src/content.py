@@ -40,8 +40,8 @@ def load_posts() -> list[dict]:
         subs = {
             "name": str(item.get("name", "")).strip(),
             "price": price,
-            # PL+RU. Puste, gdy ceny nie ma — linia z ceną nie trafia do posta.
-            "price_line": f"Cena: {price}\nЦена: {price}" if price else "",
+            # Single-language friendly. Empty when no price — line omitted from template.
+            "price_line": f"Price: {price}" if price else "",
             "cta": str(defaults.get("cta", "")).strip(),
             "delivery": str(defaults.get("delivery", "")).strip(),
         }
