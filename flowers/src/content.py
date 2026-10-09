@@ -33,6 +33,8 @@ def load_posts() -> list[dict]:
 
     out = []
     for item in raw.get("posts") or []:
+        if item.get("parked"):
+            continue  # parked: kept in the file, never posted
         explicit = item.get("price_pln")
         price = f"{explicit} zł" if explicit else _price(
             item.get("base_pln"), item.get("price_multiplier", multiplier)
@@ -91,6 +93,16 @@ def append_log(post: dict, post_id: str | None, dry_run: bool) -> None:
         }
     )
     LOG_FILE.write_text(json.dumps(log, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def last_posted_at() -> datetime | None:
+    """Time of the most recent real (non-dry-run) post in the log, or None."""
+    times = [
+        datetime.fromisoformat(e["at"].replace("Z", "+00:00"))
+        for e in load_log()
+        if not e.get("dry_run") and e.get("at")
+    ]
+    return max(times) if times else None
 
 
 def pick_next(kind: str | None = None) -> dict | None:
