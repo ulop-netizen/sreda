@@ -484,13 +484,13 @@ posts:
       109 zł — молюцелла, амарант, антуриум, крокосмия
       Варшава #Warszawa
 
-  - id: b008-coral-peonies-pl
-    image: batch-100/batch-008.jpg
-    name: "Okrągła kula szkarłatnych płatków w ręku"
+  - id: b010-ranunculus-chamomile-vase-pl
+    image: batch-100/batch-010.jpg
+    name: "Obłok rumianku wśród kremowych pąków"
     lang: pl
     caption: |
-      Okrągła kula szkarłatnych płatków w ręku
-      299 zł — piwonie
+      Obłok rumianku wśród kremowych pąków
+      149 zł — jaskier, rumianek
       Warszawa #Warszawa
 
   - id: b009-ranunculus-carnival-ru
@@ -502,13 +502,13 @@ posts:
       249 zł — ранункулюс, пион, фрезия
       Варшава #Warszawa
 
-  - id: b010-ranunculus-chamomile-vase-pl
-    image: batch-100/batch-010.jpg
-    name: "Obłok rumianku wśród kremowych pąków"
+  - id: b012-blushing-peonies-pl
+    image: batch-100/batch-012.jpg
+    name: "Różowa kula widziana z góry na drewnianym blacie"
     lang: pl
     caption: |
-      Obłok rumianku wśród kremowych pąków
-      149 zł — jaskier, rumianek
+      Różowa kula widziana z góry na drewnianym blacie
+      179 zł — piwonie
       Warszawa #Warszawa
 
   - id: b011-red-rose-letters-ru
@@ -520,13 +520,13 @@ posts:
       99 zł / буква — розы
       Варшава #Warszawa
 
-  - id: b012-blushing-peonies-pl
-    image: batch-100/batch-012.jpg
-    name: "Różowa kula widziana z góry na drewnianym blacie"
+  - id: b014-burgundy-hydrangea-billy-balls-pl
+    image: batch-100/batch-014.jpg
+    name: "Zawinięte w papier, czekają na drewnianej desce"
     lang: pl
     caption: |
-      Różowa kula widziana z góry na drewnianym blacie
-      179 zł — piwonie
+      Zawinięte w papier, czekają na drewnianej desce
+      109 zł — hortensja, kraspedia, dalia
       Warszawa #Warszawa
 
   - id: b013-anthurium-dahlia-physalis-ru
@@ -538,13 +538,13 @@ posts:
       159 zł — георгина, физалис, антуриум, целозия
       Варшава #Warszawa
 
-  - id: b014-burgundy-hydrangea-billy-balls-pl
-    image: batch-100/batch-014.jpg
-    name: "Zawinięte w papier, czekają na drewnianej desce"
+  - id: b016-fiery-crocosmia-pl
+    image: batch-100/batch-016.jpg
+    name: "Pomarańcz i czerwień łowią popołudniowe słońce"
     lang: pl
     caption: |
-      Zawinięte w papier, czekają na drewnianej desce
-      109 zł — hortensja, kraspedia, dalia
+      Pomarańcz i czerwień łowią popołudniowe słońce
+      89 zł — krokosmia, jagody
       Warszawa #Warszawa
 
   - id: b015-burgundy-hydrangea-orange-dahlia-ru
@@ -556,24 +556,6 @@ posts:
       169 zł — гортензия, георгина, антуриум, краспедия
       Варшава #Warszawa
 
-  - id: b016-fiery-crocosmia-pl
-    image: batch-100/batch-016.jpg
-    name: "Pomarańcz i czerwień łowią popołudniowe słońce"
-    lang: pl
-    caption: |
-      Pomarańcz i czerwień łowią popołudniowe słońce
-      89 zł — krokosmia, jagody
-      Warszawa #Warszawa
-
-  - id: b017-pink-hydrangea-anthurium-ru
-    image: batch-100/batch-017.jpg
-    name: "Нежный микс фактур в приглушённом свете"
-    lang: ru
-    caption: |
-      Нежный микс фактур в приглушённом свете
-      169 zł — гортензия, антуриум, молюцелла, ранункулюс
-      Варшава #Warszawa
-
   - id: b018-peach-pompon-dahlias-pl
     image: batch-100/batch-018.jpg
     name: "Spiralne płatki brzoskwiniowej dalii z bliska"
@@ -583,13 +565,13 @@ posts:
       139 zł — dalie
       Warszawa #Warszawa
 
-  - id: b019-burgundy-hydrangea-stock-ru
-    image: batch-100/batch-019.jpg
-    name: "Бордовый букет на фоне светлой двери"
+  - id: b017-pink-hydrangea-anthurium-ru
+    image: batch-100/batch-017.jpg
+    name: "Нежный микс фактур в приглушённом свете"
     lang: ru
     caption: |
-      Бордовый букет на фоне светлой двери
-      179 zł — гортензия, левкой, георгина
+      Нежный микс фактур в приглушённом свете
+      169 zł — гортензия, антуриум, молюцелла, ранункулюс
       Варшава #Warszawa
 
   - id: b020-deep-hydrangea-pompons-pl
@@ -727,13 +709,13 @@ posts:
       229 zł — anturium, kocanka, czosnek ozdobny
       Warszawa #Warszawa
 
-  - id: b040-coral-peonies-ru
-    image: batch-100/batch-040.jpg
-    name: "Шар из пионов на плече у серой стены"
+  - id: b042-ranunculus-chamomile-vase-ru
+    image: batch-100/batch-042.jpg
+    name: "Кремовые кудри ранункулюса у окна"
     lang: ru
     caption: |
-      Шар из пионов на плече у серой стены
-      299 zł — пионы
+      Кремовые кудри ранункулюса у окна
+      149 zł — ранункулюс, ромашка
       Варшава #Warszawa
 
   - id: b038-chartreuse-cascade-pl
@@ -745,13 +727,13 @@ posts:
       109 zł — molucela, szarłat, anturium
       Warszawa #Warszawa
 
-  - id: b042-ranunculus-chamomile-vase-ru
-    image: batch-100/batch-042.jpg
-    name: "Кремовые кудри ранункулюса у окна"
+  - id: b044-blushing-peonies-ru
+    image: batch-100/batch-044.jpg
+    name: "Мраморный узор пионов на тёмном дереве"
     lang: ru
     caption: |
-      Кремовые кудри ранункулюса у окна
-      149 zł — ранункулюс, ромашка
+      Мраморный узор пионов на тёмном дереве
+      179 zł — пионы
       Варшава #Warszawa
 
   - id: b041-ranunculus-carnival-pl
@@ -763,13 +745,13 @@ posts:
       249 zł — jaskier, piwonia
       Warszawa #Warszawa
 
-  - id: b044-blushing-peonies-ru
-    image: batch-100/batch-044.jpg
-    name: "Мраморный узор пионов на тёмном дереве"
+  - id: b046-burgundy-hydrangea-billy-balls-ru
+    image: batch-100/batch-046.jpg
+    name: "Жёлтые шарики краспедии среди крафт-бумаги"
     lang: ru
     caption: |
-      Мраморный узор пионов на тёмном дереве
-      179 zł — пионы
+      Жёлтые шарики краспедии среди крафт-бумаги
+      109 zł — краспедия, гортензия, георгина
       Варшава #Warszawa
 
   - id: b043-red-rose-letters-pl
@@ -781,13 +763,13 @@ posts:
       99 zł / litera — róże
       Warszawa #Warszawa
 
-  - id: b046-burgundy-hydrangea-billy-balls-ru
-    image: batch-100/batch-046.jpg
-    name: "Жёлтые шарики краспедии среди крафт-бумаги"
+  - id: b048-fiery-crocosmia-ru
+    image: batch-100/batch-048.jpg
+    name: "Огненные блики осеннего рынка"
     lang: ru
     caption: |
-      Жёлтые шарики краспедии среди крафт-бумаги
-      109 zł — краспедия, гортензия, георгина
+      Огненные блики осеннего рынка
+      89 zł — крокосмия, красные ягоды
       Варшава #Warszawa
 
   - id: b045-anthurium-dahlia-physalis-pl
@@ -799,13 +781,13 @@ posts:
       159 zł — dalia, anturium, celozja, miechunka
       Warszawa #Warszawa
 
-  - id: b048-fiery-crocosmia-ru
-    image: batch-100/batch-048.jpg
-    name: "Огненные блики осеннего рынка"
+  - id: b050-peach-pompon-dahlias-ru
+    image: batch-100/batch-050.jpg
+    name: "Пчела в гуще персиковых лепестков"
     lang: ru
     caption: |
-      Огненные блики осеннего рынка
-      89 zł — крокосмия, красные ягоды
+      Пчела в гуще персиковых лепестков
+      139 zł — георгины
       Варшава #Warszawa
 
   - id: b047-burgundy-hydrangea-orange-dahlia-pl
@@ -817,24 +799,6 @@ posts:
       169 zł — bordowa hortensja, pomarańczowa dalia, zielone anturium, kraspedia
       Warszawa #Warszawa
 
-  - id: b050-peach-pompon-dahlias-ru
-    image: batch-100/batch-050.jpg
-    name: "Пчела в гуще персиковых лепестков"
-    lang: ru
-    caption: |
-      Пчела в гуще персиковых лепестков
-      139 zł — георгины
-      Варшава #Warszawa
-
-  - id: b049-pink-hydrangea-anthurium-pl
-    image: batch-100/batch-049.jpg
-    name: "Delikatne różowo-zielone detale z bliska"
-    lang: pl
-    caption: |
-      Delikatne różowo-zielone detale z bliska
-      169 zł — różowa hortensja, zielona molucela, różowe anturium, różowy jaskier
-      Warszawa #Warszawa
-
   - id: b052-deep-hydrangea-pompons-ru
     image: batch-100/batch-052.jpg
     name: "Утренний свет сквозь витрину"
@@ -844,13 +808,13 @@ posts:
       179 zł — гортензия, левкоя, георгина
       Варшава #Warszawa
 
-  - id: b051-burgundy-hydrangea-stock-pl
-    image: batch-100/batch-051.jpg
-    name: "Bukiet niesiony w miękkim świetle korytarza"
+  - id: b049-pink-hydrangea-anthurium-pl
+    image: batch-100/batch-049.jpg
+    name: "Delikatne różowo-zielone detale z bliska"
     lang: pl
     caption: |
-      Bukiet niesiony w miękkim świetle korytarza
-      179 zł — bordowa hortensja, brzoskwiniowa lewkonia, białe dalie
+      Delikatne różowo-zielone detale z bliska
+      169 zł — różowa hortensja, zielona molucela, różowe anturium, różowy jaskier
       Warszawa #Warszawa
 
   - id: b054-flame-parrot-flowers-ru
@@ -988,13 +952,13 @@ posts:
       109 zł — молюцелла, амарант, антуриум
       Варшава #Warszawa
 
-  - id: b072-coral-peonies-pl
-    image: batch-100/batch-072.jpg
-    name: "Bukiet zasłania twarz, zostają tylko płatki"
+  - id: b074-ranunculus-chamomile-vase-pl
+    image: batch-100/batch-074.jpg
+    name: "Drobne rumianki otulają pełne główki jaskrów"
     lang: pl
     caption: |
-      Bukiet zasłania twarz, zostają tylko płatki
-      299 zł — piwonie
+      Drobne rumianki otulają pełne główki jaskrów
+      149 zł — jaskry, rumianek
       Warszawa #Warszawa
 
   - id: b073-ranunculus-carnival-ru
@@ -1006,13 +970,13 @@ posts:
       249 zł — пионы, ранункулюс
       Варшава #Warszawa
 
-  - id: b074-ranunculus-chamomile-vase-pl
-    image: batch-100/batch-074.jpg
-    name: "Drobne rumianki otulają pełne główki jaskrów"
+  - id: b076-blushing-peonies-pl
+    image: batch-100/batch-076.jpg
+    name: "Falbanki płatków układają się w miękką chmurę"
     lang: pl
     caption: |
-      Drobne rumianki otulają pełne główki jaskrów
-      149 zł — jaskry, rumianek
+      Falbanki płatków układają się w miękką chmurę
+      179 zł — piwonie
       Warszawa #Warszawa
 
   - id: b075-red-rose-letters-ru
@@ -1024,13 +988,13 @@ posts:
       99 zł / буква — красные и белые розы
       Варшава #Warszawa
 
-  - id: b076-blushing-peonies-pl
-    image: batch-100/batch-076.jpg
-    name: "Falbanki płatków układają się w miękką chmurę"
+  - id: b078-burgundy-hydrangea-billy-balls-pl
+    image: batch-100/batch-078.jpg
+    name: "Trzy bukiety prosto z targu, w kraftowym papierze"
     lang: pl
     caption: |
-      Falbanki płatków układają się w miękką chmurę
-      179 zł — piwonie
+      Trzy bukiety prosto z targu, w kraftowym papierze
+      109 zł — hortensja, kraspedia, dalia
       Warszawa #Warszawa
 
   - id: b077-anthurium-dahlia-physalis-ru
@@ -1042,13 +1006,13 @@ posts:
       159 zł — антуриум, георгина, физалис
       Варшава #Warszawa
 
-  - id: b078-burgundy-hydrangea-billy-balls-pl
-    image: batch-100/batch-078.jpg
-    name: "Trzy bukiety prosto z targu, w kraftowym papierze"
+  - id: b080-fiery-crocosmia-pl
+    image: batch-100/batch-080.jpg
+    name: "Pomarańczowe płomienie krokosmii w ostrym słońcu"
     lang: pl
     caption: |
-      Trzy bukiety prosto z targu, w kraftowym papierze
-      109 zł — hortensja, kraspedia, dalia
+      Pomarańczowe płomienie krokosmii w ostrym słońcu
+      89 zł — krokosmia, czerwone jagody
       Warszawa #Warszawa
 
   - id: b079-burgundy-hydrangea-orange-dahlia-ru
@@ -1060,24 +1024,6 @@ posts:
       169 zł — гортензия, георгины, антуриум, краспедия
       Варшава #Warszawa
 
-  - id: b080-fiery-crocosmia-pl
-    image: batch-100/batch-080.jpg
-    name: "Pomarańczowe płomienie krokosmii w ostrym słońcu"
-    lang: pl
-    caption: |
-      Pomarańczowe płomienie krokosmii w ostrym słońcu
-      89 zł — krokosmia, czerwone jagody
-      Warszawa #Warszawa
-
-  - id: b081-pink-hydrangea-anthurium-ru
-    image: batch-100/batch-081.jpg
-    name: "Нежный микс в сливочно-розовых тонах, вид сверху"
-    lang: ru
-    caption: |
-      Нежный микс в сливочно-розовых тонах, вид сверху
-      169 zł — гортензия, молюцелла, антуриум, ранункулюс
-      Варшава #Warszawa
-
   - id: b082-peach-pompon-dahlias-pl
     image: batch-100/batch-082.jpg
     name: "Biedronka na płatkach dalii, kropla rosy"
@@ -1087,13 +1033,13 @@ posts:
       139 zł — dalie brzoskwiniowe i łososiowe
       Warszawa #Warszawa
 
-  - id: b083-burgundy-hydrangea-stock-ru
-    image: batch-100/batch-083.jpg
-    name: "Бордовый шар гортензии в руках, у белой двери"
+  - id: b081-pink-hydrangea-anthurium-ru
+    image: batch-100/batch-081.jpg
+    name: "Нежный микс в сливочно-розовых тонах, вид сверху"
     lang: ru
     caption: |
-      Бордовый шар гортензии в руках, у белой двери
-      179 zł — гортензия, георгины, левкой
+      Нежный микс в сливочно-розовых тонах, вид сверху
+      169 zł — гортензия, молюцелла, антуриум, ранункулюс
       Варшава #Warszawa
 
   - id: b084-deep-hydrangea-pompons-pl
@@ -1411,13 +1357,13 @@ posts:
       159 zł — gerbera, róże, tweedia
       Warszawa #Warszawa
 
-  - id: v023-coral-peonies-ru
-    image: batch-50/var-023.jpg
-    name: "Букет такой большой, что скрывает лицо"
+  - id: v025-flame-parrot-flowers-ru
+    image: batch-50/var-025.jpg
+    name: "Осенний натюрморт: тюльпан и две грозди ягод"
     lang: ru
     caption: |
-      Букет такой большой, что скрывает лицо
-      299 zł — пионы
+      Осенний натюрморт: тюльпан и две грозди ягод
+      99 zł — тюльпаны, гиперикум, кермек
       Варшава #Warszawa
 
   - id: v024-burgundy-hydrangea-orange-dahlia-pl
@@ -1429,13 +1375,13 @@ posts:
       169 zł — hortensja, dalia, kraspedia, anturium
       Warszawa #Warszawa
 
-  - id: v025-flame-parrot-flowers-ru
-    image: batch-50/var-025.jpg
-    name: "Осенний натюрморт: тюльпан и две грозди ягод"
+  - id: v027-crimson-still-life-ru
+    image: batch-50/var-027.jpg
+    name: "Пушистые травы и восковые листья у окна"
     lang: ru
     caption: |
-      Осенний натюрморт: тюльпан и две грозди ягод
-      99 zł — тюльпаны, гиперикум, кермек
+      Пушистые травы и восковые листья у окна
+      229 zł — антуриум, гелихризум, аллиум
       Варшава #Warszawa
 
   - id: v026-gentian-yellow-dahlia-pl
@@ -1447,13 +1393,13 @@ posts:
       189 zł — goryczka, kalia, dalia
       Warszawa #Warszawa
 
-  - id: v027-crimson-still-life-ru
-    image: batch-50/var-027.jpg
-    name: "Пушистые травы и восковые листья у окна"
+  - id: v033-fiery-crocosmia-ru
+    image: batch-50/var-033.jpg
+    name: "Контровый свет зажигает оранжевые лепестки"
     lang: ru
     caption: |
-      Пушистые травы и восковые листья у окна
-      229 zł — антуриум, гелихризум, аллиум
+      Контровый свет зажигает оранжевые лепестки
+      89 zł — крокосмия, гиперикум
       Варшава #Warszawa
 
   - id: v028-blushing-peonies-pl
@@ -1465,13 +1411,13 @@ posts:
       179 zł — piwonie
       Warszawa #Warszawa
 
-  - id: v029-burgundy-hydrangea-stock-ru
-    image: batch-50/var-029.jpg
-    name: "Бордо и пудра охапкой у стены"
+  - id: v035-sunset-callas-sapphire-ru
+    image: batch-50/var-035.jpg
+    name: "Крупным планом: изгиб каллы у белой стены"
     lang: ru
     caption: |
-      Бордо и пудра охапкой у стены
-      179 zł — гортензия, георгина, левкоя
+      Крупным планом: изгиб каллы у белой стены
+      189 zł — каллы, георгины, дельфиниум
       Варшава #Warszawa
 
   - id: v032-ranunculus-carnival-pl
@@ -1483,13 +1429,13 @@ posts:
       249 zł — jaskier, piwonia
       Warszawa #Warszawa
 
-  - id: v033-fiery-crocosmia-ru
-    image: batch-50/var-033.jpg
-    name: "Контровый свет зажигает оранжевые лепестки"
+  - id: v037-anthurium-dahlia-physalis-ru
+    image: batch-50/var-037.jpg
+    name: "Алый изгиб антуриума на крафтовой бумаге"
     lang: ru
     caption: |
-      Контровый свет зажигает оранжевые лепестки
-      89 zł — крокосмия, гиперикум
+      Алый изгиб антуриума на крафтовой бумаге
+      159 zł — антуриум, георгина, целозия, физалис
       Варшава #Warszawa
 
   - id: v034-brunia-sea-lavender-pl
@@ -1501,13 +1447,13 @@ posts:
       89 zł — brunia, zatrwian, krokosmia
       Warszawa #Warszawa
 
-  - id: v035-sunset-callas-sapphire-ru
-    image: batch-50/var-035.jpg
-    name: "Крупным планом: изгиб каллы у белой стены"
+  - id: v041-ranunculus-chamomile-vase-ru
+    image: batch-50/var-041.jpg
+    name: "Витые веточки тянутся к дневному свету"
     lang: ru
     caption: |
-      Крупным планом: изгиб каллы у белой стены
-      189 zł — каллы, георгины, дельфиниум
+      Витые веточки тянутся к дневному свету
+      149 zł — ранункулюсы, ромашка
       Варшава #Warszawa
 
   - id: v036-ember-dahlias-pl
@@ -1519,13 +1465,13 @@ posts:
       169 zł — hortensja, dalia, kraspedia
       Warszawa #Warszawa
 
-  - id: v037-anthurium-dahlia-physalis-ru
-    image: batch-50/var-037.jpg
-    name: "Алый изгиб антуриума на крафтовой бумаге"
+  - id: v043-green-berries-statice-ru
+    image: batch-50/var-043.jpg
+    name: "Гроздья зелёных ягод рассыпаются пышным веером"
     lang: ru
     caption: |
-      Алый изгиб антуриума на крафтовой бумаге
-      159 zł — антуриум, георгина, целозия, физалис
+      Гроздья зелёных ягод рассыпаются пышным веером
+      89 zł — зелёные ягоды, физалис, статице
       Варшава #Warszawa
 
   - id: v038-deep-hydrangea-pompons-pl
@@ -1537,13 +1483,13 @@ posts:
       179 zł — hortensja, lewkonia, dalia
       Warszawa #Warszawa
 
-  - id: v041-ranunculus-chamomile-vase-ru
-    image: batch-50/var-041.jpg
-    name: "Витые веточки тянутся к дневному свету"
+  - id: v045-chartreuse-cascade-ru
+    image: batch-50/var-045.jpg
+    name: "Бордовые нити амаранта стекают вниз"
     lang: ru
     caption: |
-      Витые веточки тянутся к дневному свету
-      149 zł — ранункулюсы, ромашка
+      Бордовые нити амаранта стекают вниз
+      109 zł — молюцелла, амарант, антуриум
       Варшава #Warszawa
 
   - id: v040-blush-hydrangea-anthurium-pl
@@ -1555,13 +1501,13 @@ posts:
       169 zł — hortensja, anturium, molucela
       Warszawa #Warszawa
 
-  - id: v043-green-berries-statice-ru
-    image: batch-50/var-043.jpg
-    name: "Гроздья зелёных ягод рассыпаются пышным веером"
+  - id: v047-carmine-and-smoke-ru
+    image: batch-50/var-047.jpg
+    name: "Огненные блики на фоне колышущихся трав"
     lang: ru
     caption: |
-      Гроздья зелёных ягод рассыпаются пышным веером
-      89 zł — зелёные ягоды, физалис, статице
+      Огненные блики на фоне колышущихся трав
+      179 zł — антуриум, аллиум, хризантема
       Варшава #Warszawa
 
   - id: v042-pink-hydrangea-anthurium-pl
@@ -1573,13 +1519,13 @@ posts:
       169 zł — hortensja, anturium, jaskier
       Warszawa #Warszawa
 
-  - id: v045-chartreuse-cascade-ru
-    image: batch-50/var-045.jpg
-    name: "Бордовые нити амаранта стекают вниз"
+  - id: v049-peach-callas-ru
+    image: batch-50/var-049.jpg
+    name: "Лепесток каллы закручивается нежной спиралью"
     lang: ru
     caption: |
-      Бордовые нити амаранта стекают вниз
-      109 zł — молюцелла, амарант, антуриум
+      Лепесток каллы закручивается нежной спиралью
+      199 zł — каллы, антуриум, аллиум, гвоздика
       Варшава #Warszawa
 
   - id: v044-gentian-pompon-dahlia-pl
@@ -1591,13 +1537,13 @@ posts:
       189 zł — goryczka, dalia, kalia
       Warszawa #Warszawa
 
-  - id: v047-carmine-and-smoke-ru
-    image: batch-50/var-047.jpg
-    name: "Огненные блики на фоне колышущихся трав"
+  - id: v050-red-rose-letters-ru
+    image: batch-50/var-050.jpg
+    name: "Строка роз тянется мимо бронзовой статуи"
     lang: ru
     caption: |
-      Огненные блики на фоне колышущихся трав
-      179 zł — антуриум, аллиум, хризантема
+      Строка роз тянется мимо бронзовой статуи
+      99 zł / буква — розы
       Варшава #Warszawa
 
   - id: v046-burgundy-hydrangea-billy-balls-pl
@@ -1609,31 +1555,13 @@ posts:
       109 zł — hortensja, kraspedia, dalia
       Warszawa #Warszawa
 
-  - id: v049-peach-callas-ru
-    image: batch-50/var-049.jpg
-    name: "Лепесток каллы закручивается нежной спиралью"
-    lang: ru
-    caption: |
-      Лепесток каллы закручивается нежной спиралью
-      199 zł — каллы, антуриум, аллиум, гвоздика
-      Варшава #Warszawa
-
-  - id: v048-dahlia-calla-gentian-pl
+  - id: v048-dahlia-calla-gentian-ru
     image: batch-50/var-048.jpg
-    name: "Pomarańcz i kobalt splecione w jednej kompozycji"
-    lang: pl
-    caption: |
-      Pomarańcz i kobalt splecione w jednej kompozycji
-      189 zł — dalia, kalia, ostróżka
-      Warszawa #Warszawa
-
-  - id: v050-red-rose-letters-ru
-    image: batch-50/var-050.jpg
-    name: "Строка роз тянется мимо бронзовой статуи"
+    name: "Красная россыпь прячется в оранжевом пламени"
     lang: ru
     caption: |
-      Строка роз тянется мимо бронзовой статуи
-      99 zł / буква — розы
+      Красная россыпь прячется в оранжевом пламени
+      189 zł — георгины, каллы, дельфиниум
       Варшава #Warszawa
 
   # ---------- PARKED (parked: true — ignored by the poster; kept, not deleted) ----------
@@ -1778,4 +1706,92 @@ posts:
     caption: |
       Жёлтый вихрь хризантем у открытого багажника
       129 zł — жёлтые и медные хризантемы
+      Варшава #Warszawa
+
+  - id: b008-coral-peonies-pl
+    image: batch-100/batch-008.jpg
+    name: "Okrągła kula szkarłatnych płatków w ręku"
+    parked: true
+    parked_reason: "photo shows a person holding the bouquet (rule: no people in shots)"
+    lang: pl
+    caption: |
+      Okrągła kula szkarłatnych płatków w ręku
+      299 zł — piwonie
+      Warszawa #Warszawa
+
+  - id: b019-burgundy-hydrangea-stock-ru
+    image: batch-100/batch-019.jpg
+    name: "Бордовый букет на фоне светлой двери"
+    parked: true
+    parked_reason: "photo shows a person next to the bouquet (rule: no people in shots)"
+    lang: ru
+    caption: |
+      Бордовый букет на фоне светлой двери
+      179 zł — гортензия, левкой, георгина
+      Варшава #Warszawa
+
+  - id: b040-coral-peonies-ru
+    image: batch-100/batch-040.jpg
+    name: "Шар из пионов на плече у серой стены"
+    parked: true
+    parked_reason: "photo shows a person holding the bouquet (rule: no people in shots)"
+    lang: ru
+    caption: |
+      Шар из пионов на плече у серой стены
+      299 zł — пионы
+      Варшава #Warszawa
+
+  - id: b051-burgundy-hydrangea-stock-pl
+    image: batch-100/batch-051.jpg
+    name: "Bukiet niesiony w miękkim świetle korytarza"
+    parked: true
+    parked_reason: "photo shows a person next to the bouquet (rule: no people in shots)"
+    lang: pl
+    caption: |
+      Bukiet niesiony w miękkim świetle korytarza
+      179 zł — bordowa hortensja, brzoskwiniowa lewkonia, białe dalie
+      Warszawa #Warszawa
+
+  - id: b072-coral-peonies-pl
+    image: batch-100/batch-072.jpg
+    name: "Bukiet zasłania twarz, zostają tylko płatki"
+    parked: true
+    parked_reason: "photo shows a person holding the bouquet (rule: no people in shots)"
+    lang: pl
+    caption: |
+      Bukiet zasłania twarz, zostają tylko płatki
+      299 zł — piwonie
+      Warszawa #Warszawa
+
+  - id: b083-burgundy-hydrangea-stock-ru
+    image: batch-100/batch-083.jpg
+    name: "Бордовый шар гортензии в руках, у белой двери"
+    parked: true
+    parked_reason: "photo shows a person next to the bouquet (rule: no people in shots)"
+    lang: ru
+    caption: |
+      Бордовый шар гортензии в руках, у белой двери
+      179 zł — гортензия, георгины, левкой
+      Варшава #Warszawa
+
+  - id: v023-coral-peonies-ru
+    image: batch-50/var-023.jpg
+    name: "Букет такой большой, что скрывает лицо"
+    parked: true
+    parked_reason: "photo shows a person holding the bouquet (rule: no people in shots)"
+    lang: ru
+    caption: |
+      Букет такой большой, что скрывает лицо
+      299 zł — пионы
+      Варшава #Warszawa
+
+  - id: v029-burgundy-hydrangea-stock-ru
+    image: batch-50/var-029.jpg
+    name: "Бордо и пудра охапкой у стены"
+    parked: true
+    parked_reason: "photo shows a person next to the bouquet (rule: no people in shots)"
+    lang: ru
+    caption: |
+      Бордо и пудра охапкой у стены
+      179 zł — гортензия, георгина, левкоя
       Варшава #Warszawa
