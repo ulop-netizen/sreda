@@ -454,13 +454,13 @@ posts:
 
   - id: b004-crimson-still-life-ru
     image: batch-100/batch-004.jpg
-    name: "Багровый натюрморт — гелихризум, антуриум, скумпия 🍷"
+    name: "Огонь в фарфоре, воздух в травах"
     lang: ru
+    price_pln_note: "229 (Claude entry-level proposal, approved for this post)"
     caption: |
-      Багровый натюрморт — гелихризум, антуриум, скумпия 🍷
-      Спокойные цвета, с которыми дышит вся комната.
-      На заказ по Варшаве 📍 #Warszawa
-      Пишите в директ для заказа.
+      Огонь в фарфоре, воздух в травах
+      229 zł — антуриум, гербера, аллиум
+      Варшава #Warszawa
 
   - id: b005-ember-dahlias-pl
     image: batch-100/batch-005.jpg
