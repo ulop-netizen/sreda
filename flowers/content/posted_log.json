@@ -426,5 +426,23 @@
     "post_id": "18111143567336702",
     "dry_run": false,
     "preview": "Colour therapy in a vase. Fresh, seasonal, made for you."
+  },
+  {
+    "at": "2026-10-09T19:47:41+00:00",
+    "id": "batch-002-ru-v2",
+    "fp": "794fa5409c1a",
+    "image": "batch-100/batch-002.jpg",
+    "post_id": "18118051289076385",
+    "dry_run": false,
+    "preview": "Нежная гортензия и розовый антуриум 🌸"
+  },
+  {
+    "at": "2026-10-09T19:47:54+00:00",
+    "id": "batch-003-pl-v2",
+    "fp": "cd397c59e3d0",
+    "image": "batch-100/batch-003.jpg",
+    "post_id": "18125639533894306",
+    "dry_run": false,
+    "preview": "Brzoskwiniowe kalie w jednej linii ✨"
   }
 ]

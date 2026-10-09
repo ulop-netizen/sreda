@@ -431,6 +431,27 @@ posts:
       Pickup or delivery in Warsaw 📍 #Warszawa
       DM for details.
 
+  # Reposts of batch-002/003 (Oct 9) with corrected Warsaw captions; originals stay live.
+  - id: batch-002-ru-v2
+    image: batch-100/batch-002.jpg
+    name: "Нежная гортензия и розовый антуриум 🌸"
+    lang: ru
+    caption: |
+      Нежная гортензия и розовый антуриум 🌸
+      Пудровые оттенки и один дерзкий акцент — букет, который хочется разглядывать вблизи.
+      Соберу к нужному дню, Варшава 📍 #Warszawa
+      Пишите в личные сообщения — обсудим ваш букет.
+
+  - id: batch-003-pl-v2
+    image: batch-100/batch-003.jpg
+    name: "Brzoskwiniowe kalie w jednej linii ✨"
+    lang: pl
+    caption: |
+      Brzoskwiniowe kalie w jednej linii ✨
+      Prosta forma, ciepły kolor i dużo spokoju — kompozycja, która nie potrzebuje dodatków.
+      Na zamówienie w Warszawie 📍 #Warszawa
+      Napisz do mnie w wiadomości prywatnej — przygotuję bukiet dla Ciebie.
+
   - id: b004-crimson-still-life-ru
     image: batch-100/batch-004.jpg
     name: "Багровый натюрморт — гелихризум, антуриум, скумпия 🍷"
