@@ -106,11 +106,21 @@ def pick_next(kind: str | None = None) -> dict | None:
     if not posts:
         return None
 
+    # Dedupe by caption fingerprint AND by id, so fixing the text of an
+    # already-published entry (same id) does not make it "new" again.
     last_seen: dict[str, str] = {}
     for entry in load_log():
         if entry.get("dry_run"):
             continue
-        last_seen[entry["fp"]] = entry["at"]
+        last_seen["fp:" + entry["fp"]] = entry["at"]
+        if entry.get("id"):
+            last_seen["id:" + entry["id"]] = entry["at"]
 
-    posts.sort(key=lambda p: last_seen.get(_fingerprint(p["caption"]), ""))
+    def _seen(p: dict) -> str:
+        return max(
+            last_seen.get("fp:" + _fingerprint(p["caption"]), ""),
+            last_seen.get("id:" + p["id"], ""),
+        )
+
+    posts.sort(key=_seen)
     return posts[0]
