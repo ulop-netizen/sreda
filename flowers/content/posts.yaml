@@ -1,5 +1,6 @@
 # Pool for @july.concept.flowers — studio location: WARSAW only (#Warszawa).
-# Batch posts: ONE language per caption (full EN or full RU), #Warszawa, no prices.
+# Batch posts: ONE language per caption — full RU or full PL (no English), strictly
+# alternating RU, PL, RU, PL… in queue order. #Warszawa, no prices, DM CTA in that language.
 # Dedupe = caption fingerprint OR id (see src/content.py) — never change ids of
 # already-published entries.
 #
@@ -8,11 +9,11 @@
 
 defaults:
   price_multiplier: 1.8
-  cta: "DM to order or customize your own!"
+  cta: "Napisz w DM, żeby zamówić."
   template: |
     {name}
     {price_line}
-    Available to order in Warsaw 📍 #Warszawa
+    Na zamówienie w Warszawie 📍 #Warszawa
     {cta}
 
 posts:
@@ -399,7 +400,7 @@ posts:
       На заказ по Варшаве 📍 #Warszawa
       Пишите в директ для заказа.
 
-  # ---------- BATCH-100 (EN/RU single-lang, #Warszawa) ----------
+  # ---------- BATCH-100 (single-lang RU/PL, alternating, #Warszawa) ----------
   - id: batch-001
     image: batch-100/batch-001.jpg
     name: "Pocket bouquet in autumn tones 🍂"
@@ -436,19 +437,19 @@ posts:
     lang: ru
     caption: |
       Багровый натюрморт — гелихризум, антуриум, скумпия 🍷
-      Цветотерапия в вазе. Свежие сезонные стебли под ваш запрос.
+      Спокойные цвета, с которыми дышит вся комната.
       На заказ по Варшаве 📍 #Warszawa
       Пишите в директ для заказа.
 
-  - id: b005-ember-dahlias-en
+  - id: b005-ember-dahlias-pl
     image: batch-100/batch-005.jpg
-    name: "Ember dahlias on burgundy hydrangea 🔥"
-    lang: en
+    name: "Ogniste dalie na bordowej hortensji 🔥"
+    lang: pl
     caption: |
-      Ember dahlias on burgundy hydrangea 🔥
-      When words are not enough — send flowers that speak louder.
-      Delivery across Warsaw 🚗 #Warszawa
-      Write in DM — I'll make your version.
+      Ogniste dalie na bordowej hortensji 🔥
+      Nasycone barwy i ciepłe akcenty — sezon w wazonie.
+      Na zamówienie w Warszawie 📍 #Warszawa
+      Napisz w DM, żeby zamówić.
 
   - id: b006-chartreuse-cascade-ru
     image: batch-100/batch-006.jpg
@@ -456,319 +457,319 @@ posts:
     lang: ru
     caption: |
       Салатовый каскад — молюцелла и свисающий амарант 🌿
-      Когда слов мало — пусть скажут цветы.
+      Подарите себе. Серьёзно.
       Собираю под заказ в Варшаве #Warszawa
       Напишите в DM, чтобы заказать.
 
-  - id: b008-coral-peonies-ru
+  - id: b008-coral-peonies-pl
     image: batch-100/batch-008.jpg
-    name: "Коралловые пионы — большой эффектный букет 🌷"
+    name: "Koralowe piwonie — duży, efektowny bukiet 🌷"
+    lang: pl
+    caption: |
+      Koralowe piwonie — duży, efektowny bukiet 🌷
+      Prezent, który wygląda drogo, bo jest przemyślany.
+      Składam na zamówienie w Warszawie #Warszawa
+      Pisz na DM — złożę Twoją wersję.
+
+  - id: b009-ranunculus-carnival-ru
+    image: batch-100/batch-009.jpg
+    name: "Карнавал ранункулюсов — оранжевый, розовый, жёлтый 🎪"
     lang: ru
     caption: |
-      Коралловые пионы — большой эффектный букет 🌷
-      Тихая роскошь: ручная сборка и живой характер.
-      На заказ по Варшаве 📍 #Warszawa
+      Карнавал ранункулюсов — оранжевый, розовый, жёлтый 🎪
+      Когда слов мало — пусть скажут цветы.
+      Самовывоз или доставка по Варшаве 📍 #Warszawa
+      Напишите в DM — соберём ваш вариант.
+
+  - id: b010-ranunculus-chamomile-vase-pl
+    image: batch-100/batch-010.jpg
+    name: "Jaskry i rumianek w ceramicznym wazonie 🤍"
+    lang: pl
+    caption: |
+      Jaskry i rumianek w ceramicznym wazonie 🤍
+      Delikatne odcienie dla kogoś, kto zasługuje na czułość.
+      Odbiór lub dostawa w Warszawie 📍 #Warszawa
+      Napisz w DM — doradzę bukiet i termin.
+
+  - id: b011-red-rose-letters-ru
+    image: batch-100/batch-011.jpg
+    name: "Буквы из красных роз — ваше слово или дата 🌹"
+    lang: ru
+    caption: |
+      Буквы из красных роз — ваше слово или дата 🌹
+      Не «как из супермаркета». Продуманная композиция и сезон.
+      Доставка по Варшаве 🚗 #Warszawa
       DM — подскажу по букету и срокам.
 
-  - id: b009-ranunculus-carnival-en
-    image: batch-100/batch-009.jpg
-    name: "Ranunculus carnival — orange, pink, yellow 🎪"
-    lang: en
+  - id: b012-blushing-peonies-pl
+    image: batch-100/batch-012.jpg
+    name: "Delikatne piwonie — różowe i kremowe falbanki 🌸"
+    lang: pl
     caption: |
-      Ranunculus carnival — orange, pink, yellow 🎪
-      Bright stems for grey days. Studio favourites, ready on request.
-      Delivery across Warsaw 🚗 #Warszawa
-      DM for details.
+      Delikatne piwonie — różowe i kremowe falbanki 🌸
+      To nie są kwiaty z supermarketu. Przemyślana kompozycja i sezonowy dobór.
+      Dostawa na terenie Warszawy 🚗 #Warszawa
+      Zamówienia przyjmuję w DM.
 
-  - id: b010-ranunculus-chamomile-vase-ru
-    image: batch-100/batch-010.jpg
-    name: "Ранункулюсы и ромашка в керамической вазе 🤍"
+  - id: b013-anthurium-dahlia-physalis-ru
+    image: batch-100/batch-013.jpg
+    name: "Красный антуриум, бордовая георгина и физалис 🍂"
     lang: ru
     caption: |
-      Ранункулюсы и ромашка в керамической вазе 🤍
+      Красный антуриум, бордовая георгина и физалис 🍂
+      Принесите сад в дом хотя бы на неделю.
+      На заказ по Варшаве 📍 #Warszawa
+      Напишите в DM, чтобы заказать.
+
+  - id: b014-burgundy-hydrangea-billy-balls-pl
+    image: batch-100/batch-014.jpg
+    name: "Bordowa hortensja z kraspedią i dalią 🟡"
+    lang: pl
+    caption: |
+      Bordowa hortensja z kraspedią i dalią 🟡
+      Odrobina blasku na zwykły dzień.
+      Na zamówienie w Warszawie 📍 #Warszawa
+      Pisz na DM — złożę Twoją wersję.
+
+  - id: b015-burgundy-hydrangea-orange-dahlia-ru
+    image: batch-100/batch-015.jpg
+    name: "Бордовая гортензия, оранжевая георгина и зелёный антуриум 🧡"
+    lang: ru
+    caption: |
+      Бордовая гортензия, оранжевая георгина и зелёный антуриум 🧡
       Яркие стебли для серых дней. Любимые композиции студии.
       Собираю под заказ в Варшаве #Warszawa
       Напишите в DM — соберём ваш вариант.
 
-  - id: b011-red-rose-letters-en
-    image: batch-100/batch-011.jpg
-    name: "Red rose letter boxes — spell your word or date 🌹"
-    lang: en
-    caption: |
-      Red rose letter boxes — spell your word or date 🌹
-      Texture, tone, and a little drama — our kind of bouquet.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      Message me in DM to book.
-
-  - id: b012-blushing-peonies-ru
-    image: batch-100/batch-012.jpg
-    name: "Нежные пионы — розовые и кремовые оборки 🌸"
-    lang: ru
-    caption: |
-      Нежные пионы — розовые и кремовые оборки 🌸
-      Фактура, тон и чуть драмы — наш любимый рецепт.
-      На заказ по Варшаве 📍 #Warszawa
-      Напишите в DM, чтобы заказать.
-
-  - id: b013-anthurium-dahlia-physalis-en
-    image: batch-100/batch-013.jpg
-    name: "Red anthurium, burgundy dahlia & physalis 🍂"
-    lang: en
-    caption: |
-      Red anthurium, burgundy dahlia & physalis 🍂
-      Not supermarket flowers. Thoughtful composition, seasonal picks.
-      Delivery across Warsaw 🚗 #Warszawa
-      DM to order or customize your own!
-
-  - id: b014-burgundy-hydrangea-billy-balls-ru
-    image: batch-100/batch-014.jpg
-    name: "Бордовая гортензия с краспедией и георгиной 🟡"
-    lang: ru
-    caption: |
-      Бордовая гортензия с краспедией и георгиной 🟡
-      Не «как из супермаркета». Продуманная композиция и сезон.
-      Собираю под заказ в Варшаве #Warszawa
-      Пишите в директ для заказа.
-
-  - id: b015-burgundy-hydrangea-orange-dahlia-en
-    image: batch-100/batch-015.jpg
-    name: "Burgundy hydrangea, orange dahlia & green anthurium 🧡"
-    lang: en
-    caption: |
-      Burgundy hydrangea, orange dahlia & green anthurium 🧡
-      Make an ordinary Tuesday feel special.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      Write in DM — I'll make your version.
-
-  - id: b016-fiery-crocosmia-ru
+  - id: b016-fiery-crocosmia-pl
     image: batch-100/batch-016.jpg
-    name: "Огненная крокосмия с блестящими красными ягодами 🔥"
-    lang: ru
+    name: "Ognista krokosmia z lśniącymi czerwonymi jagodami 🔥"
+    lang: pl
     caption: |
-      Огненная крокосмия с блестящими красными ягодами 🔥
-      Пусть обычный вторник станет чуть особеннее.
-      На заказ по Варшаве 📍 #Warszawa
-      Напишите в DM — соберём ваш вариант.
+      Ognista krokosmia z lśniącymi czerwonymi jagodami 🔥
+      Spokojne kolory, przy których oddycha całe wnętrze.
+      Składam na zamówienie w Warszawie #Warszawa
+      Napisz w DM — doradzę bukiet i termin.
 
-  - id: b017-pink-hydrangea-anthurium-en
+  - id: b017-pink-hydrangea-anthurium-ru
     image: batch-100/batch-017.jpg
-    name: "Pink hydrangea, pink anthurium & bells of Ireland 🌿"
-    lang: en
+    name: "Розовая гортензия, розовый антуриум и молюцелла 🌿"
+    lang: ru
     caption: |
-      Pink hydrangea, pink anthurium & bells of Ireland 🌿
-      Soft tones for someone who deserves softness.
-      Delivery across Warsaw 🚗 #Warszawa
-      Message me in DM to book.
+      Розовая гортензия, розовый антуриум и молюцелла 🌿
+      Тихая роскошь: ручная сборка и живой характер.
+      Самовывоз или доставка по Варшаве 📍 #Warszawa
+      DM — подскажу по букету и срокам.
 
-  - id: b018-peach-pompon-dahlias-ru
+  - id: b018-peach-pompon-dahlias-pl
     image: batch-100/batch-018.jpg
-    name: "Персиковые и розовые помпонные георгины 🍑"
-    lang: ru
+    name: "Brzoskwiniowe i różowe dalie pomponowe 🍑"
+    lang: pl
     caption: |
-      Персиковые и розовые помпонные георгины 🍑
-      Нежные тона для тех, кому нужна мягкость.
-      Собираю под заказ в Варшаве #Warszawa
-      DM — подскажу по букету и срокам.
+      Brzoskwiniowe i różowe dalie pomponowe 🍑
+      Wyślij kolor komuś na drugi koniec miasta.
+      Odbiór lub dostawa w Warszawie 📍 #Warszawa
+      Zamówienia przyjmuję w DM.
 
-  - id: b019-burgundy-hydrangea-stock-en
+  - id: b019-burgundy-hydrangea-stock-ru
     image: batch-100/batch-019.jpg
-    name: "Burgundy hydrangea, peach stock & white dahlias 🤍"
-    lang: en
-    caption: |
-      Burgundy hydrangea, peach stock & white dahlias 🤍
-      Deep colour, clean lines — florals with presence.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      DM for details.
-
-  - id: b020-deep-hydrangea-pompons-ru
-    image: batch-100/batch-020.jpg
-    name: "Глубокая гортензия, персиковая левкоя и белые помпоны ✨"
+    name: "Бордовая гортензия, персиковая левкоя и белые георгины 🤍"
     lang: ru
     caption: |
-      Глубокая гортензия, персиковая левкоя и белые помпоны ✨
-      Глубокий цвет и чистые линии — цветы с характером.
-      На заказ по Варшаве 📍 #Warszawa
-      Пишите в директ для заказа.
-
-  - id: b021-carmine-and-smoke-en
-    image: batch-100/batch-021.jpg
-    name: "Carmine & smoke — red anthurium, dark daisy, ornamental allium 🍷"
-    lang: en
-    caption: |
-      Carmine & smoke — red anthurium, dark daisy, ornamental allium 🍷
-      A pocket of summer, tied by hand.
-      Delivery across Warsaw 🚗 #Warszawa
-      Write in DM — I'll make your version.
-
-  - id: b022-flame-parrot-flowers-ru
-    image: batch-100/batch-022.jpg
-    name: "Огненные попугайные цветы, оранжевые ягоды и лимониум 🧡"
-    lang: ru
-    caption: |
-      Огненные попугайные цветы, оранжевые ягоды и лимониум 🧡
+      Бордовая гортензия, персиковая левкоя и белые георгины 🤍
       Кусочек лета, собранный вручную.
-      Собираю под заказ в Варшаве #Warszawa
-      Напишите в DM, чтобы заказать.
+      Доставка по Варшаве 🚗 #Warszawa
+      Пишите в директ для заказа.
 
-  - id: b023-brunia-sea-lavender-en
+  - id: b020-deep-hydrangea-pompons-pl
+    image: batch-100/batch-020.jpg
+    name: "Ciemna hortensja, brzoskwiniowa lewkonia i białe pompony ✨"
+    lang: pl
+    caption: |
+      Ciemna hortensja, brzoskwiniowa lewkonia i białe pompony ✨
+      Delikatne odcienie dla kogoś, kto zasługuje na czułość.
+      Dostawa na terenie Warszawy 🚗 #Warszawa
+      Napisz w DM, żeby zamówić.
+
+  - id: b021-carmine-and-smoke-ru
+    image: batch-100/batch-021.jpg
+    name: "Кармин и дым — красный антуриум, тёмная маргаритка, декоративный лук 🍷"
+    lang: ru
+    caption: |
+      Кармин и дым — красный антуриум, тёмная маргаритка, декоративный лук 🍷
+      Кусочек лета, собранный вручную.
+      На заказ по Варшаве 📍 #Warszawa
+      Напишите в DM — соберём ваш вариант.
+
+  - id: b022-flame-parrot-flowers-pl
+    image: batch-100/batch-022.jpg
+    name: "Płomienne helikonie, pomarańczowe jagody i limonium 🧡"
+    lang: pl
+    caption: |
+      Płomienne helikonie, pomarańczowe jagody i limonium 🧡
+      Lekki chaos płatków. Idealny na niespodziewany prezent.
+      Na zamówienie w Warszawie 📍 #Warszawa
+      Napisz w DM — doradzę bukiet i termin.
+
+  - id: b023-brunia-sea-lavender-ru
     image: batch-100/batch-023.jpg
-    name: "Brunia & sea lavender in a textured vase 🌿"
-    lang: en
+    name: "Бруния и кермек в фактурной вазе 🌿"
+    lang: ru
     caption: |
-      Brunia & sea lavender in a textured vase 🌿
-      Statement blooms for a dinner table that means it.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      DM to order or customize your own!
+      Бруния и кермек в фактурной вазе 🌿
+      Спокойные цвета, с которыми дышит вся комната.
+      Собираю под заказ в Варшаве #Warszawa
+      DM — подскажу по букету и срокам.
 
-  - id: b024-green-berries-statice-ru
+  - id: b024-green-berries-statice-pl
     image: batch-100/batch-024.jpg
-    name: "Зелёные ягодные грозди и лавандовый статице 💜"
-    lang: ru
+    name: "Zielone kiście jagód i lawendowy zatrwian 💜"
+    lang: pl
     caption: |
-      Зелёные ягодные грозди и лавандовый статице 💜
-      Акцент на стол, который задаёт настроение ужина.
-      На заказ по Варшаве 📍 #Warszawa
-      DM — подскажу по букету и срокам.
+      Zielone kiście jagód i lawendowy zatrwian 💜
+      Prezent, który wygląda drogo, bo jest przemyślany.
+      Składam na zamówienie w Warszawie #Warszawa
+      Zamówienia przyjmuję w DM.
 
-  - id: b025-golden-chrysanthemums-en
+  - id: b025-golden-chrysanthemums-ru
     image: batch-100/batch-025.jpg
-    name: "Golden pompon chrysanthemums 💛"
-    lang: en
-    caption: |
-      Golden pompon chrysanthemums 💛
-      A bouquet that sets the mood before anyone says a word.
-      Delivery across Warsaw 🚗 #Warszawa
-      DM for details.
-
-  - id: b026-pink-rose-lilies-ru
-    image: batch-100/batch-026.jpg
-    name: "Нежно-розовые махровые розолилии 🌷"
+    name: "Золотые помпонные хризантемы 💛"
     lang: ru
     caption: |
-      Нежно-розовые махровые розолилии 🌷
-      Букет, который создаёт настроение раньше слов.
-      Собираю под заказ в Варшаве #Warszawa
-      Напишите в DM — соберём ваш вариант.
-
-  - id: b027-copper-chrysanthemums-en
-    image: batch-100/batch-027.jpg
-    name: "Sunny yellow & copper autumn chrysanthemums ☀️"
-    lang: en
-    caption: |
-      Sunny yellow & copper autumn chrysanthemums ☀️
-      Gentle chaos of petals. Perfect for an unexpected gift.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      Message me in DM to book.
-
-  - id: b028-dahlia-calla-gentian-ru
-    image: batch-100/batch-028.jpg
-    name: "Оранжевая георгина, закатная калла и синяя горечавка 💙"
-    lang: ru
-    caption: |
-      Оранжевая георгина, закатная калла и синяя горечавка 💙
-      Лёгкий хаос лепестков. Идеально для неожиданного подарка.
-      На заказ по Варшаве 📍 #Warszawa
-      Напишите в DM, чтобы заказать.
-
-  - id: b029-gentian-yellow-dahlia-en
-    image: batch-100/batch-029.jpg
-    name: "Blue gentian, yellow dahlia & orange callas 🔵"
-    lang: en
-    caption: |
-      Blue gentian, yellow dahlia & orange callas 🔵
-      Rich colour and warm accents — the season in a vase.
-      Delivery across Warsaw 🚗 #Warszawa
-      DM to order or customize your own!
-
-  - id: b030-sunset-callas-sapphire-ru
-    image: batch-100/batch-030.jpg
-    name: "Закатные каллы, оранжевые георгины и сапфировый синий 🌅"
-    lang: ru
-    caption: |
-      Закатные каллы, оранжевые георгины и сапфировый синий 🌅
-      Насыщенный цвет и тёплые акценты — сезон в вазе.
-      Собираю под заказ в Варшаве #Warszawa
+      Золотые помпонные хризантемы 💛
+      Тёплые тона для прохладных вечеров.
+      Самовывоз или доставка по Варшаве 📍 #Warszawa
       Пишите в директ для заказа.
 
-  - id: b031-gentian-pompon-dahlia-en
-    image: batch-100/batch-031.jpg
-    name: "Blue gentian, orange pompon dahlia & sunset calla ✨"
-    lang: en
+  - id: b026-pink-rose-lilies-pl
+    image: batch-100/batch-026.jpg
+    name: "Pudrowo-różowe pełne lilie 🌷"
+    lang: pl
     caption: |
-      Blue gentian, orange pompon dahlia & sunset calla ✨
-      Fresh cut, carefully packed, delivered with care.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      Write in DM — I'll make your version.
+      Pudrowo-różowe pełne lilie 🌷
+      Odważna energia do nowoczesnych wnętrz.
+      Odbiór lub dostawa w Warszawie 📍 #Warszawa
+      Napisz w DM, żeby zamówić.
 
-  - id: b032-soft-morning-ru
-    image: batch-100/batch-032.jpg
-    name: "Нежное утро — кремовая гербера, кустовые розы, голубая твидия ☁️"
+  - id: b027-copper-chrysanthemums-ru
+    image: batch-100/batch-027.jpg
+    name: "Солнечно-жёлтые и медные осенние хризантемы ☀️"
     lang: ru
     caption: |
-      Нежное утро — кремовая гербера, кустовые розы, голубая твидия ☁️
-      Свежий срез, аккуратная упаковка, бережная доставка.
+      Солнечно-жёлтые и медные осенние хризантемы ☀️
+      Тихая роскошь: ручная сборка и живой характер.
+      Доставка по Варшаве 🚗 #Warszawa
+      Напишите в DM, чтобы заказать.
+
+  - id: b028-dahlia-calla-gentian-pl
+    image: batch-100/batch-028.jpg
+    name: "Pomarańczowa dalia, kalia w kolorze zachodu słońca i niebieska goryczka 💙"
+    lang: pl
+    caption: |
+      Pomarańczowa dalia, kalia w kolorze zachodu słońca i niebieska goryczka 💙
+      Gdy brakuje słów — niech mówią kwiaty.
+      Dostawa na terenie Warszawy 🚗 #Warszawa
+      Pisz na DM — złożę Twoją wersję.
+
+  - id: b029-gentian-yellow-dahlia-ru
+    image: batch-100/batch-029.jpg
+    name: "Синяя горечавка, жёлтая георгина и оранжевые каллы 🔵"
+    lang: ru
+    caption: |
+      Синяя горечавка, жёлтая георгина и оранжевые каллы 🔵
+      Кусочек лета, собранный вручную.
       На заказ по Варшаве 📍 #Warszawa
-      Напишите в DM — соберём ваш вариант.
-
-  - id: b033-autumn-pocket-en
-    image: batch-100/batch-033.jpg
-    name: "Pocket bouquet in autumn tones 🍂"
-    lang: en
-    caption: |
-      Pocket bouquet in autumn tones 🍂
-      Small bouquet, big feeling.
-      Delivery across Warsaw 🚗 #Warszawa
-      Message me in DM to book.
-
-  - id: b034-blush-hydrangea-anthurium-ru
-    image: batch-100/batch-034.jpg
-    name: "Нежная гортензия и розовый антуриум 🌸"
-    lang: ru
-    caption: |
-      Нежная гортензия и розовый антуриум 🌸
-      Маленький букет — большое чувство.
-      Собираю под заказ в Варшаве #Warszawa
       DM — подскажу по букету и срокам.
 
-  - id: b035-peach-callas-en
-    image: batch-100/batch-035.jpg
-    name: "Peach calla lilies, drawn out in a line ✨"
-    lang: en
+  - id: b030-sunset-callas-sapphire-pl
+    image: batch-100/batch-030.jpg
+    name: "Kalie w barwach zachodu słońca, pomarańczowe dalie i szafirowy błękit 🌅"
+    lang: pl
     caption: |
-      Peach calla lilies, drawn out in a line ✨
-      Full, lush and generous — nothing skimpy here.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      DM for details.
+      Kalie w barwach zachodu słońca, pomarańczowe dalie i szafirowy błękit 🌅
+      Akcent na stół, który nadaje ton całej kolacji.
+      Na zamówienie w Warszawie 📍 #Warszawa
+      Zamówienia przyjmuję w DM.
 
-  - id: b036-crimson-still-life-ru
-    image: batch-100/batch-036.jpg
-    name: "Багровый натюрморт — гелихризум, антуриум, скумпия 🍷"
+  - id: b031-gentian-pompon-dahlia-ru
+    image: batch-100/batch-031.jpg
+    name: "Синяя горечавка, оранжевая помпонная георгина и закатная калла ✨"
     lang: ru
     caption: |
-      Багровый натюрморт — гелихризум, антуриум, скумпия 🍷
+      Синяя горечавка, оранжевая помпонная георгина и закатная калла ✨
       Пышно, щедро и объёмно — без экономии на цветах.
+      Собираю под заказ в Варшаве #Warszawa
+      Пишите в директ для заказа.
+
+  - id: b032-soft-morning-pl
+    image: batch-100/batch-032.jpg
+    name: "Łagodny poranek — kremowa gerbera, róże gałązkowe, błękitna tweedia ☁️"
+    lang: pl
+    caption: |
+      Łagodny poranek — kremowa gerbera, róże gałązkowe, błękitna tweedia ☁️
+      Delikatne odcienie dla kogoś, kto zasługuje na czułość.
+      Składam na zamówienie w Warszawie #Warszawa
+      Napisz w DM, żeby zamówić.
+
+  - id: b033-autumn-pocket-ru
+    image: batch-100/batch-033.jpg
+    name: "Карманный букет в осенних тонах 🍂"
+    lang: ru
+    caption: |
+      Карманный букет в осенних тонах 🍂
+      Маленький букет — большое чувство.
+      Самовывоз или доставка по Варшаве 📍 #Warszawa
+      Напишите в DM, чтобы заказать.
+
+  - id: b034-blush-hydrangea-anthurium-pl
+    image: batch-100/batch-034.jpg
+    name: "Pudrowa hortensja i różowe anturium 🌸"
+    lang: pl
+    caption: |
+      Pudrowa hortensja i różowe anturium 🌸
+      Ciepłe barwy na chłodne wieczory.
+      Odbiór lub dostawa w Warszawie 📍 #Warszawa
+      Pisz na DM — złożę Twoją wersję.
+
+  - id: b035-peach-callas-ru
+    image: batch-100/batch-035.jpg
+    name: "Персиковые каллы, выстроенные в линию ✨"
+    lang: ru
+    caption: |
+      Персиковые каллы, выстроенные в линию ✨
+      Принесите сад в дом хотя бы на неделю.
+      Доставка по Варшаве 🚗 #Warszawa
+      Напишите в DM — соберём ваш вариант.
+
+  - id: b036-crimson-still-life-pl
+    image: batch-100/batch-036.jpg
+    name: "Karmazynowa martwa natura — kocanki, anturium, perukowiec 🍷"
+    lang: pl
+    caption: |
+      Karmazynowa martwa natura — kocanki, anturium, perukowiec 🍷
+      Ciepłe barwy na chłodne wieczory.
+      Dostawa na terenie Warszawy 🚗 #Warszawa
+      Napisz w DM — doradzę bukiet i termin.
+
+  - id: b037-ember-dahlias-ru
+    image: batch-100/batch-037.jpg
+    name: "Огненные георгины на бордовой гортензии 🔥"
+    lang: ru
+    caption: |
+      Огненные георгины на бордовой гортензии 🔥
+      «Спасибо», которое ощущается как спасибо.
       На заказ по Варшаве 📍 #Warszawa
       Пишите в директ для заказа.
 
-  - id: b037-ember-dahlias-en
-    image: batch-100/batch-037.jpg
-    name: "Ember dahlias on burgundy hydrangea 🔥"
-    lang: en
-    caption: |
-      Ember dahlias on burgundy hydrangea 🔥
-      A joyful clash of colour that just works.
-      Delivery across Warsaw 🚗 #Warszawa
-      Write in DM — I'll make your version.
-
-  - id: b038-chartreuse-cascade-ru
+  - id: b038-chartreuse-cascade-pl
     image: batch-100/batch-038.jpg
-    name: "Салатовый каскад — молюцелла и свисающий амарант 🌿"
-    lang: ru
+    name: "Seledynowa kaskada — molucela i zwisający szarłat 🌿"
+    lang: pl
     caption: |
-      Салатовый каскад — молюцелла и свисающий амарант 🌿
-      Радостный контраст цвета, который просто работает.
-      Собираю под заказ в Варшаве #Warszawa
-      Напишите в DM, чтобы заказать.
+      Seledynowa kaskada — molucela i zwisający szarłat 🌿
+      Cichy luksus: ręczna robota i żywy charakter.
+      Na zamówienie w Warszawie 📍 #Warszawa
+      Napisz w DM, żeby zamówić.
 
   - id: b040-coral-peonies-ru
     image: batch-100/batch-040.jpg
@@ -776,19 +777,19 @@ posts:
     lang: ru
     caption: |
       Коралловые пионы — большой эффектный букет 🌷
-      Классическая романтика в современном прочтении.
-      На заказ по Варшаве 📍 #Warszawa
-      DM — подскажу по букету и срокам.
+      Фактура, тон и чуть драмы — наш любимый рецепт.
+      Собираю под заказ в Варшаве #Warszawa
+      Напишите в DM, чтобы заказать.
 
-  - id: b041-ranunculus-carnival-en
+  - id: b041-ranunculus-carnival-pl
     image: batch-100/batch-041.jpg
-    name: "Ranunculus carnival — orange, pink, yellow 🎪"
-    lang: en
+    name: "Karnawał jaskrów — pomarańcz, róż i żółć 🎪"
+    lang: pl
     caption: |
-      Ranunculus carnival — orange, pink, yellow 🎪
-      For birthdays, apologies, or just because.
-      Delivery across Warsaw 🚗 #Warszawa
-      DM for details.
+      Karnawał jaskrów — pomarańcz, róż i żółć 🎪
+      Akcent na stół, który nadaje ton całej kolacji.
+      Składam na zamówienie w Warszawie #Warszawa
+      Pisz na DM — złożę Twoją wersję.
 
   - id: b042-ranunculus-chamomile-vase-ru
     image: batch-100/batch-042.jpg
@@ -796,19 +797,19 @@ posts:
     lang: ru
     caption: |
       Ранункулюсы и ромашка в керамической вазе 🤍
-      На день рождения, «прости» или просто так.
-      Собираю под заказ в Варшаве #Warszawa
+      Цветы, которые отказываются быть скучными.
+      Самовывоз или доставка по Варшаве 📍 #Warszawa
       Напишите в DM — соберём ваш вариант.
 
-  - id: b043-red-rose-letters-en
+  - id: b043-red-rose-letters-pl
     image: batch-100/batch-043.jpg
-    name: "Red rose letter boxes — spell your word or date 🌹"
-    lang: en
+    name: "Litery z czerwonych róż — Twoje słowo albo data 🌹"
+    lang: pl
     caption: |
-      Red rose letter boxes — spell your word or date 🌹
-      Calm colours that make a whole room breathe.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      Message me in DM to book.
+      Litery z czerwonych róż — Twoje słowo albo data 🌹
+      Świeżo cięte, starannie zapakowane, dostarczone z troską.
+      Odbiór lub dostawa w Warszawie 📍 #Warszawa
+      Napisz w DM — doradzę bukiet i termin.
 
   - id: b044-blushing-peonies-ru
     image: batch-100/batch-044.jpg
@@ -816,19 +817,19 @@ posts:
     lang: ru
     caption: |
       Нежные пионы — розовые и кремовые оборки 🌸
-      Спокойные цвета, с которыми дышит вся комната.
-      На заказ по Варшаве 📍 #Warszawa
-      Напишите в DM, чтобы заказать.
+      Принесите сад в дом хотя бы на неделю.
+      Доставка по Варшаве 🚗 #Warszawa
+      DM — подскажу по букету и срокам.
 
-  - id: b045-anthurium-dahlia-physalis-en
+  - id: b045-anthurium-dahlia-physalis-pl
     image: batch-100/batch-045.jpg
-    name: "Red anthurium, burgundy dahlia & physalis 🍂"
-    lang: en
+    name: "Czerwone anturium, bordowa dalia i miechunka 🍂"
+    lang: pl
     caption: |
-      Red anthurium, burgundy dahlia & physalis 🍂
-      Wild-looking, carefully built. That is the point.
-      Delivery across Warsaw 🚗 #Warszawa
-      DM to order or customize your own!
+      Czerwone anturium, bordowa dalia i miechunka 🍂
+      Wyślij kolor komuś na drugi koniec miasta.
+      Dostawa na terenie Warszawy 🚗 #Warszawa
+      Zamówienia przyjmuję w DM.
 
   - id: b046-burgundy-hydrangea-billy-balls-ru
     image: batch-100/batch-046.jpg
@@ -836,19 +837,19 @@ posts:
     lang: ru
     caption: |
       Бордовая гортензия с краспедией и георгиной 🟡
-      Выглядит «дико», собрано очень осознанно. В этом и смысл.
-      Собираю под заказ в Варшаве #Warszawa
-      Пишите в директ для заказа.
+      Акцент на стол, который задаёт настроение ужина.
+      На заказ по Варшаве 📍 #Warszawa
+      Напишите в DM, чтобы заказать.
 
-  - id: b047-burgundy-hydrangea-orange-dahlia-en
+  - id: b047-burgundy-hydrangea-orange-dahlia-pl
     image: batch-100/batch-047.jpg
-    name: "Burgundy hydrangea, orange dahlia & green anthurium 🧡"
-    lang: en
+    name: "Bordowa hortensja, pomarańczowa dalia i zielone anturium 🧡"
+    lang: pl
     caption: |
-      Burgundy hydrangea, orange dahlia & green anthurium 🧡
-      A gift that arrives looking expensive — because it is considered.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      Write in DM — I'll make your version.
+      Bordowa hortensja, pomarańczowa dalia i zielone anturium 🧡
+      Lekki chaos płatków. Idealny na niespodziewany prezent.
+      Na zamówienie w Warszawie 📍 #Warszawa
+      Pisz na DM — złożę Twoją wersję.
 
   - id: b048-fiery-crocosmia-ru
     image: batch-100/batch-048.jpg
@@ -856,19 +857,19 @@ posts:
     lang: ru
     caption: |
       Огненная крокосмия с блестящими красными ягодами 🔥
-      Подарок, который выглядит дорого — потому что продуман.
-      На заказ по Варшаве 📍 #Warszawa
+      Тихая роскошь: ручная сборка и живой характер.
+      Собираю под заказ в Варшаве #Warszawa
       Напишите в DM — соберём ваш вариант.
 
-  - id: b049-pink-hydrangea-anthurium-en
+  - id: b049-pink-hydrangea-anthurium-pl
     image: batch-100/batch-049.jpg
-    name: "Pink hydrangea, pink anthurium & bells of Ireland 🌿"
-    lang: en
+    name: "Różowa hortensja, różowe anturium i molucela 🌿"
+    lang: pl
     caption: |
-      Pink hydrangea, pink anthurium & bells of Ireland 🌿
-      Seasonal palette, no filler fluff.
-      Delivery across Warsaw 🚗 #Warszawa
-      Message me in DM to book.
+      Różowa hortensja, różowe anturium i molucela 🌿
+      Bukiet, który buduje nastrój, zanim ktokolwiek się odezwie.
+      Składam na zamówienie w Warszawie #Warszawa
+      Napisz w DM — doradzę bukiet i termin.
 
   - id: b050-peach-pompon-dahlias-ru
     image: batch-100/batch-050.jpg
@@ -876,19 +877,19 @@ posts:
     lang: ru
     caption: |
       Персиковые и розовые помпонные георгины 🍑
-      Сезонная палитра, без пустого наполнителя.
-      Собираю под заказ в Варшаве #Warszawa
+      Свежий срез, аккуратная упаковка, бережная доставка.
+      Самовывоз или доставка по Варшаве 📍 #Warszawa
       DM — подскажу по букету и срокам.
 
-  - id: b051-burgundy-hydrangea-stock-en
+  - id: b051-burgundy-hydrangea-stock-pl
     image: batch-100/batch-051.jpg
-    name: "Burgundy hydrangea, peach stock & white dahlias 🤍"
-    lang: en
+    name: "Bordowa hortensja, brzoskwiniowa lewkonia i białe dalie 🤍"
+    lang: pl
     caption: |
-      Burgundy hydrangea, peach stock & white dahlias 🤍
-      Bring the garden indoors for one beautiful week.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      DM for details.
+      Bordowa hortensja, brzoskwiniowa lewkonia i białe dalie 🤍
+      Spokojne kolory, przy których oddycha całe wnętrze.
+      Odbiór lub dostawa w Warszawie 📍 #Warszawa
+      Zamówienia przyjmuję w DM.
 
   - id: b052-deep-hydrangea-pompons-ru
     image: batch-100/batch-052.jpg
@@ -896,39 +897,39 @@ posts:
     lang: ru
     caption: |
       Глубокая гортензия, персиковая левкоя и белые помпоны ✨
-      Принесите сад в дом хотя бы на неделю.
-      На заказ по Варшаве 📍 #Warszawa
+      Цветы, которые отказываются быть скучными.
+      Доставка по Варшаве 🚗 #Warszawa
       Пишите в директ для заказа.
 
-  - id: b053-carmine-and-smoke-en
+  - id: b053-carmine-and-smoke-pl
     image: batch-100/batch-053.jpg
-    name: "Carmine & smoke — red anthurium, dark daisy, ornamental allium 🍷"
-    lang: en
+    name: "Karmin i dym — czerwone anturium, ciemna stokrotka, czosnek ozdobny 🍷"
+    lang: pl
     caption: |
-      Carmine & smoke — red anthurium, dark daisy, ornamental allium 🍷
-      Bold energy for modern interiors.
-      Delivery across Warsaw 🚗 #Warszawa
-      Write in DM — I'll make your version.
+      Karmin i dym — czerwone anturium, ciemna stokrotka, czosnek ozdobny 🍷
+      Spokojne kolory, przy których oddycha całe wnętrze.
+      Dostawa na terenie Warszawy 🚗 #Warszawa
+      Napisz w DM, żeby zamówić.
 
   - id: b054-flame-parrot-flowers-ru
     image: batch-100/batch-054.jpg
-    name: "Огненные попугайные цветы, оранжевые ягоды и лимониум 🧡"
+    name: "Огненные геликонии, оранжевые ягоды и лимониум 🧡"
     lang: ru
     caption: |
-      Огненные попугайные цветы, оранжевые ягоды и лимониум 🧡
-      Смелая энергия для современных интерьеров.
-      Собираю под заказ в Варшаве #Warszawa
-      Напишите в DM, чтобы заказать.
+      Огненные геликонии, оранжевые ягоды и лимониум 🧡
+      Те же цветы — другая история. Попросите свою версию.
+      На заказ по Варшаве 📍 #Warszawa
+      Напишите в DM — соберём ваш вариант.
 
-  - id: b055-brunia-sea-lavender-en
+  - id: b055-brunia-sea-lavender-pl
     image: batch-100/batch-055.jpg
-    name: "Brunia & sea lavender in a textured vase 🌿"
-    lang: en
+    name: "Brunia i zatrwian w fakturowym wazonie 🌿"
+    lang: pl
     caption: |
-      Brunia & sea lavender in a textured vase 🌿
-      Flowers that refuse to be boring.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      DM to order or customize your own!
+      Brunia i zatrwian w fakturowym wazonie 🌿
+      Ciepłe barwy na chłodne wieczory.
+      Na zamówienie w Warszawie 📍 #Warszawa
+      Napisz w DM — doradzę bukiet i termin.
 
   - id: b056-green-berries-statice-ru
     image: batch-100/batch-056.jpg
@@ -936,19 +937,19 @@ posts:
     lang: ru
     caption: |
       Зелёные ягодные грозди и лавандовый статице 💜
-      Цветы, которые отказываются быть скучными.
-      На заказ по Варшаве 📍 #Warszawa
+      Фактура, тон и чуть драмы — наш любимый рецепт.
+      Собираю под заказ в Варшаве #Warszawa
       DM — подскажу по букету и срокам.
 
-  - id: b057-golden-chrysanthemums-en
+  - id: b057-golden-chrysanthemums-pl
     image: batch-100/batch-057.jpg
-    name: "Golden pompon chrysanthemums 💛"
-    lang: en
+    name: "Złote chryzantemy pomponowe 💛"
+    lang: pl
     caption: |
-      Golden pompon chrysanthemums 💛
-      Soft morning light vibes, any time of day.
-      Delivery across Warsaw 🚗 #Warszawa
-      DM for details.
+      Złote chryzantemy pomponowe 💛
+      Faktura, odcień i odrobina dramatu — nasz ulubiony przepis.
+      Składam na zamówienie w Warszawie #Warszawa
+      Zamówienia przyjmuję w DM.
 
   - id: b058-pink-rose-lilies-ru
     image: batch-100/batch-058.jpg
@@ -956,19 +957,19 @@ posts:
     lang: ru
     caption: |
       Нежно-розовые махровые розолилии 🌷
-      Настроение мягкого утра — в любое время дня.
-      Собираю под заказ в Варшаве #Warszawa
-      Напишите в DM — соберём ваш вариант.
+      Пусть обычный вторник станет чуть особеннее.
+      Самовывоз или доставка по Варшаве 📍 #Warszawa
+      Пишите в директ для заказа.
 
-  - id: b059-copper-chrysanthemums-en
+  - id: b059-copper-chrysanthemums-pl
     image: batch-100/batch-059.jpg
-    name: "Sunny yellow & copper autumn chrysanthemums ☀️"
-    lang: en
+    name: "Słonecznie żółte i miedziane jesienne chryzantemy ☀️"
+    lang: pl
     caption: |
-      Sunny yellow & copper autumn chrysanthemums ☀️
-      Wrapped with care, ready to surprise someone you love.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      Message me in DM to book.
+      Słonecznie żółte i miedziane jesienne chryzantemy ☀️
+      Bukiet, który buduje nastrój, zanim ktokolwiek się odezwie.
+      Odbiór lub dostawa w Warszawie 📍 #Warszawa
+      Napisz w DM, żeby zamówić.
 
   - id: b060-dahlia-calla-gentian-ru
     image: batch-100/batch-060.jpg
@@ -976,19 +977,19 @@ posts:
     lang: ru
     caption: |
       Оранжевая георгина, закатная калла и синяя горечавка 💙
-      Упаковано с заботой — готово удивить того, кого вы любите.
-      На заказ по Варшаве 📍 #Warszawa
+      На день рождения, «прости» или просто так.
+      Доставка по Варшаве 🚗 #Warszawa
       Напишите в DM, чтобы заказать.
 
-  - id: b061-gentian-yellow-dahlia-en
+  - id: b061-gentian-yellow-dahlia-pl
     image: batch-100/batch-061.jpg
-    name: "Blue gentian, yellow dahlia & orange callas 🔵"
-    lang: en
+    name: "Niebieska goryczka, żółta dalia i pomarańczowe kalie 🔵"
+    lang: pl
     caption: |
-      Blue gentian, yellow dahlia & orange callas 🔵
-      Minimal vase, maximal colour.
-      Delivery across Warsaw 🚗 #Warszawa
-      DM to order or customize your own!
+      Niebieska goryczka, żółta dalia i pomarańczowe kalie 🔵
+      Spokojne kolory, przy których oddycha całe wnętrze.
+      Dostawa na terenie Warszawy 🚗 #Warszawa
+      Pisz na DM — złożę Twoją wersję.
 
   - id: b062-sunset-callas-sapphire-ru
     image: batch-100/batch-062.jpg
@@ -996,19 +997,19 @@ posts:
     lang: ru
     caption: |
       Закатные каллы, оранжевые георгины и сапфировый синий 🌅
-      Минимальная ваза — максимум цвета.
-      Собираю под заказ в Варшаве #Warszawa
-      Пишите в директ для заказа.
+      Немного блеска для обычного дня.
+      На заказ по Варшаве 📍 #Warszawa
+      DM — подскажу по букету и срокам.
 
-  - id: b063-gentian-pompon-dahlia-en
+  - id: b063-gentian-pompon-dahlia-pl
     image: batch-100/batch-063.jpg
-    name: "Blue gentian, orange pompon dahlia & sunset calla ✨"
-    lang: en
+    name: "Niebieska goryczka, pomarańczowa dalia pomponowa i kalia ✨"
+    lang: pl
     caption: |
-      Blue gentian, orange pompon dahlia & sunset calla ✨
-      If you want “wow” without trying too hard — this is it.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      Write in DM — I'll make your version.
+      Niebieska goryczka, pomarańczowa dalia pomponowa i kalia ✨
+      Zrób sobie prezent. Serio.
+      Na zamówienie w Warszawie 📍 #Warszawa
+      Zamówienia przyjmuję w DM.
 
   - id: b064-soft-morning-ru
     image: batch-100/batch-064.jpg
@@ -1016,19 +1017,19 @@ posts:
     lang: ru
     caption: |
       Нежное утро — кремовая гербера, кустовые розы, голубая твидия ☁️
-      Если нужно «вау» без лишних усилий — вот оно.
-      На заказ по Варшаве 📍 #Warszawa
-      Напишите в DM — соберём ваш вариант.
+      Цветы, которые отказываются быть скучными.
+      Собираю под заказ в Варшаве #Warszawa
+      Пишите в директ для заказа.
 
-  - id: b065-autumn-pocket-en
+  - id: b065-autumn-pocket-pl
     image: batch-100/batch-065.jpg
-    name: "Pocket bouquet in autumn tones 🍂"
-    lang: en
+    name: "Kieszonkowy bukiet w jesiennych barwach 🍂"
+    lang: pl
     caption: |
-      Pocket bouquet in autumn tones 🍂
-      Layered textures and one bright accent.
-      Delivery across Warsaw 🚗 #Warszawa
-      Message me in DM to book.
+      Kieszonkowy bukiet w jesiennych barwach 🍂
+      Minimalny wazon, maksimum koloru.
+      Składam na zamówienie w Warszawie #Warszawa
+      Napisz w DM, żeby zamówić.
 
   - id: b066-blush-hydrangea-anthurium-ru
     image: batch-100/batch-066.jpg
@@ -1036,19 +1037,19 @@ posts:
     lang: ru
     caption: |
       Нежная гортензия и розовый антуриум 🌸
-      Слои фактур и один яркий акцент.
-      Собираю под заказ в Варшаве #Warszawa
-      DM — подскажу по букету и срокам.
+      Букет, который создаёт настроение раньше слов.
+      Самовывоз или доставка по Варшаве 📍 #Warszawa
+      Напишите в DM, чтобы заказать.
 
-  - id: b067-peach-callas-en
+  - id: b067-peach-callas-pl
     image: batch-100/batch-067.jpg
-    name: "Peach calla lilies, drawn out in a line ✨"
-    lang: en
+    name: "Brzoskwiniowe kalie ułożone w linię ✨"
+    lang: pl
     caption: |
-      Peach calla lilies, drawn out in a line ✨
-      Celebrate quietly. Flowers do the talking.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      DM for details.
+      Brzoskwiniowe kalie ułożone w linię ✨
+      Wyślij kolor komuś na drugi koniec miasta.
+      Odbiór lub dostawa w Warszawie 📍 #Warszawa
+      Pisz na DM — złożę Twoją wersję.
 
   - id: b068-crimson-still-life-ru
     image: batch-100/batch-068.jpg
@@ -1056,19 +1057,19 @@ posts:
     lang: ru
     caption: |
       Багровый натюрморт — гелихризум, антуриум, скумпия 🍷
-      Отметьте тихо. Цветы скажут за вас.
-      На заказ по Варшаве 📍 #Warszawa
-      Пишите в директ для заказа.
+      Букет, который создаёт настроение раньше слов.
+      Доставка по Варшаве 🚗 #Warszawa
+      Напишите в DM — соберём ваш вариант.
 
-  - id: b069-ember-dahlias-en
+  - id: b069-ember-dahlias-pl
     image: batch-100/batch-069.jpg
-    name: "Ember dahlias on burgundy hydrangea 🔥"
-    lang: en
+    name: "Ogniste dalie na bordowej hortensji 🔥"
+    lang: pl
     caption: |
-      Ember dahlias on burgundy hydrangea 🔥
-      A bouquet that photographs as well as it looks in person.
-      Delivery across Warsaw 🚗 #Warszawa
-      Write in DM — I'll make your version.
+      Ogniste dalie na bordowej hortensji 🔥
+      Niech zwykły wtorek będzie trochę wyjątkowy.
+      Dostawa na terenie Warszawy 🚗 #Warszawa
+      Napisz w DM — doradzę bukiet i termin.
 
   - id: b070-chartreuse-cascade-ru
     image: batch-100/batch-070.jpg
@@ -1076,797 +1077,797 @@ posts:
     lang: ru
     caption: |
       Салатовый каскад — молюцелла и свисающий амарант 🌿
-      Букет, который хорошо смотрится и вживую, и на фото.
-      Собираю под заказ в Варшаве #Warszawa
-      Напишите в DM, чтобы заказать.
+      Спокойные цвета, с которыми дышит вся комната.
+      На заказ по Варшаве 📍 #Warszawa
+      Пишите в директ для заказа.
 
-  - id: b072-coral-peonies-ru
+  - id: b072-coral-peonies-pl
     image: batch-100/batch-072.jpg
-    name: "Коралловые пионы — большой эффектный букет 🌷"
-    lang: ru
+    name: "Koralowe piwonie — duży, efektowny bukiet 🌷"
+    lang: pl
     caption: |
-      Коралловые пионы — большой эффектный букет 🌷
-      Тёплые тона для прохладных вечеров.
-      На заказ по Варшаве 📍 #Warszawa
-      DM — подскажу по букету и срокам.
+      Koralowe piwonie — duży, efektowny bukiet 🌷
+      Nasycone barwy i ciepłe akcenty — sezon w wazonie.
+      Na zamówienie w Warszawie 📍 #Warszawa
+      Napisz w DM, żeby zamówić.
 
-  - id: b073-ranunculus-carnival-en
+  - id: b073-ranunculus-carnival-ru
     image: batch-100/batch-073.jpg
-    name: "Ranunculus carnival — orange, pink, yellow 🎪"
-    lang: en
-    caption: |
-      Ranunculus carnival — orange, pink, yellow 🎪
-      Petals with personality — not a generic mix.
-      Delivery across Warsaw 🚗 #Warszawa
-      DM for details.
-
-  - id: b074-ranunculus-chamomile-vase-ru
-    image: batch-100/batch-074.jpg
-    name: "Ранункулюсы и ромашка в керамической вазе 🤍"
-    lang: ru
-    caption: |
-      Ранункулюсы и ромашка в керамической вазе 🤍
-      Лепестки с характером — не случайный микс.
-      Собираю под заказ в Варшаве #Warszawa
-      Напишите в DM — соберём ваш вариант.
-
-  - id: b075-red-rose-letters-en
-    image: batch-100/batch-075.jpg
-    name: "Red rose letter boxes — spell your word or date 🌹"
-    lang: en
-    caption: |
-      Red rose letter boxes — spell your word or date 🌹
-      Same flowers, different story each time — ask for your version.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      Message me in DM to book.
-
-  - id: b076-blushing-peonies-ru
-    image: batch-100/batch-076.jpg
-    name: "Нежные пионы — розовые и кремовые оборки 🌸"
-    lang: ru
-    caption: |
-      Нежные пионы — розовые и кремовые оборки 🌸
-      Те же цветы — другая история. Попросите свою версию.
-      На заказ по Варшаве 📍 #Warszawa
-      Напишите в DM, чтобы заказать.
-
-  - id: b077-anthurium-dahlia-physalis-en
-    image: batch-100/batch-077.jpg
-    name: "Red anthurium, burgundy dahlia & physalis 🍂"
-    lang: en
-    caption: |
-      Red anthurium, burgundy dahlia & physalis 🍂
-      Elegant enough for a hotel lobby, personal enough for home.
-      Delivery across Warsaw 🚗 #Warszawa
-      DM to order or customize your own!
-
-  - id: b078-burgundy-hydrangea-billy-balls-ru
-    image: batch-100/batch-078.jpg
-    name: "Бордовая гортензия с краспедией и георгиной 🟡"
-    lang: ru
-    caption: |
-      Бордовая гортензия с краспедией и георгиной 🟡
-      Достаточно элегантно для лобби и достаточно лично для дома.
-      Собираю под заказ в Варшаве #Warszawa
-      Пишите в директ для заказа.
-
-  - id: b079-burgundy-hydrangea-orange-dahlia-en
-    image: batch-100/batch-079.jpg
-    name: "Burgundy hydrangea, orange dahlia & green anthurium 🧡"
-    lang: en
-    caption: |
-      Burgundy hydrangea, orange dahlia & green anthurium 🧡
-      Treat yourself. Seriously.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      Write in DM — I'll make your version.
-
-  - id: b080-fiery-crocosmia-ru
-    image: batch-100/batch-080.jpg
-    name: "Огненная крокосмия с блестящими красными ягодами 🔥"
-    lang: ru
-    caption: |
-      Огненная крокосмия с блестящими красными ягодами 🔥
-      Подарите себе. Серьёзно.
-      На заказ по Варшаве 📍 #Warszawa
-      Напишите в DM — соберём ваш вариант.
-
-  - id: b081-pink-hydrangea-anthurium-en
-    image: batch-100/batch-081.jpg
-    name: "Pink hydrangea, pink anthurium & bells of Ireland 🌿"
-    lang: en
-    caption: |
-      Pink hydrangea, pink anthurium & bells of Ireland 🌿
-      A little sparkle for an ordinary day.
-      Delivery across Warsaw 🚗 #Warszawa
-      Message me in DM to book.
-
-  - id: b082-peach-pompon-dahlias-ru
-    image: batch-100/batch-082.jpg
-    name: "Персиковые и розовые помпонные георгины 🍑"
-    lang: ru
-    caption: |
-      Персиковые и розовые помпонные георгины 🍑
-      Немного блеска для обычного дня.
-      Собираю под заказ в Варшаве #Warszawa
-      DM — подскажу по букету и срокам.
-
-  - id: b083-burgundy-hydrangea-stock-en
-    image: batch-100/batch-083.jpg
-    name: "Burgundy hydrangea, peach stock & white dahlias 🤍"
-    lang: en
-    caption: |
-      Burgundy hydrangea, peach stock & white dahlias 🤍
-      When the table needs a centrepiece, not decoration.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      DM for details.
-
-  - id: b084-deep-hydrangea-pompons-ru
-    image: batch-100/batch-084.jpg
-    name: "Глубокая гортензия, персиковая левкоя и белые помпоны ✨"
-    lang: ru
-    caption: |
-      Глубокая гортензия, персиковая левкоя и белые помпоны ✨
-      Когда столу нужен центр, а не «просто украшение».
-      На заказ по Варшаве 📍 #Warszawa
-      Пишите в директ для заказа.
-
-  - id: b085-carmine-and-smoke-en
-    image: batch-100/batch-085.jpg
-    name: "Carmine & smoke — red anthurium, dark daisy, ornamental allium 🍷"
-    lang: en
-    caption: |
-      Carmine & smoke — red anthurium, dark daisy, ornamental allium 🍷
-      Fresh stems, honest composition, no plastic shine.
-      Delivery across Warsaw 🚗 #Warszawa
-      Write in DM — I'll make your version.
-
-  - id: b086-flame-parrot-flowers-ru
-    image: batch-100/batch-086.jpg
-    name: "Огненные попугайные цветы, оранжевые ягоды и лимониум 🧡"
-    lang: ru
-    caption: |
-      Огненные попугайные цветы, оранжевые ягоды и лимониум 🧡
-      Свежие стебли, честная композиция, без пластикового блеска.
-      Собираю под заказ в Варшаве #Warszawa
-      Напишите в DM, чтобы заказать.
-
-  - id: b087-brunia-sea-lavender-en
-    image: batch-100/batch-087.jpg
-    name: "Brunia & sea lavender in a textured vase 🌿"
-    lang: en
-    caption: |
-      Brunia & sea lavender in a textured vase 🌿
-      A thank-you that feels like a thank-you.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      DM to order or customize your own!
-
-  - id: b088-green-berries-statice-ru
-    image: batch-100/batch-088.jpg
-    name: "Зелёные ягодные грозди и лавандовый статице 💜"
-    lang: ru
-    caption: |
-      Зелёные ягодные грозди и лавандовый статице 💜
-      «Спасибо», которое ощущается как спасибо.
-      На заказ по Варшаве 📍 #Warszawa
-      DM — подскажу по букету и срокам.
-
-  - id: b089-golden-chrysanthemums-en
-    image: batch-100/batch-089.jpg
-    name: "Golden pompon chrysanthemums 💛"
-    lang: en
-    caption: |
-      Golden pompon chrysanthemums 💛
-      Moody florals for people who skip pastels.
-      Delivery across Warsaw 🚗 #Warszawa
-      DM for details.
-
-  - id: b090-pink-rose-lilies-ru
-    image: batch-100/batch-090.jpg
-    name: "Нежно-розовые махровые розолилии 🌷"
-    lang: ru
-    caption: |
-      Нежно-розовые махровые розолилии 🌷
-      Глубокие, насыщенные тона — для тех, кто проходит мимо пастели.
-      Собираю под заказ в Варшаве #Warszawa
-      Напишите в DM — соберём ваш вариант.
-
-  - id: b091-copper-chrysanthemums-en
-    image: batch-100/batch-091.jpg
-    name: "Sunny yellow & copper autumn chrysanthemums ☀️"
-    lang: en
-    caption: |
-      Sunny yellow & copper autumn chrysanthemums ☀️
-      Light, airy, and impossible to ignore.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      Message me in DM to book.
-
-  - id: b092-dahlia-calla-gentian-ru
-    image: batch-100/batch-092.jpg
-    name: "Оранжевая георгина, закатная калла и синяя горечавка 💙"
-    lang: ru
-    caption: |
-      Оранжевая георгина, закатная калла и синяя горечавка 💙
-      Лёгкий, воздушный и невозможно не заметить.
-      На заказ по Варшаве 📍 #Warszawa
-      Напишите в DM, чтобы заказать.
-
-  - id: b093-gentian-yellow-dahlia-en
-    image: batch-100/batch-093.jpg
-    name: "Blue gentian, yellow dahlia & orange callas 🔵"
-    lang: en
-    caption: |
-      Blue gentian, yellow dahlia & orange callas 🔵
-      Built stem by stem — nothing random.
-      Delivery across Warsaw 🚗 #Warszawa
-      DM to order or customize your own!
-
-  - id: b094-sunset-callas-sapphire-ru
-    image: batch-100/batch-094.jpg
-    name: "Закатные каллы, оранжевые георгины и сапфировый синий 🌅"
-    lang: ru
-    caption: |
-      Закатные каллы, оранжевые георгины и сапфировый синий 🌅
-      Стебель за стеблем — ничего случайного.
-      Собираю под заказ в Варшаве #Warszawa
-      Пишите в директ для заказа.
-
-  - id: b095-gentian-pompon-dahlia-en
-    image: batch-100/batch-095.jpg
-    name: "Blue gentian, orange pompon dahlia & sunset calla ✨"
-    lang: en
-    caption: |
-      Blue gentian, orange pompon dahlia & sunset calla ✨
-      Send colour to someone across the city.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      Write in DM — I'll make your version.
-
-  - id: b096-soft-morning-ru
-    image: batch-100/batch-096.jpg
-    name: "Нежное утро — кремовая гербера, кустовые розы, голубая твидия ☁️"
-    lang: ru
-    caption: |
-      Нежное утро — кремовая гербера, кустовые розы, голубая твидия ☁️
-      Отправьте цвет кому-то через весь город.
-      На заказ по Варшаве 📍 #Warszawa
-      Напишите в DM — соберём ваш вариант.
-
-  - id: b097-autumn-pocket-en
-    image: batch-100/batch-097.jpg
-    name: "Pocket bouquet in autumn tones 🍂"
-    lang: en
-    caption: |
-      Pocket bouquet in autumn tones 🍂
-      Studio drop: another favourite composition, ready when you are.
-      Delivery across Warsaw 🚗 #Warszawa
-      Message me in DM to book.
-
-  - id: b098-blush-hydrangea-anthurium-ru
-    image: batch-100/batch-098.jpg
-    name: "Нежная гортензия и розовый антуриум 🌸"
-    lang: ru
-    caption: |
-      Нежная гортензия и розовый антуриум 🌸
-      Ещё одна любимая сборка студии — готова, когда вы готовы.
-      Собираю под заказ в Варшаве #Warszawa
-      DM — подскажу по букету и срокам.
-
-  - id: b099-peach-callas-en
-    image: batch-100/batch-099.jpg
-    name: "Peach calla lilies, drawn out in a line ✨"
-    lang: en
-    caption: |
-      Peach calla lilies, drawn out in a line ✨
-      Flowers that hold their shape all week — care tips on request.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      DM for details.
-
-  - id: b100-crimson-still-life-ru
-    image: batch-100/batch-100.jpg
-    name: "Багровый натюрморт — гелихризум, антуриум, скумпия 🍷"
-    lang: ru
-    caption: |
-      Багровый натюрморт — гелихризум, антуриум, скумпия 🍷
-      Цветы, которые держат форму всю неделю — подскажу, как ухаживать.
-      На заказ по Варшаве 📍 #Warszawa
-      Пишите в директ для заказа.
-
-  # ---------- BATCH-50 (new clean variants, EN/RU single-lang, #Warszawa) ----------
-  - id: v001-ranunculus-carnival-en
-    image: batch-50/var-001.jpg
-    name: "Ranunculus carnival — orange, pink, yellow 🎪"
-    lang: en
-    caption: |
-      Ranunculus carnival — orange, pink, yellow 🎪
-      A gift that arrives looking expensive — because it is considered.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      DM for details.
-
-  - id: v002-fiery-crocosmia-ru
-    image: batch-50/var-002.jpg
-    name: "Огненная крокосмия с блестящими красными ягодами 🔥"
-    lang: ru
-    caption: |
-      Огненная крокосмия с блестящими красными ягодами 🔥
-      Подарок, который выглядит дорого — потому что продуман.
-      На заказ по Варшаве 📍 #Warszawa
-      Пишите в директ для заказа.
-
-  - id: v003-brunia-sea-lavender-en
-    image: batch-50/var-003.jpg
-    name: "Brunia & sea lavender in a textured vase 🌿"
-    lang: en
-    caption: |
-      Brunia & sea lavender in a textured vase 🌿
-      Seasonal palette, no filler fluff.
-      Delivery across Warsaw 🚗 #Warszawa
-      Write in DM — I'll make your version.
-
-  - id: v004-sunset-callas-sapphire-ru
-    image: batch-50/var-004.jpg
-    name: "Закатные каллы, оранжевые георгины и сапфировый синий 🌅"
-    lang: ru
-    caption: |
-      Закатные каллы, оранжевые георгины и сапфировый синий 🌅
-      Сезонная палитра, без пустого наполнителя.
-      Собираю под заказ в Варшаве #Warszawa
-      Напишите в DM, чтобы заказать.
-
-  - id: v005-ember-dahlias-en
-    image: batch-50/var-005.jpg
-    name: "Ember dahlias on burgundy hydrangea 🔥"
-    lang: en
-    caption: |
-      Ember dahlias on burgundy hydrangea 🔥
-      Bring the garden indoors for one beautiful week.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      DM to order or customize your own!
-
-  - id: v006-anthurium-dahlia-physalis-ru
-    image: batch-50/var-006.jpg
-    name: "Красный антуриум, бордовая георгина и физалис 🍂"
-    lang: ru
-    caption: |
-      Красный антуриум, бордовая георгина и физалис 🍂
-      Принесите сад в дом хотя бы на неделю.
-      На заказ по Варшаве 📍 #Warszawa
-      DM — подскажу по букету и срокам.
-
-  - id: v007-deep-hydrangea-pompons-en
-    image: batch-50/var-007.jpg
-    name: "Deep hydrangea, peach stock & white pompons ✨"
-    lang: en
-    caption: |
-      Deep hydrangea, peach stock & white pompons ✨
-      Bold energy for modern interiors.
-      Delivery across Warsaw 🚗 #Warszawa
-      DM for details.
-
-  - id: v008-copper-chrysanthemums-ru
-    image: batch-50/var-008.jpg
-    name: "Солнечно-жёлтые и медные осенние хризантемы ☀️"
-    lang: ru
-    caption: |
-      Солнечно-жёлтые и медные осенние хризантемы ☀️
-      Смелая энергия для современных интерьеров.
-      Собираю под заказ в Варшаве #Warszawa
-      Напишите в DM — соберём ваш вариант.
-
-  - id: v009-blush-hydrangea-anthurium-en
-    image: batch-50/var-009.jpg
-    name: "Blush hydrangea & pink anthurium 🌸"
-    lang: en
-    caption: |
-      Blush hydrangea & pink anthurium 🌸
-      Flowers that refuse to be boring.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      Message me in DM to book.
-
-  - id: v010-ranunculus-chamomile-vase-ru
-    image: batch-50/var-010.jpg
-    name: "Ранункулюсы и ромашка в керамической вазе 🤍"
-    lang: ru
-    caption: |
-      Ранункулюсы и ромашка в керамической вазе 🤍
-      Цветы, которые отказываются быть скучными.
-      На заказ по Варшаве 📍 #Warszawa
-      Напишите в DM, чтобы заказать.
-
-  - id: v011-pink-hydrangea-anthurium-en
-    image: batch-50/var-011.jpg
-    name: "Pink hydrangea, pink anthurium & bells of Ireland 🌿"
-    lang: en
-    caption: |
-      Pink hydrangea, pink anthurium & bells of Ireland 🌿
-      Soft morning light vibes, any time of day.
-      Delivery across Warsaw 🚗 #Warszawa
-      DM to order or customize your own!
-
-  - id: v012-green-berries-statice-ru
-    image: batch-50/var-012.jpg
-    name: "Зелёные ягодные грозди и лавандовый статице 💜"
-    lang: ru
-    caption: |
-      Зелёные ягодные грозди и лавандовый статице 💜
-      Настроение мягкого утра — в любое время дня.
-      Собираю под заказ в Варшаве #Warszawa
-      Пишите в директ для заказа.
-
-  - id: v013-gentian-pompon-dahlia-en
-    image: batch-50/var-013.jpg
-    name: "Blue gentian, orange pompon dahlia & sunset calla ✨"
-    lang: en
-    caption: |
-      Blue gentian, orange pompon dahlia & sunset calla ✨
-      Wrapped with care, ready to surprise someone you love.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      Write in DM — I'll make your version.
-
-  - id: v014-chartreuse-cascade-ru
-    image: batch-50/var-014.jpg
-    name: "Салатовый каскад — молюцелла и свисающий амарант 🌿"
-    lang: ru
-    caption: |
-      Салатовый каскад — молюцелла и свисающий амарант 🌿
-      Упаковано с заботой — готово удивить того, кого вы любите.
-      На заказ по Варшаве 📍 #Warszawa
-      Напишите в DM — соберём ваш вариант.
-
-  - id: v015-burgundy-hydrangea-billy-balls-en
-    image: batch-50/var-015.jpg
-    name: "Burgundy hydrangea with billy balls & dahlia 🟡"
-    lang: en
-    caption: |
-      Burgundy hydrangea with billy balls & dahlia 🟡
-      Minimal vase, maximal colour.
-      Delivery across Warsaw 🚗 #Warszawa
-      Message me in DM to book.
-
-  - id: v016-carmine-and-smoke-ru
-    image: batch-50/var-016.jpg
-    name: "Кармин и дым — красный антуриум, тёмная маргаритка, декоративный лук 🍷"
-    lang: ru
-    caption: |
-      Кармин и дым — красный антуриум, тёмная маргаритка, декоративный лук 🍷
-      Минимальная ваза — максимум цвета.
-      Собираю под заказ в Варшаве #Warszawa
-      DM — подскажу по букету и срокам.
-
-  - id: v017-dahlia-calla-gentian-en
-    image: batch-50/var-017.jpg
-    name: "Orange dahlia, sunset calla & blue gentian 💙"
-    lang: en
-    caption: |
-      Orange dahlia, sunset calla & blue gentian 💙
-      If you want “wow” without trying too hard — this is it.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      DM for details.
-
-  - id: v018-peach-callas-ru
-    image: batch-50/var-018.jpg
-    name: "Персиковые каллы, выстроенные в линию ✨"
-    lang: ru
-    caption: |
-      Персиковые каллы, выстроенные в линию ✨
-      Если нужно «вау» без лишних усилий — вот оно.
-      На заказ по Варшаве 📍 #Warszawa
-      Пишите в директ для заказа.
-
-  - id: v019-red-rose-letters-en
-    image: batch-50/var-019.jpg
-    name: "Red rose letter boxes — spell your word or date 🌹"
-    lang: en
-    caption: |
-      Red rose letter boxes — spell your word or date 🌹
-      Layered textures and one bright accent.
-      Delivery across Warsaw 🚗 #Warszawa
-      Write in DM — I'll make your version.
-
-  - id: v020-peach-pompon-dahlias-ru
-    image: batch-50/var-020.jpg
-    name: "Персиковые и розовые помпонные георгины 🍑"
-    lang: ru
-    caption: |
-      Персиковые и розовые помпонные георгины 🍑
-      Слои фактур и один яркий акцент.
-      Собираю под заказ в Варшаве #Warszawa
-      Напишите в DM, чтобы заказать.
-
-  - id: v021-golden-chrysanthemums-en
-    image: batch-50/var-021.jpg
-    name: "Golden pompon chrysanthemums 💛"
-    lang: en
-    caption: |
-      Golden pompon chrysanthemums 💛
-      Celebrate quietly. Flowers do the talking.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      DM to order or customize your own!
-
-  - id: v022-soft-morning-ru
-    image: batch-50/var-022.jpg
-    name: "Нежное утро — кремовая гербера, кустовые розы, голубая твидия ☁️"
-    lang: ru
-    caption: |
-      Нежное утро — кремовая гербера, кустовые розы, голубая твидия ☁️
-      Отметьте тихо. Цветы скажут за вас.
-      На заказ по Варшаве 📍 #Warszawa
-      DM — подскажу по букету и срокам.
-
-  - id: v023-coral-peonies-en
-    image: batch-50/var-023.jpg
-    name: "Coral peonies — an oversized statement bouquet 🌷"
-    lang: en
-    caption: |
-      Coral peonies — an oversized statement bouquet 🌷
-      A bouquet that photographs as well as it looks in person.
-      Delivery across Warsaw 🚗 #Warszawa
-      DM for details.
-
-  - id: v024-burgundy-hydrangea-orange-dahlia-ru
-    image: batch-50/var-024.jpg
-    name: "Бордовая гортензия, оранжевая георгина и зелёный антуриум 🧡"
-    lang: ru
-    caption: |
-      Бордовая гортензия, оранжевая георгина и зелёный антуриум 🧡
-      Букет, который хорошо смотрится и вживую, и на фото.
-      Собираю под заказ в Варшаве #Warszawa
-      Напишите в DM — соберём ваш вариант.
-
-  - id: v025-flame-parrot-flowers-en
-    image: batch-50/var-025.jpg
-    name: "Flame parrot flowers, orange berries & limonium 🧡"
-    lang: en
-    caption: |
-      Flame parrot flowers, orange berries & limonium 🧡
-      Warm tones for cooler evenings.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      Message me in DM to book.
-
-  - id: v026-gentian-yellow-dahlia-ru
-    image: batch-50/var-026.jpg
-    name: "Синяя горечавка, жёлтая георгина и оранжевые каллы 🔵"
-    lang: ru
-    caption: |
-      Синяя горечавка, жёлтая георгина и оранжевые каллы 🔵
-      Тёплые тона для прохладных вечеров.
-      На заказ по Варшаве 📍 #Warszawa
-      Напишите в DM, чтобы заказать.
-
-  - id: v027-crimson-still-life-en
-    image: batch-50/var-027.jpg
-    name: "Crimson still life — strawflower, anthurium, smokebush 🍷"
-    lang: en
-    caption: |
-      Crimson still life — strawflower, anthurium, smokebush 🍷
-      Petals with personality — not a generic mix.
-      Delivery across Warsaw 🚗 #Warszawa
-      DM to order or customize your own!
-
-  - id: v028-blushing-peonies-ru
-    image: batch-50/var-028.jpg
-    name: "Нежные пионы — розовые и кремовые оборки 🌸"
-    lang: ru
-    caption: |
-      Нежные пионы — розовые и кремовые оборки 🌸
-      Лепестки с характером — не случайный микс.
-      Собираю под заказ в Варшаве #Warszawa
-      Пишите в директ для заказа.
-
-  - id: v029-burgundy-hydrangea-stock-en
-    image: batch-50/var-029.jpg
-    name: "Burgundy hydrangea, peach stock & white dahlias 🤍"
-    lang: en
-    caption: |
-      Burgundy hydrangea, peach stock & white dahlias 🤍
-      Same flowers, different story each time — ask for your version.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      Write in DM — I'll make your version.
-
-  - id: v030-pink-rose-lilies-ru
-    image: batch-50/var-030.jpg
-    name: "Нежно-розовые махровые розолилии 🌷"
-    lang: ru
-    caption: |
-      Нежно-розовые махровые розолилии 🌷
-      Те же цветы — другая история. Попросите свою версию.
-      На заказ по Варшаве 📍 #Warszawa
-      Напишите в DM — соберём ваш вариант.
-
-  - id: v031-autumn-pocket-en
-    image: batch-50/var-031.jpg
-    name: "Pocket bouquet in autumn tones 🍂"
-    lang: en
-    caption: |
-      Pocket bouquet in autumn tones 🍂
-      Elegant enough for a hotel lobby, personal enough for home.
-      Delivery across Warsaw 🚗 #Warszawa
-      Message me in DM to book.
-
-  - id: v032-ranunculus-carnival-ru
-    image: batch-50/var-032.jpg
     name: "Карнавал ранункулюсов — оранжевый, розовый, жёлтый 🎪"
     lang: ru
     caption: |
       Карнавал ранункулюсов — оранжевый, розовый, жёлтый 🎪
-      Достаточно элегантно для лобби и достаточно лично для дома.
-      Собираю под заказ в Варшаве #Warszawa
-      DM — подскажу по букету и срокам.
-
-  - id: v033-fiery-crocosmia-en
-    image: batch-50/var-033.jpg
-    name: "Fiery crocosmia with glossy red berries 🔥"
-    lang: en
-    caption: |
-      Fiery crocosmia with glossy red berries 🔥
-      Treat yourself. Seriously.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      DM for details.
-
-  - id: v034-brunia-sea-lavender-ru
-    image: batch-50/var-034.jpg
-    name: "Бруния и морская лаванда в фактурной вазе 🌿"
-    lang: ru
-    caption: |
-      Бруния и морская лаванда в фактурной вазе 🌿
-      Подарите себе. Серьёзно.
-      На заказ по Варшаве 📍 #Warszawa
-      Пишите в директ для заказа.
-
-  - id: v035-sunset-callas-sapphire-en
-    image: batch-50/var-035.jpg
-    name: "Sunset callas, orange dahlias & sapphire blue 🌅"
-    lang: en
-    caption: |
-      Sunset callas, orange dahlias & sapphire blue 🌅
-      A little sparkle for an ordinary day.
-      Delivery across Warsaw 🚗 #Warszawa
-      Write in DM — I'll make your version.
-
-  - id: v036-ember-dahlias-ru
-    image: batch-50/var-036.jpg
-    name: "Огненные георгины на бордовой гортензии 🔥"
-    lang: ru
-    caption: |
-      Огненные георгины на бордовой гортензии 🔥
       Немного блеска для обычного дня.
       Собираю под заказ в Варшаве #Warszawa
       Напишите в DM, чтобы заказать.
 
-  - id: v037-anthurium-dahlia-physalis-en
-    image: batch-50/var-037.jpg
-    name: "Red anthurium, burgundy dahlia & physalis 🍂"
-    lang: en
+  - id: b074-ranunculus-chamomile-vase-pl
+    image: batch-100/batch-074.jpg
+    name: "Jaskry i rumianek w ceramicznym wazonie 🤍"
+    lang: pl
     caption: |
-      Red anthurium, burgundy dahlia & physalis 🍂
-      When the table needs a centrepiece, not decoration.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      DM to order or customize your own!
+      Jaskry i rumianek w ceramicznym wazonie 🤍
+      Świeże, sezonowe kwiaty — złożone pod Twoje zamówienie.
+      Składam na zamówienie w Warszawie #Warszawa
+      Pisz na DM — złożę Twoją wersję.
 
-  - id: v038-deep-hydrangea-pompons-ru
-    image: batch-50/var-038.jpg
-    name: "Глубокая гортензия, персиковая левкоя и белые помпоны ✨"
-    lang: ru
-    caption: |
-      Глубокая гортензия, персиковая левкоя и белые помпоны ✨
-      Когда столу нужен центр, а не «просто украшение».
-      На заказ по Варшаве 📍 #Warszawa
-      DM — подскажу по букету и срокам.
-
-  - id: v039-copper-chrysanthemums-en
-    image: batch-50/var-039.jpg
-    name: "Sunny yellow & copper autumn chrysanthemums ☀️"
-    lang: en
-    caption: |
-      Sunny yellow & copper autumn chrysanthemums ☀️
-      Fresh stems, honest composition, no plastic shine.
-      Delivery across Warsaw 🚗 #Warszawa
-      DM for details.
-
-  - id: v040-blush-hydrangea-anthurium-ru
-    image: batch-50/var-040.jpg
-    name: "Нежная гортензия и розовый антуриум 🌸"
-    lang: ru
-    caption: |
-      Нежная гортензия и розовый антуриум 🌸
-      Свежие стебли, честная композиция, без пластикового блеска.
-      Собираю под заказ в Варшаве #Warszawa
-      Напишите в DM — соберём ваш вариант.
-
-  - id: v041-ranunculus-chamomile-vase-en
-    image: batch-50/var-041.jpg
-    name: "Ranunculus & chamomile in a ceramic vase 🤍"
-    lang: en
-    caption: |
-      Ranunculus & chamomile in a ceramic vase 🤍
-      A thank-you that feels like a thank-you.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      Message me in DM to book.
-
-  - id: v042-pink-hydrangea-anthurium-ru
-    image: batch-50/var-042.jpg
-    name: "Розовая гортензия, розовый антуриум и ирландские колокольчики 🌿"
-    lang: ru
-    caption: |
-      Розовая гортензия, розовый антуриум и ирландские колокольчики 🌿
-      «Спасибо», которое ощущается как спасибо.
-      На заказ по Варшаве 📍 #Warszawa
-      Напишите в DM, чтобы заказать.
-
-  - id: v043-green-berries-statice-en
-    image: batch-50/var-043.jpg
-    name: "Green berry clusters & lavender statice 💜"
-    lang: en
-    caption: |
-      Green berry clusters & lavender statice 💜
-      Moody florals for people who skip pastels.
-      Delivery across Warsaw 🚗 #Warszawa
-      DM to order or customize your own!
-
-  - id: v044-gentian-pompon-dahlia-ru
-    image: batch-50/var-044.jpg
-    name: "Синяя горечавка, оранжевая помпонная георгина и закатная калла ✨"
-    lang: ru
-    caption: |
-      Синяя горечавка, оранжевая помпонная георгина и закатная калла ✨
-      Глубокие, насыщенные тона — для тех, кто проходит мимо пастели.
-      Собираю под заказ в Варшаве #Warszawa
-      Пишите в директ для заказа.
-
-  - id: v045-chartreuse-cascade-en
-    image: batch-50/var-045.jpg
-    name: "Chartreuse cascade — bells of Ireland & hanging amaranth 🌿"
-    lang: en
-    caption: |
-      Chartreuse cascade — bells of Ireland & hanging amaranth 🌿
-      Light, airy, and impossible to ignore.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      Write in DM — I'll make your version.
-
-  - id: v046-burgundy-hydrangea-billy-balls-ru
-    image: batch-50/var-046.jpg
-    name: "Бордовая гортензия с краспедией и георгиной 🟡"
-    lang: ru
-    caption: |
-      Бордовая гортензия с краспедией и георгиной 🟡
-      Лёгкий, воздушный и невозможно не заметить.
-      На заказ по Варшаве 📍 #Warszawa
-      Напишите в DM — соберём ваш вариант.
-
-  - id: v047-carmine-and-smoke-en
-    image: batch-50/var-047.jpg
-    name: "Carmine & smoke — red anthurium, dark daisy, ornamental allium 🍷"
-    lang: en
-    caption: |
-      Carmine & smoke — red anthurium, dark daisy, ornamental allium 🍷
-      Built stem by stem — nothing random.
-      Delivery across Warsaw 🚗 #Warszawa
-      Message me in DM to book.
-
-  - id: v048-dahlia-calla-gentian-ru
-    image: batch-50/var-048.jpg
-    name: "Оранжевая георгина, закатная калла и синяя горечавка 💙"
-    lang: ru
-    caption: |
-      Оранжевая георгина, закатная калла и синяя горечавка 💙
-      Стебель за стеблем — ничего случайного.
-      Собираю под заказ в Варшаве #Warszawa
-      DM — подскажу по букету и срокам.
-
-  - id: v049-peach-callas-en
-    image: batch-50/var-049.jpg
-    name: "Peach calla lilies, drawn out in a line ✨"
-    lang: en
-    caption: |
-      Peach calla lilies, drawn out in a line ✨
-      Send colour to someone across the city.
-      Pickup or delivery in Warsaw 📍 #Warszawa
-      DM for details.
-
-  - id: v050-red-rose-letters-ru
-    image: batch-50/var-050.jpg
+  - id: b075-red-rose-letters-ru
+    image: batch-100/batch-075.jpg
     name: "Буквы из красных роз — ваше слово или дата 🌹"
     lang: ru
     caption: |
       Буквы из красных роз — ваше слово или дата 🌹
       Отправьте цвет кому-то через весь город.
+      Самовывоз или доставка по Варшаве 📍 #Warszawa
+      Напишите в DM — соберём ваш вариант.
+
+  - id: b076-blushing-peonies-pl
+    image: batch-100/batch-076.jpg
+    name: "Delikatne piwonie — różowe i kremowe falbanki 🌸"
+    lang: pl
+    caption: |
+      Delikatne piwonie — różowe i kremowe falbanki 🌸
+      Wyślij kolor komuś na drugi koniec miasta.
+      Odbiór lub dostawa w Warszawie 📍 #Warszawa
+      Napisz w DM — doradzę bukiet i termin.
+
+  - id: b077-anthurium-dahlia-physalis-ru
+    image: batch-100/batch-077.jpg
+    name: "Красный антуриум, бордовая георгина и физалис 🍂"
+    lang: ru
+    caption: |
+      Красный антуриум, бордовая георгина и физалис 🍂
+      Свежий срез, аккуратная упаковка, бережная доставка.
+      Доставка по Варшаве 🚗 #Warszawa
+      DM — подскажу по букету и срокам.
+
+  - id: b078-burgundy-hydrangea-billy-balls-pl
+    image: batch-100/batch-078.jpg
+    name: "Bordowa hortensja z kraspedią i dalią 🟡"
+    lang: pl
+    caption: |
+      Bordowa hortensja z kraspedią i dalią 🟡
+      Wygląda dziko, a jest złożony bardzo świadomie. I o to chodzi.
+      Dostawa na terenie Warszawy 🚗 #Warszawa
+      Zamówienia przyjmuję w DM.
+
+  - id: b079-burgundy-hydrangea-orange-dahlia-ru
+    image: batch-100/batch-079.jpg
+    name: "Бордовая гортензия, оранжевая георгина и зелёный антуриум 🧡"
+    lang: ru
+    caption: |
+      Бордовая гортензия, оранжевая георгина и зелёный антуриум 🧡
+      Те же цветы — другая история. Попросите свою версию.
+      На заказ по Варшаве 📍 #Warszawa
+      Напишите в DM, чтобы заказать.
+
+  - id: b080-fiery-crocosmia-pl
+    image: batch-100/batch-080.jpg
+    name: "Ognista krokosmia z lśniącymi czerwonymi jagodami 🔥"
+    lang: pl
+    caption: |
+      Ognista krokosmia z lśniącymi czerwonymi jagodami 🔥
+      Bukiet, który buduje nastrój, zanim ktokolwiek się odezwie.
+      Na zamówienie w Warszawie 📍 #Warszawa
+      Pisz na DM — złożę Twoją wersję.
+
+  - id: b081-pink-hydrangea-anthurium-ru
+    image: batch-100/batch-081.jpg
+    name: "Розовая гортензия, розовый антуриум и молюцелла 🌿"
+    lang: ru
+    caption: |
+      Розовая гортензия, розовый антуриум и молюцелла 🌿
+      Тёплые тона для прохладных вечеров.
+      Собираю под заказ в Варшаве #Warszawa
+      Напишите в DM — соберём ваш вариант.
+
+  - id: b082-peach-pompon-dahlias-pl
+    image: batch-100/batch-082.jpg
+    name: "Brzoskwiniowe i różowe dalie pomponowe 🍑"
+    lang: pl
+    caption: |
+      Brzoskwiniowe i różowe dalie pomponowe 🍑
+      Kwiaty, które nie chcą być nudne.
+      Składam na zamówienie w Warszawie #Warszawa
+      Napisz w DM — doradzę bukiet i termin.
+
+  - id: b083-burgundy-hydrangea-stock-ru
+    image: batch-100/batch-083.jpg
+    name: "Бордовая гортензия, персиковая левкоя и белые георгины 🤍"
+    lang: ru
+    caption: |
+      Бордовая гортензия, персиковая левкоя и белые георгины 🤍
+      Тихая роскошь: ручная сборка и живой характер.
+      Самовывоз или доставка по Варшаве 📍 #Warszawa
+      DM — подскажу по букету и срокам.
+
+  - id: b084-deep-hydrangea-pompons-pl
+    image: batch-100/batch-084.jpg
+    name: "Ciemna hortensja, brzoskwiniowa lewkonia i białe pompony ✨"
+    lang: pl
+    caption: |
+      Ciemna hortensja, brzoskwiniowa lewkonia i białe pompony ✨
+      Świeże, sezonowe kwiaty — złożone pod Twoje zamówienie.
+      Odbiór lub dostawa w Warszawie 📍 #Warszawa
+      Zamówienia przyjmuję w DM.
+
+  - id: b085-carmine-and-smoke-ru
+    image: batch-100/batch-085.jpg
+    name: "Кармин и дым — красный антуриум, тёмная маргаритка, декоративный лук 🍷"
+    lang: ru
+    caption: |
+      Кармин и дым — красный антуриум, тёмная маргаритка, декоративный лук 🍷
+      Тихая роскошь: ручная сборка и живой характер.
+      Доставка по Варшаве 🚗 #Warszawa
+      Пишите в директ для заказа.
+
+  - id: b086-flame-parrot-flowers-pl
+    image: batch-100/batch-086.jpg
+    name: "Płomienne helikonie, pomarańczowe jagody i limonium 🧡"
+    lang: pl
+    caption: |
+      Płomienne helikonie, pomarańczowe jagody i limonium 🧡
+      To nie są kwiaty z supermarketu. Przemyślana kompozycja i sezonowy dobór.
+      Dostawa na terenie Warszawy 🚗 #Warszawa
+      Napisz w DM, żeby zamówić.
+
+  - id: b087-brunia-sea-lavender-ru
+    image: batch-100/batch-087.jpg
+    name: "Бруния и кермек в фактурной вазе 🌿"
+    lang: ru
+    caption: |
+      Бруния и кермек в фактурной вазе 🌿
+      Букет, который создаёт настроение раньше слов.
+      На заказ по Варшаве 📍 #Warszawa
+      Напишите в DM — соберём ваш вариант.
+
+  - id: b088-green-berries-statice-pl
+    image: batch-100/batch-088.jpg
+    name: "Zielone kiście jagód i lawendowy zatrwian 💜"
+    lang: pl
+    caption: |
+      Zielone kiście jagód i lawendowy zatrwian 💜
+      Nasycone barwy i ciepłe akcenty — sezon w wazonie.
+      Na zamówienie w Warszawie 📍 #Warszawa
+      Napisz w DM — doradzę bukiet i termin.
+
+  - id: b089-golden-chrysanthemums-ru
+    image: batch-100/batch-089.jpg
+    name: "Золотые помпонные хризантемы 💛"
+    lang: ru
+    caption: |
+      Золотые помпонные хризантемы 💛
+      Подарок, который выглядит дорого — потому что продуман.
+      Собираю под заказ в Варшаве #Warszawa
+      DM — подскажу по букету и срокам.
+
+  - id: b090-pink-rose-lilies-pl
+    image: batch-100/batch-090.jpg
+    name: "Pudrowo-różowe pełne lilie 🌷"
+    lang: pl
+    caption: |
+      Pudrowo-różowe pełne lilie 🌷
+      Mały bukiet, wielkie emocje.
+      Składam na zamówienie w Warszawie #Warszawa
+      Zamówienia przyjmuję w DM.
+
+  - id: b091-copper-chrysanthemums-ru
+    image: batch-100/batch-091.jpg
+    name: "Солнечно-жёлтые и медные осенние хризантемы ☀️"
+    lang: ru
+    caption: |
+      Солнечно-жёлтые и медные осенние хризантемы ☀️
+      Тёплые тона для прохладных вечеров.
+      Самовывоз или доставка по Варшаве 📍 #Warszawa
+      Пишите в директ для заказа.
+
+  - id: b092-dahlia-calla-gentian-pl
+    image: batch-100/batch-092.jpg
+    name: "Pomarańczowa dalia, kalia w kolorze zachodu słońca i niebieska goryczka 💙"
+    lang: pl
+    caption: |
+      Pomarańczowa dalia, kalia w kolorze zachodu słońca i niebieska goryczka 💙
+      Odrobina blasku na zwykły dzień.
+      Odbiór lub dostawa w Warszawie 📍 #Warszawa
+      Napisz w DM, żeby zamówić.
+
+  - id: b093-gentian-yellow-dahlia-ru
+    image: batch-100/batch-093.jpg
+    name: "Синяя горечавка, жёлтая георгина и оранжевые каллы 🔵"
+    lang: ru
+    caption: |
+      Синяя горечавка, жёлтая георгина и оранжевые каллы 🔵
+      Тихая роскошь: ручная сборка и живой характер.
+      Доставка по Варшаве 🚗 #Warszawa
+      Напишите в DM, чтобы заказать.
+
+  - id: b094-sunset-callas-sapphire-pl
+    image: batch-100/batch-094.jpg
+    name: "Kalie w barwach zachodu słońca, pomarańczowe dalie i szafirowy błękit 🌅"
+    lang: pl
+    caption: |
+      Kalie w barwach zachodu słońca, pomarańczowe dalie i szafirowy błękit 🌅
+      Jasne kolory na szare dni.
+      Dostawa na terenie Warszawy 🚗 #Warszawa
+      Pisz na DM — złożę Twoją wersję.
+
+  - id: b095-gentian-pompon-dahlia-ru
+    image: batch-100/batch-095.jpg
+    name: "Синяя горечавка, оранжевая помпонная георгина и закатная калла ✨"
+    lang: ru
+    caption: |
+      Синяя горечавка, оранжевая помпонная георгина и закатная калла ✨
+      Кусочек лета, собранный вручную.
+      На заказ по Варшаве 📍 #Warszawa
+      DM — подскажу по букету и срокам.
+
+  - id: b096-soft-morning-pl
+    image: batch-100/batch-096.jpg
+    name: "Łagodny poranek — kremowa gerbera, róże gałązkowe, błękitna tweedia ☁️"
+    lang: pl
+    caption: |
+      Łagodny poranek — kremowa gerbera, róże gałązkowe, błękitna tweedia ☁️
+      Świeże, sezonowe kwiaty — złożone pod Twoje zamówienie.
+      Na zamówienie w Warszawie 📍 #Warszawa
+      Zamówienia przyjmuję w DM.
+
+  - id: b097-autumn-pocket-ru
+    image: batch-100/batch-097.jpg
+    name: "Карманный букет в осенних тонах 🍂"
+    lang: ru
+    caption: |
+      Карманный букет в осенних тонах 🍂
+      Глубокий цвет и чистые линии — цветы с характером.
+      Собираю под заказ в Варшаве #Warszawa
+      Пишите в директ для заказа.
+
+  - id: b098-blush-hydrangea-anthurium-pl
+    image: batch-100/batch-098.jpg
+    name: "Pudrowa hortensja i różowe anturium 🌸"
+    lang: pl
+    caption: |
+      Pudrowa hortensja i różowe anturium 🌸
+      Prezent, który wygląda drogo, bo jest przemyślany.
+      Składam na zamówienie w Warszawie #Warszawa
+      Napisz w DM, żeby zamówić.
+
+  - id: b099-peach-callas-ru
+    image: batch-100/batch-099.jpg
+    name: "Персиковые каллы, выстроенные в линию ✨"
+    lang: ru
+    caption: |
+      Персиковые каллы, выстроенные в линию ✨
+      Свежий срез, аккуратная упаковка, бережная доставка.
+      Самовывоз или доставка по Варшаве 📍 #Warszawa
+      Напишите в DM, чтобы заказать.
+
+  - id: b100-crimson-still-life-pl
+    image: batch-100/batch-100.jpg
+    name: "Karmazynowa martwa natura — kocanki, anturium, perukowiec 🍷"
+    lang: pl
+    caption: |
+      Karmazynowa martwa natura — kocanki, anturium, perukowiec 🍷
+      Prezent, który wygląda drogo, bo jest przemyślany.
+      Odbiór lub dostawa w Warszawie 📍 #Warszawa
+      Pisz na DM — złożę Twoją wersję.
+
+  # ---------- BATCH-50 (clean variants, single-lang RU/PL, alternating, #Warszawa) ----------
+  - id: v001-ranunculus-carnival-ru
+    image: batch-50/var-001.jpg
+    name: "Карнавал ранункулюсов — оранжевый, розовый, жёлтый 🎪"
+    lang: ru
+    caption: |
+      Карнавал ранункулюсов — оранжевый, розовый, жёлтый 🎪
+      Те же цветы — другая история. Попросите свою версию.
+      Доставка по Варшаве 🚗 #Warszawa
+      Напишите в DM — соберём ваш вариант.
+
+  - id: v002-fiery-crocosmia-pl
+    image: batch-50/var-002.jpg
+    name: "Ognista krokosmia z lśniącymi czerwonymi jagodami 🔥"
+    lang: pl
+    caption: |
+      Ognista krokosmia z lśniącymi czerwonymi jagodami 🔥
+      Minimalny wazon, maksimum koloru.
+      Dostawa na terenie Warszawy 🚗 #Warszawa
+      Napisz w DM — doradzę bukiet i termin.
+
+  - id: v003-brunia-sea-lavender-ru
+    image: batch-50/var-003.jpg
+    name: "Бруния и кермек в фактурной вазе 🌿"
+    lang: ru
+    caption: |
+      Бруния и кермек в фактурной вазе 🌿
+      Яркие стебли для серых дней. Любимые композиции студии.
       На заказ по Варшаве 📍 #Warszawa
       Пишите в директ для заказа.
+
+  - id: v004-sunset-callas-sapphire-pl
+    image: batch-50/var-004.jpg
+    name: "Kalie w barwach zachodu słońca, pomarańczowe dalie i szafirowy błękit 🌅"
+    lang: pl
+    caption: |
+      Kalie w barwach zachodu słońca, pomarańczowe dalie i szafirowy błękit 🌅
+      Niech zwykły wtorek będzie trochę wyjątkowy.
+      Na zamówienie w Warszawie 📍 #Warszawa
+      Napisz w DM, żeby zamówić.
+
+  - id: v005-ember-dahlias-ru
+    image: batch-50/var-005.jpg
+    name: "Огненные георгины на бордовой гортензии 🔥"
+    lang: ru
+    caption: |
+      Огненные георгины на бордовой гортензии 🔥
+      Фактура, тон и чуть драмы — наш любимый рецепт.
+      Собираю под заказ в Варшаве #Warszawa
+      Напишите в DM, чтобы заказать.
+
+  - id: v006-anthurium-dahlia-physalis-pl
+    image: batch-50/var-006.jpg
+    name: "Czerwone anturium, bordowa dalia i miechunka 🍂"
+    lang: pl
+    caption: |
+      Czerwone anturium, bordowa dalia i miechunka 🍂
+      Bujnie i hojnie — bez oszczędzania na kwiatach.
+      Składam na zamówienie w Warszawie #Warszawa
+      Pisz na DM — złożę Twoją wersję.
+
+  - id: v007-deep-hydrangea-pompons-ru
+    image: batch-50/var-007.jpg
+    name: "Глубокая гортензия, персиковая левкоя и белые помпоны ✨"
+    lang: ru
+    caption: |
+      Глубокая гортензия, персиковая левкоя и белые помпоны ✨
+      Подарок, который выглядит дорого — потому что продуман.
+      Самовывоз или доставка по Варшаве 📍 #Warszawa
+      Напишите в DM — соберём ваш вариант.
+
+  - id: v008-copper-chrysanthemums-pl
+    image: batch-50/var-008.jpg
+    name: "Słonecznie żółte i miedziane jesienne chryzantemy ☀️"
+    lang: pl
+    caption: |
+      Słonecznie żółte i miedziane jesienne chryzantemy ☀️
+      Wygląda dziko, a jest złożony bardzo świadomie. I o to chodzi.
+      Odbiór lub dostawa w Warszawie 📍 #Warszawa
+      Napisz w DM — doradzę bukiet i termin.
+
+  - id: v009-blush-hydrangea-anthurium-ru
+    image: batch-50/var-009.jpg
+    name: "Нежная гортензия и розовый антуриум 🌸"
+    lang: ru
+    caption: |
+      Нежная гортензия и розовый антуриум 🌸
+      Отправьте цвет кому-то через весь город.
+      Доставка по Варшаве 🚗 #Warszawa
+      DM — подскажу по букету и срокам.
+
+  - id: v010-ranunculus-chamomile-vase-pl
+    image: batch-50/var-010.jpg
+    name: "Jaskry i rumianek w ceramicznym wazonie 🤍"
+    lang: pl
+    caption: |
+      Jaskry i rumianek w ceramicznym wazonie 🤍
+      Wyślij kolor komuś na drugi koniec miasta.
+      Dostawa na terenie Warszawy 🚗 #Warszawa
+      Zamówienia przyjmuję w DM.
+
+  - id: v011-pink-hydrangea-anthurium-ru
+    image: batch-50/var-011.jpg
+    name: "Розовая гортензия, розовый антуриум и молюцелла 🌿"
+    lang: ru
+    caption: |
+      Розовая гортензия, розовый антуриум и молюцелла 🌿
+      Фактура, тон и чуть драмы — наш любимый рецепт.
+      На заказ по Варшаве 📍 #Warszawa
+      Напишите в DM, чтобы заказать.
+
+  - id: v012-green-berries-statice-pl
+    image: batch-50/var-012.jpg
+    name: "Zielone kiście jagód i lawendowy zatrwian 💜"
+    lang: pl
+    caption: |
+      Zielone kiście jagód i lawendowy zatrwian 💜
+      Gdy brakuje słów — niech mówią kwiaty.
+      Na zamówienie w Warszawie 📍 #Warszawa
+      Pisz na DM — złożę Twoją wersję.
+
+  - id: v013-gentian-pompon-dahlia-ru
+    image: batch-50/var-013.jpg
+    name: "Синяя горечавка, оранжевая помпонная георгина и закатная калла ✨"
+    lang: ru
+    caption: |
+      Синяя горечавка, оранжевая помпонная георгина и закатная калла ✨
+      Глубокий цвет и чистые линии — цветы с характером.
+      Собираю под заказ в Варшаве #Warszawa
+      Напишите в DM — соберём ваш вариант.
+
+  - id: v014-chartreuse-cascade-pl
+    image: batch-50/var-014.jpg
+    name: "Seledynowa kaskada — molucela i zwisający szarłat 🌿"
+    lang: pl
+    caption: |
+      Seledynowa kaskada — molucela i zwisający szarłat 🌿
+      To nie są kwiaty z supermarketu. Przemyślana kompozycja i sezonowy dobór.
+      Składam na zamówienie w Warszawie #Warszawa
+      Napisz w DM — doradzę bukiet i termin.
+
+  - id: v015-burgundy-hydrangea-billy-balls-ru
+    image: batch-50/var-015.jpg
+    name: "Бордовая гортензия с краспедией и георгиной 🟡"
+    lang: ru
+    caption: |
+      Бордовая гортензия с краспедией и георгиной 🟡
+      Минимальная ваза — максимум цвета.
+      Самовывоз или доставка по Варшаве 📍 #Warszawa
+      DM — подскажу по букету и срокам.
+
+  - id: v016-carmine-and-smoke-pl
+    image: batch-50/var-016.jpg
+    name: "Karmin i dym — czerwone anturium, ciemna stokrotka, czosnek ozdobny 🍷"
+    lang: pl
+    caption: |
+      Karmin i dym — czerwone anturium, ciemna stokrotka, czosnek ozdobny 🍷
+      Bukiet, który buduje nastrój, zanim ktokolwiek się odezwie.
+      Odbiór lub dostawa w Warszawie 📍 #Warszawa
+      Zamówienia przyjmuję w DM.
+
+  - id: v017-dahlia-calla-gentian-ru
+    image: batch-50/var-017.jpg
+    name: "Оранжевая георгина, закатная калла и синяя горечавка 💙"
+    lang: ru
+    caption: |
+      Оранжевая георгина, закатная калла и синяя горечавка 💙
+      Принесите сад в дом хотя бы на неделю.
+      Доставка по Варшаве 🚗 #Warszawa
+      Пишите в директ для заказа.
+
+  - id: v018-peach-callas-pl
+    image: batch-50/var-018.jpg
+    name: "Brzoskwiniowe kalie ułożone w linię ✨"
+    lang: pl
+    caption: |
+      Brzoskwiniowe kalie ułożone w linię ✨
+      Nasycone barwy i ciepłe akcenty — sezon w wazonie.
+      Dostawa na terenie Warszawy 🚗 #Warszawa
+      Napisz w DM, żeby zamówić.
+
+  - id: v019-red-rose-letters-ru
+    image: batch-50/var-019.jpg
+    name: "Буквы из красных роз — ваше слово или дата 🌹"
+    lang: ru
+    caption: |
+      Буквы из красных роз — ваше слово или дата 🌹
+      Минимальная ваза — максимум цвета.
+      На заказ по Варшаве 📍 #Warszawa
+      Напишите в DM — соберём ваш вариант.
+
+  - id: v020-peach-pompon-dahlias-pl
+    image: batch-50/var-020.jpg
+    name: "Brzoskwiniowe i różowe dalie pomponowe 🍑"
+    lang: pl
+    caption: |
+      Brzoskwiniowe i różowe dalie pomponowe 🍑
+      Te same kwiaty, za każdym razem inna historia — zapytaj o swoją wersję.
+      Na zamówienie w Warszawie 📍 #Warszawa
+      Napisz w DM — doradzę bukiet i termin.
+
+  - id: v021-golden-chrysanthemums-ru
+    image: batch-50/var-021.jpg
+    name: "Золотые помпонные хризантемы 💛"
+    lang: ru
+    caption: |
+      Золотые помпонные хризантемы 💛
+      Фактура, тон и чуть драмы — наш любимый рецепт.
+      Собираю под заказ в Варшаве #Warszawa
+      DM — подскажу по букету и срокам.
+
+  - id: v022-soft-morning-pl
+    image: batch-50/var-022.jpg
+    name: "Łagodny poranek — kremowa gerbera, róże gałązkowe, błękitna tweedia ☁️"
+    lang: pl
+    caption: |
+      Łagodny poranek — kremowa gerbera, róże gałązkowe, błękitna tweedia ☁️
+      Ciepłe barwy na chłodne wieczory.
+      Składam na zamówienie w Warszawie #Warszawa
+      Zamówienia przyjmuję w DM.
+
+  - id: v023-coral-peonies-ru
+    image: batch-50/var-023.jpg
+    name: "Коралловые пионы — большой эффектный букет 🌷"
+    lang: ru
+    caption: |
+      Коралловые пионы — большой эффектный букет 🌷
+      Яркие стебли для серых дней. Любимые композиции студии.
+      Самовывоз или доставка по Варшаве 📍 #Warszawa
+      Пишите в директ для заказа.
+
+  - id: v024-burgundy-hydrangea-orange-dahlia-pl
+    image: batch-50/var-024.jpg
+    name: "Bordowa hortensja, pomarańczowa dalia i zielone anturium 🧡"
+    lang: pl
+    caption: |
+      Bordowa hortensja, pomarańczowa dalia i zielone anturium 🧡
+      Odważna energia do nowoczesnych wnętrz.
+      Odbiór lub dostawa w Warszawie 📍 #Warszawa
+      Napisz w DM, żeby zamówić.
+
+  - id: v025-flame-parrot-flowers-ru
+    image: batch-50/var-025.jpg
+    name: "Огненные геликонии, оранжевые ягоды и лимониум 🧡"
+    lang: ru
+    caption: |
+      Огненные геликонии, оранжевые ягоды и лимониум 🧡
+      На день рождения, «прости» или просто так.
+      Доставка по Варшаве 🚗 #Warszawa
+      Напишите в DM, чтобы заказать.
+
+  - id: v026-gentian-yellow-dahlia-pl
+    image: batch-50/var-026.jpg
+    name: "Niebieska goryczka, żółta dalia i pomarańczowe kalie 🔵"
+    lang: pl
+    caption: |
+      Niebieska goryczka, żółta dalia i pomarańczowe kalie 🔵
+      Zrób sobie prezent. Serio.
+      Dostawa na terenie Warszawy 🚗 #Warszawa
+      Pisz na DM — złożę Twoją wersję.
+
+  - id: v027-crimson-still-life-ru
+    image: batch-50/var-027.jpg
+    name: "Багровый натюрморт — гелихризум, антуриум, скумпия 🍷"
+    lang: ru
+    caption: |
+      Багровый натюрморт — гелихризум, антуриум, скумпия 🍷
+      Смелая энергия для современных интерьеров.
+      На заказ по Варшаве 📍 #Warszawa
+      DM — подскажу по букету и срокам.
+
+  - id: v028-blushing-peonies-pl
+    image: batch-50/var-028.jpg
+    name: "Delikatne piwonie — różowe i kremowe falbanki 🌸"
+    lang: pl
+    caption: |
+      Delikatne piwonie — różowe i kremowe falbanki 🌸
+      Prezent, który wygląda drogo, bo jest przemyślany.
+      Na zamówienie w Warszawie 📍 #Warszawa
+      Zamówienia przyjmuję w DM.
+
+  - id: v029-burgundy-hydrangea-stock-ru
+    image: batch-50/var-029.jpg
+    name: "Бордовая гортензия, персиковая левкоя и белые георгины 🤍"
+    lang: ru
+    caption: |
+      Бордовая гортензия, персиковая левкоя и белые георгины 🤍
+      Яркие стебли для серых дней. Любимые композиции студии.
+      Собираю под заказ в Варшаве #Warszawa
+      Пишите в директ для заказа.
+
+  - id: v030-pink-rose-lilies-pl
+    image: batch-50/var-030.jpg
+    name: "Pudrowo-różowe pełne lilie 🌷"
+    lang: pl
+    caption: |
+      Pudrowo-różowe pełne lilie 🌷
+      Ciepłe barwy na chłodne wieczory.
+      Składam na zamówienie w Warszawie #Warszawa
+      Napisz w DM, żeby zamówić.
+
+  - id: v031-autumn-pocket-ru
+    image: batch-50/var-031.jpg
+    name: "Карманный букет в осенних тонах 🍂"
+    lang: ru
+    caption: |
+      Карманный букет в осенних тонах 🍂
+      Стебель за стеблем — ничего случайного.
+      Самовывоз или доставка по Варшаве 📍 #Warszawa
+      Напишите в DM, чтобы заказать.
+
+  - id: v032-ranunculus-carnival-pl
+    image: batch-50/var-032.jpg
+    name: "Karnawał jaskrów — pomarańcz, róż i żółć 🎪"
+    lang: pl
+    caption: |
+      Karnawał jaskrów — pomarańcz, róż i żółć 🎪
+      To nie są kwiaty z supermarketu. Przemyślana kompozycja i sezonowy dobór.
+      Odbiór lub dostawa w Warszawie 📍 #Warszawa
+      Pisz na DM — złożę Twoją wersję.
+
+  - id: v033-fiery-crocosmia-ru
+    image: batch-50/var-033.jpg
+    name: "Огненная крокосмия с блестящими красными ягодами 🔥"
+    lang: ru
+    caption: |
+      Огненная крокосмия с блестящими красными ягодами 🔥
+      Глубокий цвет и чистые линии — цветы с характером.
+      Доставка по Варшаве 🚗 #Warszawa
+      Напишите в DM — соберём ваш вариант.
+
+  - id: v034-brunia-sea-lavender-pl
+    image: batch-50/var-034.jpg
+    name: "Brunia i zatrwian w fakturowym wazonie 🌿"
+    lang: pl
+    caption: |
+      Brunia i zatrwian w fakturowym wazonie 🌿
+      Lekki chaos płatków. Idealny na niespodziewany prezent.
+      Dostawa na terenie Warszawy 🚗 #Warszawa
+      Napisz w DM — doradzę bukiet i termin.
+
+  - id: v035-sunset-callas-sapphire-ru
+    image: batch-50/var-035.jpg
+    name: "Закатные каллы, оранжевые георгины и сапфировый синий 🌅"
+    lang: ru
+    caption: |
+      Закатные каллы, оранжевые георгины и сапфировый синий 🌅
+      Смелая энергия для современных интерьеров.
+      На заказ по Варшаве 📍 #Warszawa
+      Пишите в директ для заказа.
+
+  - id: v036-ember-dahlias-pl
+    image: batch-50/var-036.jpg
+    name: "Ogniste dalie na bordowej hortensji 🔥"
+    lang: pl
+    caption: |
+      Ogniste dalie na bordowej hortensji 🔥
+      Prezent, który wygląda drogo, bo jest przemyślany.
+      Na zamówienie w Warszawie 📍 #Warszawa
+      Napisz w DM, żeby zamówić.
+
+  - id: v037-anthurium-dahlia-physalis-ru
+    image: batch-50/var-037.jpg
+    name: "Красный антуриум, бордовая георгина и физалис 🍂"
+    lang: ru
+    caption: |
+      Красный антуриум, бордовая георгина и физалис 🍂
+      Цветотерапия в вазе. Свежие сезонные стебли под ваш запрос.
+      Собираю под заказ в Варшаве #Warszawa
+      Напишите в DM, чтобы заказать.
+
+  - id: v038-deep-hydrangea-pompons-pl
+    image: batch-50/var-038.jpg
+    name: "Ciemna hortensja, brzoskwiniowa lewkonia i białe pompony ✨"
+    lang: pl
+    caption: |
+      Ciemna hortensja, brzoskwiniowa lewkonia i białe pompony ✨
+      Podziękowanie, które naprawdę czuć.
+      Składam na zamówienie w Warszawie #Warszawa
+      Pisz na DM — złożę Twoją wersję.
+
+  - id: v039-copper-chrysanthemums-ru
+    image: batch-50/var-039.jpg
+    name: "Солнечно-жёлтые и медные осенние хризантемы ☀️"
+    lang: ru
+    caption: |
+      Солнечно-жёлтые и медные осенние хризантемы ☀️
+      Яркие стебли для серых дней. Любимые композиции студии.
+      Самовывоз или доставка по Варшаве 📍 #Warszawa
+      Напишите в DM — соберём ваш вариант.
+
+  - id: v040-blush-hydrangea-anthurium-pl
+    image: batch-50/var-040.jpg
+    name: "Pudrowa hortensja i różowe anturium 🌸"
+    lang: pl
+    caption: |
+      Pudrowa hortensja i różowe anturium 🌸
+      Delikatne odcienie dla kogoś, kto zasługuje na czułość.
+      Odbiór lub dostawa w Warszawie 📍 #Warszawa
+      Napisz w DM — doradzę bukiet i termin.
+
+  - id: v041-ranunculus-chamomile-vase-ru
+    image: batch-50/var-041.jpg
+    name: "Ранункулюсы и ромашка в керамической вазе 🤍"
+    lang: ru
+    caption: |
+      Ранункулюсы и ромашка в керамической вазе 🤍
+      Свежий срез, аккуратная упаковка, бережная доставка.
+      Доставка по Варшаве 🚗 #Warszawa
+      DM — подскажу по букету и срокам.
+
+  - id: v042-pink-hydrangea-anthurium-pl
+    image: batch-50/var-042.jpg
+    name: "Różowa hortensja, różowe anturium i molucela 🌿"
+    lang: pl
+    caption: |
+      Różowa hortensja, różowe anturium i molucela 🌿
+      Nasycone barwy i ciepłe akcenty — sezon w wazonie.
+      Dostawa na terenie Warszawy 🚗 #Warszawa
+      Zamówienia przyjmuję w DM.
+
+  - id: v043-green-berries-statice-ru
+    image: batch-50/var-043.jpg
+    name: "Зелёные ягодные грозди и лавандовый статице 💜"
+    lang: ru
+    caption: |
+      Зелёные ягодные грозди и лавандовый статице 💜
+      На день рождения, «прости» или просто так.
+      На заказ по Варшаве 📍 #Warszawa
+      Напишите в DM, чтобы заказать.
+
+  - id: v044-gentian-pompon-dahlia-pl
+    image: batch-50/var-044.jpg
+    name: "Niebieska goryczka, pomarańczowa dalia pomponowa i kalia ✨"
+    lang: pl
+    caption: |
+      Niebieska goryczka, pomarańczowa dalia pomponowa i kalia ✨
+      Na urodziny, na przeprosiny albo po prostu bez okazji.
+      Na zamówienie w Warszawie 📍 #Warszawa
+      Pisz na DM — złożę Twoją wersję.
+
+  - id: v045-chartreuse-cascade-ru
+    image: batch-50/var-045.jpg
+    name: "Салатовый каскад — молюцелла и свисающий амарант 🌿"
+    lang: ru
+    caption: |
+      Салатовый каскад — молюцелла и свисающий амарант 🌿
+      Принесите сад в дом хотя бы на неделю.
+      Собираю под заказ в Варшаве #Warszawa
+      Напишите в DM — соберём ваш вариант.
+
+  - id: v046-burgundy-hydrangea-billy-balls-pl
+    image: batch-50/var-046.jpg
+    name: "Bordowa hortensja z kraspedią i dalią 🟡"
+    lang: pl
+    caption: |
+      Bordowa hortensja z kraspedią i dalią 🟡
+      Gdy brakuje słów — niech mówią kwiaty.
+      Składam na zamówienie w Warszawie #Warszawa
+      Napisz w DM — doradzę bukiet i termin.
+
+  - id: v047-carmine-and-smoke-ru
+    image: batch-50/var-047.jpg
+    name: "Кармин и дым — красный антуриум, тёмная маргаритка, декоративный лук 🍷"
+    lang: ru
+    caption: |
+      Кармин и дым — красный антуриум, тёмная маргаритка, декоративный лук 🍷
+      Тёплые тона для прохладных вечеров.
+      Самовывоз или доставка по Варшаве 📍 #Warszawa
+      DM — подскажу по букету и срокам.
+
+  - id: v048-dahlia-calla-gentian-pl
+    image: batch-50/var-048.jpg
+    name: "Pomarańczowa dalia, kalia w kolorze zachodu słońca i niebieska goryczka 💙"
+    lang: pl
+    caption: |
+      Pomarańczowa dalia, kalia w kolorze zachodu słońca i niebieska goryczka 💙
+      Wyślij kolor komuś na drugi koniec miasta.
+      Odbiór lub dostawa w Warszawie 📍 #Warszawa
+      Zamówienia przyjmuję w DM.
+
+  - id: v049-peach-callas-ru
+    image: batch-50/var-049.jpg
+    name: "Персиковые каллы, выстроенные в линию ✨"
+    lang: ru
+    caption: |
+      Персиковые каллы, выстроенные в линию ✨
+      «Спасибо», которое ощущается как спасибо.
+      Доставка по Варшаве 🚗 #Warszawa
+      Пишите в директ для заказа.
+
+  - id: v050-red-rose-letters-pl
+    image: batch-50/var-050.jpg
+    name: "Litery z czerwonych róż — Twoje słowo albo data 🌹"
+    lang: pl
+    caption: |
+      Litery z czerwonych róż — Twoje słowo albo data 🌹
+      Gdy brakuje słów — niech mówią kwiaty.
+      Dostawa na terenie Warszawy 🚗 #Warszawa
+      Napisz w DM, żeby zamówić.
