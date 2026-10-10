@@ -1,7 +1,7 @@
 # Pool for @july.concept.flowers — studio location: WARSAW only (#Warszawa).
 # Batch posts: RUSSIAN ONLY (VAC, Oct 10) — no Polish, no English; no alternation.
 # Captions written by Claude (looking at each photo): exactly 3 lines — hook /
-# '<price> zł — <flowers>' / 'Варшава #Warszawa'. Prices = Claude entry-level test prices,
+# '<price> zł — <flowers>' / '#Варшава #Warszawa'. Prices = Claude entry-level test prices,
 # pending VAC final approval (table: content/prices.md).
 # Dedupe = caption fingerprint OR id (see src/content.py) — never change ids of
 # already-published entries.
@@ -15,8 +15,8 @@ defaults:
   template: |
     {name}
     {price_line}
-    Варшава #Warszawa
     {cta}
+    #Варшава #Warszawa
 
 posts:
   # ---------- ФОТО (EN, премиум) ----------
@@ -508,7 +508,7 @@ posts:
     caption: |
       Розовый ворох пионов, снятый сверху
       179 zł — пионы
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b011-red-rose-letters-ru
     image: batch-100/batch-011.jpg
@@ -517,7 +517,7 @@ posts:
     caption: |
       Алые буквы шагают по мраморному полу
       99 zł / буква — розы
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b014-burgundy-hydrangea-billy-balls-ru
     image: batch-100/batch-014.jpg
@@ -526,7 +526,7 @@ posts:
     caption: |
       Бордовая гортензия утонула в бумажном свёртке
       109 zł — гортензия, краспедия, георгина
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b013-anthurium-dahlia-physalis-ru
     image: batch-100/batch-013.jpg
@@ -535,7 +535,7 @@ posts:
     caption: |
       Тёмный бутон выглядывает из крафт-бумаги
       159 zł — георгина, физалис, антуриум, целозия
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b018-peach-pompon-dahlias-ru
     image: batch-100/batch-018.jpg
@@ -544,7 +544,7 @@ posts:
     caption: |
       Персиковая спираль лепестков заполняет кадр
       139 zł — георгины
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b015-burgundy-hydrangea-orange-dahlia-ru
     image: batch-100/batch-015.jpg
@@ -553,7 +553,7 @@ posts:
     caption: |
       Крафт-пакет рядом, бутоны тянутся к свету
       169 zł — гортензия, георгина, антуриум, краспедия
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b020-deep-hydrangea-pompons-ru
     image: batch-100/batch-020.jpg
@@ -562,7 +562,7 @@ posts:
     caption: |
       Кремовая георгина прячется в бордовом облаке гортензий
       179 zł — гортензия, левкой, георгина
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b017-pink-hydrangea-anthurium-ru
     image: batch-100/batch-017.jpg
@@ -571,7 +571,7 @@ posts:
     caption: |
       Нежный микс фактур в приглушённом свете
       169 zł — гортензия, антуриум, молюцелла, ранункулюс
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b024-green-berries-statice-ru
     image: batch-100/batch-024.jpg
@@ -580,7 +580,7 @@ posts:
     caption: |
       Серебристая дымка статице среди ягод брунии
       89 zł — бруния, статице
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b021-carmine-and-smoke-ru
     image: batch-100/batch-021.jpg
@@ -589,7 +589,7 @@ posts:
     caption: |
       Карминовые соцветия и зелёный шар среди трав
       179 zł — гербера, антуриум, аллиум, хризантема
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b028-dahlia-calla-gentian-ru
     image: batch-100/batch-028.jpg
@@ -598,7 +598,7 @@ posts:
     caption: |
       Жёлтые каллы изгибаются над синими гроздьями
       189 zł — георгина, калла, горечавка
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b023-brunia-sea-lavender-ru
     image: batch-100/batch-023.jpg
@@ -607,7 +607,7 @@ posts:
     caption: |
       Зелёные шарики брунии отбрасывают узорную тень
       89 zł — бруния, кермек
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b030-sunset-callas-sapphire-ru
     image: batch-100/batch-030.jpg
@@ -616,7 +616,7 @@ posts:
     caption: |
       Оранжевые георгины и каллы заполняют весь кадр
       189 zł — калла, георгина, горечавка
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b025-golden-chrysanthemums-ru
     image: batch-100/batch-025.jpg
@@ -625,7 +625,7 @@ posts:
     caption: |
       Золотистое сияние сквозь крафтовую бумагу
       129 zł — хризантема
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b032-soft-morning-ru
     image: batch-100/batch-032.jpg
@@ -634,7 +634,7 @@ posts:
     caption: |
       Высокие зелёные метёлки тянутся к потолку
       159 zł — гербера, розы, твидия
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b029-gentian-yellow-dahlia-ru
     image: batch-100/batch-029.jpg
@@ -643,7 +643,7 @@ posts:
     caption: |
       Синие соцветия каскадом вниз по кадру
       189 zł — горечавка, калла, георгина
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b034-blush-hydrangea-anthurium-ru
     image: batch-100/batch-034.jpg
@@ -652,7 +652,7 @@ posts:
     caption: |
       Два сердца антуриума прижались к гортензии
       169 zł — гортензия, антуриум, молюцелла
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b031-gentian-pompon-dahlia-ru
     image: batch-100/batch-031.jpg
@@ -661,7 +661,7 @@ posts:
     caption: |
       Синие соцветия контрастируют с тёплым янтарём
       189 zł — георгина, калла, горечавка
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b036-crimson-still-life-ru
     image: batch-100/batch-036.jpg
@@ -670,7 +670,7 @@ posts:
     caption: |
       Зелёный шар декоративного лука светится среди алых антуриумов
       229 zł — антуриум, бессмертник, аллиум
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b035-peach-callas-ru
     image: batch-100/batch-035.jpg
@@ -679,7 +679,7 @@ posts:
     caption: |
       Персиковые линии у оконного стекла
       199 zł — калла, антуриум, аллиум
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b038-chartreuse-cascade-ru
     image: batch-100/batch-038.jpg
@@ -688,7 +688,7 @@ posts:
     caption: |
       Сухая ветвь тянется к оранжевым полкам
       109 zł — молюцелла, амарант, антуриум
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b037-ember-dahlias-ru
     image: batch-100/batch-037.jpg
@@ -697,7 +697,7 @@ posts:
     caption: |
       Винные шапки гортензии и рыжие огоньки
       169 zł — гортензия, георгины, краспедия, антуриум
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b041-ranunculus-carnival-ru
     image: batch-100/batch-041.jpg
@@ -706,7 +706,7 @@ posts:
     caption: |
       Яркие бутоны растеклись по тёмной столешнице
       249 zł — ранункулюс, пион
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b042-ranunculus-chamomile-vase-ru
     image: batch-100/batch-042.jpg
@@ -715,7 +715,7 @@ posts:
     caption: |
       Кремовые кудри ранункулюса у окна
       149 zł — ранункулюс, ромашка
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b043-red-rose-letters-ru
     image: batch-100/batch-043.jpg
@@ -724,7 +724,7 @@ posts:
     caption: |
       Бронзовый пёс на поводке сторожит слово из роз
       99 zł / буква — розы
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b044-blushing-peonies-ru
     image: batch-100/batch-044.jpg
@@ -733,7 +733,7 @@ posts:
     caption: |
       Мраморный узор пионов на тёмном дереве
       179 zł — пионы
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b045-anthurium-dahlia-physalis-ru
     image: batch-100/batch-045.jpg
@@ -742,7 +742,7 @@ posts:
     caption: |
       Длинный лист пальмы выглядывает из свёртка
       159 zł — георгина, антуриум, целозия, физалис
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b046-burgundy-hydrangea-billy-balls-ru
     image: batch-100/batch-046.jpg
@@ -751,7 +751,7 @@ posts:
     caption: |
       Жёлтые шарики краспедии среди крафт-бумаги
       109 zł — краспедия, гортензия, георгина
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b047-burgundy-hydrangea-orange-dahlia-ru
     image: batch-100/batch-047.jpg
@@ -760,7 +760,7 @@ posts:
     caption: |
       Жёлтые шарики краспедии рассыпаны среди георгин
       169 zł — гортензия, георгина, антуриум, краспедия
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b050-peach-pompon-dahlias-ru
     image: batch-100/batch-050.jpg
@@ -769,7 +769,7 @@ posts:
     caption: |
       Пчела в гуще персиковых лепестков
       139 zł — георгины
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b049-pink-hydrangea-anthurium-ru
     image: batch-100/batch-049.jpg
@@ -778,7 +778,7 @@ posts:
     caption: |
       Колючие белые звёзды обрамляют нежные бутоны
       169 zł — гортензия, молюцелла, антуриум, ранункулюс
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b052-deep-hydrangea-pompons-ru
     image: batch-100/batch-052.jpg
@@ -787,7 +787,7 @@ posts:
     caption: |
       Утренний свет сквозь витрину
       179 zł — гортензия, левкоя, георгина
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b053-carmine-and-smoke-ru
     image: batch-100/batch-053.jpg
@@ -796,7 +796,7 @@ posts:
     caption: |
       Шероховатая белая ваза держит огненный букет
       179 zł — антуриум, гербера, аллиум, георгина
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b056-green-berries-statice-ru
     image: batch-100/batch-056.jpg
@@ -805,7 +805,7 @@ posts:
     caption: |
       Тени от веток на сером камне
       89 zł — бруния, кермек, зверобой
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b055-brunia-sea-lavender-ru
     image: batch-100/batch-055.jpg
@@ -814,7 +814,7 @@ posts:
     caption: |
       Оранжевые искры прячутся в зелёной пене брунии
       89 zł — бруния, кермек
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b060-dahlia-calla-gentian-ru
     image: batch-100/batch-060.jpg
@@ -823,7 +823,7 @@ posts:
     caption: |
       Оранжевый закат на фоне густой синевы
       189 zł — георгины, каллы, горечавка
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b057-golden-chrysanthemums-ru
     image: batch-100/batch-057.jpg
@@ -832,7 +832,7 @@ posts:
     caption: |
       Красные соседи выглядывают из-за жёлтых шапок
       129 zł — хризантемы
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b062-sunset-callas-sapphire-ru
     image: batch-100/batch-062.jpg
@@ -841,7 +841,7 @@ posts:
     caption: |
       Каллы переливаются как мазки акварели
       189 zł — каллы, георгины, горечавка
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b061-gentian-yellow-dahlia-ru
     image: batch-100/batch-061.jpg
@@ -850,7 +850,7 @@ posts:
     caption: |
       Каллы изгибаются язычками пламени среди синевы
       189 zł — калла, георгина, горечавка
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b064-soft-morning-ru
     image: batch-100/batch-064.jpg
@@ -859,7 +859,7 @@ posts:
     caption: |
       Пудровые тона на фоне терракотовой стены
       159 zł — гербера, кустовые розы, твидия, амарант
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b063-gentian-pompon-dahlia-ru
     image: batch-100/batch-063.jpg
@@ -868,7 +868,7 @@ posts:
     caption: |
       Красный перец выглядывает из оранжевых лепестков
       189 zł — георгина, калла, горечавка, краспедия
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b066-blush-hydrangea-anthurium-ru
     image: batch-100/batch-066.jpg
@@ -877,7 +877,7 @@ posts:
     caption: |
       Зелёные колокольчики тянутся вверх по стене
       169 zł — гортензия, антуриум, молюцелла
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b067-peach-callas-ru
     image: batch-100/batch-067.jpg
@@ -886,7 +886,7 @@ posts:
     caption: |
       Пушистые метёлки травы запутались в каллах
       199 zł — каллы, антуриум, аллиум, гвоздики
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b068-crimson-still-life-ru
     image: batch-100/batch-068.jpg
@@ -895,7 +895,7 @@ posts:
     caption: |
       Красные листья тянутся к дневному свету
       229 zł — антуриум, гербера, аллиум
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b069-ember-dahlias-ru
     image: batch-100/batch-069.jpg
@@ -904,7 +904,7 @@ posts:
     caption: |
       Тонкие нити бордовых ягод свисают дугой
       169 zł — гортензия, георгина, антуриум, краспедия
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b070-chartreuse-cascade-ru
     image: batch-100/batch-070.jpg
@@ -913,7 +913,7 @@ posts:
     caption: |
       Бордовые нити свисают каскадом у окна
       109 zł — молюцелла, амарант, антуриум
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b074-ranunculus-chamomile-vase-ru
     image: batch-100/batch-074.jpg
@@ -922,7 +922,7 @@ posts:
     caption: |
       Мелкие ромашки осыпали пышные бутоны
       149 zł — ранункулюсы, ромашка
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b073-ranunculus-carnival-ru
     image: batch-100/batch-073.jpg
@@ -931,7 +931,7 @@ posts:
     caption: |
       Кудрявая ветка поднимается над вихрем красок
       249 zł — пионы, ранункулюс
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b076-blushing-peonies-ru
     image: batch-100/batch-076.jpg
@@ -940,7 +940,7 @@ posts:
     caption: |
       Сотни лепестков оттенка пудры собрались в шар
       179 zł — пионы
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b075-red-rose-letters-ru
     image: batch-100/batch-075.jpg
@@ -949,7 +949,7 @@ posts:
     caption: |
       Алый шрифт из роз растянулся по мрамору
       99 zł / буква — красные и белые розы
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b078-burgundy-hydrangea-billy-balls-ru
     image: batch-100/batch-078.jpg
@@ -958,7 +958,7 @@ posts:
     caption: |
       Бордовая гортензия выглядывает из плотной бумаги
       109 zł — гортензия, краспедия, георгина
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b077-anthurium-dahlia-physalis-ru
     image: batch-100/batch-077.jpg
@@ -967,7 +967,7 @@ posts:
     caption: |
       Крафт-бумага шуршит на фоне тротуарной плитки
       159 zł — антуриум, георгина, физалис
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b082-peach-pompon-dahlias-ru
     image: batch-100/batch-082.jpg
@@ -976,7 +976,7 @@ posts:
     caption: |
       Божья коровка прячется среди бутонов
       139 zł — георгины персиковые и лососевые
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b079-burgundy-hydrangea-orange-dahlia-ru
     image: batch-100/batch-079.jpg
@@ -985,7 +985,7 @@ posts:
     caption: |
       Георгины вспыхивают оранжевым у самого окна
       169 zł — гортензия, георгины, антуриум, краспедия
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b084-deep-hydrangea-pompons-ru
     image: batch-100/batch-084.jpg
@@ -994,7 +994,7 @@ posts:
     caption: |
       Высокие свечи левкоя тянутся над гортензией
       179 zł — гортензия, левкой, георгины
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b081-pink-hydrangea-anthurium-ru
     image: batch-100/batch-081.jpg
@@ -1003,7 +1003,7 @@ posts:
     caption: |
       Нежный микс в сливочно-розовых тонах, вид сверху
       169 zł — гортензия, молюцелла, антуриум, ранункулюс
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b088-green-berries-statice-ru
     image: batch-100/batch-088.jpg
@@ -1012,7 +1012,7 @@ posts:
     caption: |
       Шершавая белая чаша будто валун с пляжа
       89 zł — бруния, кермек
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b085-carmine-and-smoke-ru
     image: batch-100/batch-085.jpg
@@ -1021,7 +1021,7 @@ posts:
     caption: |
       Тёмно-красный натюрморт с метёлками травы у окна
       179 zł — гербера, хризантема, антуриум, аллиум
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b092-dahlia-calla-gentian-ru
     image: batch-100/batch-092.jpg
@@ -1030,7 +1030,7 @@ posts:
     caption: |
       Калла изящно изгибается на фоне металла
       189 zł — георгина, калла, горечавка
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b087-brunia-sea-lavender-ru
     image: batch-100/batch-087.jpg
@@ -1039,7 +1039,7 @@ posts:
     caption: |
       Пышный ворох брунии в полуденном свете
       89 zł — бруния, кермек
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b094-sunset-callas-sapphire-ru
     image: batch-100/batch-094.jpg
@@ -1048,7 +1048,7 @@ posts:
     caption: |
       Закатные каллы собрались у белого карниза
       189 zł — георгина, калла, горечавка
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b089-golden-chrysanthemums-ru
     image: batch-100/batch-089.jpg
@@ -1057,7 +1057,7 @@ posts:
     caption: |
       Золотистый свет проступает сквозь крафт-бумагу
       129 zł — хризантемы
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b096-soft-morning-ru
     image: batch-100/batch-096.jpg
@@ -1066,7 +1066,7 @@ posts:
     caption: |
       Персиковые герберы светятся в мягком утре
       159 zł — гербера, розы, твидия, амарант
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b093-gentian-yellow-dahlia-ru
     image: batch-100/batch-093.jpg
@@ -1075,7 +1075,7 @@ posts:
     caption: |
       Крупным планом — синие грозди среди огня заката
       189 zł — горечавка, георгина, калла
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b098-blush-hydrangea-anthurium-ru
     image: batch-100/batch-098.jpg
@@ -1084,7 +1084,7 @@ posts:
     caption: |
       Розовые сердца антуриума в белой бумаге
       169 zł — гортензия, антуриум, аллиум, молюцелла
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b095-gentian-pompon-dahlia-ru
     image: batch-100/batch-095.jpg
@@ -1093,7 +1093,7 @@ posts:
     caption: |
       Вид сверху: синие свечи и жёлтый шарик краспедии
       189 zł — горечавка, георгина, калла, краспедия
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b100-crimson-still-life-ru
     image: batch-100/batch-100.jpg
@@ -1102,7 +1102,7 @@ posts:
     caption: |
       Багровый натюрморт на фоне серой плитки окна
       229 zł — антуриум, аллиум, хризантема
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b099-peach-callas-ru
     image: batch-100/batch-099.jpg
@@ -1111,7 +1111,7 @@ posts:
     caption: |
       Персиковая калла изгибается плавной дугой
       199 zł — каллы, аллиум, антуриум, хризантема
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v004-sunset-callas-sapphire-ru
     image: batch-50/var-004.jpg
@@ -1120,7 +1120,7 @@ posts:
     caption: |
       Оранжевый вихрь каллы и георгины на пустой стене
       189 zł — калла, георгина, дельфиниум
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v001-ranunculus-carnival-ru
     image: batch-50/var-001.jpg
@@ -1129,7 +1129,7 @@ posts:
     caption: |
       Оранжевый всплеск на фоне серого окна
       249 zł — ранункулюс, пион
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v006-anthurium-dahlia-physalis-ru
     image: batch-50/var-006.jpg
@@ -1138,7 +1138,7 @@ posts:
     caption: |
       Изумрудные фонарики физалиса среди тёмных георгин
       159 zł — георгина, антуриум, физалис
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v003-brunia-sea-lavender-ru
     image: batch-50/var-003.jpg
@@ -1147,7 +1147,7 @@ posts:
     caption: |
       Кружевная тень от веток ложится на стол
       89 zł — бруния, кермек
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v010-ranunculus-chamomile-vase-ru
     image: batch-50/var-010.jpg
@@ -1156,7 +1156,7 @@ posts:
     caption: |
       Ромашки рассыпались звёздочками среди ранункулюсов
       149 zł — ранункулюс, ромашка
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v005-ember-dahlias-ru
     image: batch-50/var-005.jpg
@@ -1165,7 +1165,7 @@ posts:
     caption: |
       Контраст тёплых георгин и чистой белой стены
       169 zł — георгина, гортензия
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v012-green-berries-statice-ru
     image: batch-50/var-012.jpg
@@ -1174,7 +1174,7 @@ posts:
     caption: |
       Резкие полуденные тени ложатся кружевом
       89 zł — бруния, кермек
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v007-deep-hydrangea-pompons-ru
     image: batch-50/var-007.jpg
@@ -1183,7 +1183,7 @@ posts:
     caption: |
       Бордовые лепестки сливаются с персиковым кружевом
       179 zł — гортензия, левкой, хризантема
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v014-chartreuse-cascade-ru
     image: batch-50/var-014.jpg
@@ -1192,7 +1192,7 @@ posts:
     caption: |
       Салатовый антуриум прячется среди зелёных бутонов
       109 zł — антуриум, амарант, молюцелла
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v009-blush-hydrangea-anthurium-ru
     image: batch-50/var-009.jpg
@@ -1201,7 +1201,7 @@ posts:
     caption: |
       Розовая дымка и зелёные колокольчики молюцеллы
       169 zł — гортензия, антуриум, молюцелла
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v016-carmine-and-smoke-ru
     image: batch-50/var-016.jpg
@@ -1210,7 +1210,7 @@ posts:
     caption: |
       Тёмно-бордовый ёж прячется среди алых соцветий
       179 zł — антуриум, аллиум, хризантема
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v011-pink-hydrangea-anthurium-ru
     image: batch-50/var-011.jpg
@@ -1219,7 +1219,7 @@ posts:
     caption: |
       Крупным планом: слоистые лепестки и зелёные огоньки
       169 zł — гортензия, антуриум, ранункулюс
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v018-peach-callas-ru
     image: batch-50/var-018.jpg
@@ -1228,7 +1228,7 @@ posts:
     caption: |
       Лиловые звёзды аллиума раскрылись веером
       199 zł — антуриум, калла, аллиум, гвоздика
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v013-gentian-pompon-dahlia-ru
     image: batch-50/var-013.jpg
@@ -1237,7 +1237,7 @@ posts:
     caption: |
       Электрический синий против закатного оранжевого
       189 zł — горечавка, георгина, калла
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v020-peach-pompon-dahlias-ru
     image: batch-50/var-020.jpg
@@ -1246,7 +1246,7 @@ posts:
     caption: |
       Лепестки георгин скручены в аккуратные трубочки
       139 zł — георгины персиковые и коралловые
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v015-burgundy-hydrangea-billy-balls-ru
     image: batch-50/var-015.jpg
@@ -1255,7 +1255,7 @@ posts:
     caption: |
       Сверху вниз: бутоны ещё прячутся в крафтовой бумаге
       109 zł — гортензия, краспедия, амарант
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v022-soft-morning-ru
     image: batch-50/var-022.jpg
@@ -1264,7 +1264,7 @@ posts:
     caption: |
       Голубые звёздочки твидии прячутся среди роз
       159 zł — гербера, розы, твидия
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v017-dahlia-calla-gentian-ru
     image: batch-50/var-017.jpg
@@ -1273,7 +1273,7 @@ posts:
     caption: |
       На светлом фоне — всплеск огня и синего
       189 zł — георгина, калла, горечавка
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v024-burgundy-hydrangea-orange-dahlia-ru
     image: batch-50/var-024.jpg
@@ -1282,7 +1282,7 @@ posts:
     caption: |
       Бордовые шапки гортензии нависают над георгинами
       169 zł — гортензия, георгины, краспедия, антуриум
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v019-red-rose-letters-ru
     image: batch-50/var-019.jpg
@@ -1291,7 +1291,7 @@ posts:
     caption: |
       Слово из роз лежит на мраморном полу
       99 zł / буква — красные и белые розы
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v026-gentian-yellow-dahlia-ru
     image: batch-50/var-026.jpg
@@ -1300,7 +1300,7 @@ posts:
     caption: |
       Калла цвета заката прячется в синих цветах
       189 zł — горечавка, калла, георгина
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v021-golden-chrysanthemums-ru
     image: batch-50/var-021.jpg
@@ -1309,7 +1309,7 @@ posts:
     caption: |
       Солнце просвечивает сквозь жёлтые лепестки
       129 zł — хризантемы
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v028-blushing-peonies-ru
     image: batch-50/var-028.jpg
@@ -1318,7 +1318,7 @@ posts:
     caption: |
       Сверху видно: пионы заполнили весь кадр
       179 zł — пионы
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v027-crimson-still-life-ru
     image: batch-50/var-027.jpg
@@ -1327,7 +1327,7 @@ posts:
     caption: |
       Пушистые травы и восковые листья у окна
       229 zł — антуриум, гелихризум, аллиум
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v032-ranunculus-carnival-ru
     image: batch-50/var-032.jpg
@@ -1336,7 +1336,7 @@ posts:
     caption: |
       Фуксия и оранжевый сталкиваются в одном букете
       249 zł — ранункулюс, пионы
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v035-sunset-callas-sapphire-ru
     image: batch-50/var-035.jpg
@@ -1345,7 +1345,7 @@ posts:
     caption: |
       Крупным планом: изгиб каллы у белой стены
       189 zł — каллы, георгины, дельфиниум
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v034-brunia-sea-lavender-ru
     image: batch-50/var-034.jpg
@@ -1354,7 +1354,7 @@ posts:
     caption: |
       Крошечные рыжие ягоды прячутся среди зелёных шариков
       89 zł — бруния, кермек, крокосмия
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v037-anthurium-dahlia-physalis-ru
     image: batch-50/var-037.jpg
@@ -1363,7 +1363,7 @@ posts:
     caption: |
       Алый изгиб антуриума на крафтовой бумаге
       159 zł — антуриум, георгина, целозия, физалис
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v036-ember-dahlias-ru
     image: batch-50/var-036.jpg
@@ -1372,7 +1372,7 @@ posts:
     caption: |
       Жёлтые шарики краспедии рассыпаны между георгинами
       169 zł — гортензия, георгины, краспедия
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v041-ranunculus-chamomile-vase-ru
     image: batch-50/var-041.jpg
@@ -1381,7 +1381,7 @@ posts:
     caption: |
       Витые веточки тянутся к дневному свету
       149 zł — ранункулюсы, ромашка
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v038-deep-hydrangea-pompons-ru
     image: batch-50/var-038.jpg
@@ -1390,7 +1390,7 @@ posts:
     caption: |
       Соцветия левкоя тянутся вверх над бордовым морем
       179 zł — гортензия, левкой, георгины
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v043-green-berries-statice-ru
     image: batch-50/var-043.jpg
@@ -1399,7 +1399,7 @@ posts:
     caption: |
       Гроздья зелёных ягод рассыпаются пышным веером
       89 zł — зелёные ягоды, физалис, статице
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v040-blush-hydrangea-anthurium-ru
     image: batch-50/var-040.jpg
@@ -1408,7 +1408,7 @@ posts:
     caption: |
       Глянцевые крылья антуриума в тени угла
       169 zł — гортензия, антуриум, молюцелла
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v045-chartreuse-cascade-ru
     image: batch-50/var-045.jpg
@@ -1417,7 +1417,7 @@ posts:
     caption: |
       Бордовые нити амаранта стекают вниз
       109 zł — молюцелла, амарант, антуриум
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v042-pink-hydrangea-anthurium-ru
     image: batch-50/var-042.jpg
@@ -1426,7 +1426,7 @@ posts:
     caption: |
       Розовый шар гортензии утопает в тёплой тени
       169 zł — гортензия, антуриум, ранункулюс
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v047-carmine-and-smoke-ru
     image: batch-50/var-047.jpg
@@ -1435,7 +1435,7 @@ posts:
     caption: |
       Огненные блики на фоне колышущихся трав
       179 zł — антуриум, аллиум, хризантема
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v044-gentian-pompon-dahlia-ru
     image: batch-50/var-044.jpg
@@ -1444,7 +1444,7 @@ posts:
     caption: |
       Жёлтые граммофоны калл среди синих свечей
       189 zł — горечавка, георгина, калла
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v049-peach-callas-ru
     image: batch-50/var-049.jpg
@@ -1453,7 +1453,7 @@ posts:
     caption: |
       Лепесток каллы закручивается нежной спиралью
       199 zł — каллы, антуриум, аллиум, гвоздика
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v046-burgundy-hydrangea-billy-balls-ru
     image: batch-50/var-046.jpg
@@ -1462,7 +1462,7 @@ posts:
     caption: |
       Тёплый бордовый ворох на потёртой доске
       109 zł — гортензия, краспедия, георгина
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v050-red-rose-letters-ru
     image: batch-50/var-050.jpg
@@ -1471,7 +1471,7 @@ posts:
     caption: |
       Строка роз тянется мимо бронзовой статуи
       99 zł / буква — розы
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v048-dahlia-calla-gentian-ru
     image: batch-50/var-048.jpg
@@ -1480,7 +1480,7 @@ posts:
     caption: |
       Голубые гроздья дельфиниума стекают вниз
       189 zł — георгина, калла, дельфиниум
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   # ---------- PARKED (parked: true — ignored by the poster; kept, not deleted) ----------
   - id: b026-pink-rose-lilies-pl
@@ -1492,7 +1492,7 @@ posts:
     caption: |
       Rzędy pudrowych pąków przy białej ścianie
       179 zł — lilie
-      Warszawa #Warszawa
+      #Варшава #Warszawa
 
   - id: b027-copper-chrysanthemums-ru
     image: batch-100/batch-027.jpg
@@ -1503,7 +1503,7 @@ posts:
     caption: |
       Охапки в багажник прямо с рынка
       129 zł — хризантемы
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b033-autumn-pocket-ru
     image: batch-100/batch-033.jpg
@@ -1514,7 +1514,7 @@ posts:
     caption: |
       Яркие кроссовки и букет в руке на ходу
       99 zł — гортензия, георгина, антуриум
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b058-pink-rose-lilies-ru
     image: batch-100/batch-058.jpg
@@ -1525,7 +1525,7 @@ posts:
     caption: |
       Нежные волны бутонов прямо с оптового рынка
       179 zł — лилии
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b059-copper-chrysanthemums-pl
     image: batch-100/batch-059.jpg
@@ -1536,7 +1536,7 @@ posts:
     caption: |
       Dwa naręcza barw jesieni przy otwartym bagażniku
       129 zł — chryzantemy żółte i bordowe
-      Warszawa #Warszawa
+      #Варшава #Warszawa
 
   - id: b065-autumn-pocket-pl
     image: batch-100/batch-065.jpg
@@ -1547,7 +1547,7 @@ posts:
     caption: |
       Niesiony w pośpiechu przez miejski chodnik
       99 zł — hortensja, dalia, anturium, kraspedia
-      Warszawa #Warszawa
+      #Варшава #Warszawa
 
   - id: b090-pink-rose-lilies-pl
     image: batch-100/batch-090.jpg
@@ -1558,7 +1558,7 @@ posts:
     caption: |
       Stos pudrowych płatków czeka w chłodni hurtowni
       179 zł — lilie
-      Warszawa #Warszawa
+      #Варшава #Warszawa
 
   - id: b091-copper-chrysanthemums-ru
     image: batch-100/batch-091.jpg
@@ -1569,7 +1569,7 @@ posts:
     caption: |
       Две охапки цветов и закатное небо над багажником
       129 zł — жёлтые и медные хризантемы
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b097-autumn-pocket-ru
     image: batch-100/batch-097.jpg
@@ -1580,7 +1580,7 @@ posts:
     caption: |
       Бордовый букет в красной обёртке мелькает на бегу
       99 zł — гортензия, георгины, антуриум, краспедия
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v008-copper-chrysanthemums-pl
     image: batch-50/var-008.jpg
@@ -1591,7 +1591,7 @@ posts:
     caption: |
       Bukiety większe niż bagażnik, złote popołudnie
       129 zł — chryzantemy, pszenica
-      Warszawa #Warszawa
+      #Варшава #Warszawa
 
   - id: v030-pink-rose-lilies-pl
     image: batch-50/var-030.jpg
@@ -1602,7 +1602,7 @@ posts:
     caption: |
       Świeże skrzynki prosto z hurtowni kwiatów
       179 zł — lilie
-      Warszawa #Warszawa
+      #Варшава #Warszawa
 
   - id: v031-autumn-pocket-ru
     image: batch-50/var-031.jpg
@@ -1613,7 +1613,7 @@ posts:
     caption: |
       Карманный букет на фоне розовых кроссовок
       99 zł — антуриум, георгина, краспедия, амарант
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v039-copper-chrysanthemums-ru
     image: batch-50/var-039.jpg
@@ -1624,7 +1624,7 @@ posts:
     caption: |
       Жёлтый вихрь хризантем у открытого багажника
       129 zł — жёлтые и медные хризантемы
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b008-coral-peonies-pl
     image: batch-100/batch-008.jpg
@@ -1635,7 +1635,7 @@ posts:
     caption: |
       Okrągła kula szkarłatnych płatków w ręku
       299 zł — piwonie
-      Warszawa #Warszawa
+      #Варшава #Warszawa
 
   - id: b019-burgundy-hydrangea-stock-ru
     image: batch-100/batch-019.jpg
@@ -1646,7 +1646,7 @@ posts:
     caption: |
       Бордовый букет на фоне светлой двери
       179 zł — гортензия, левкой, георгина
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b040-coral-peonies-ru
     image: batch-100/batch-040.jpg
@@ -1657,7 +1657,7 @@ posts:
     caption: |
       Шар из пионов на плече у серой стены
       299 zł — пионы
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b051-burgundy-hydrangea-stock-pl
     image: batch-100/batch-051.jpg
@@ -1668,7 +1668,7 @@ posts:
     caption: |
       Bukiet niesiony w miękkim świetle korytarza
       179 zł — bordowa hortensja, brzoskwiniowa lewkonia, białe dalie
-      Warszawa #Warszawa
+      #Варшава #Warszawa
 
   - id: b072-coral-peonies-pl
     image: batch-100/batch-072.jpg
@@ -1679,7 +1679,7 @@ posts:
     caption: |
       Bukiet zasłania twarz, zostają tylko płatki
       299 zł — piwonie
-      Warszawa #Warszawa
+      #Варшава #Warszawa
 
   - id: b083-burgundy-hydrangea-stock-ru
     image: batch-100/batch-083.jpg
@@ -1690,7 +1690,7 @@ posts:
     caption: |
       Бордовый шар гортензии в руках, у белой двери
       179 zł — гортензия, георгины, левкой
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v023-coral-peonies-ru
     image: batch-50/var-023.jpg
@@ -1701,7 +1701,7 @@ posts:
     caption: |
       Букет такой большой, что скрывает лицо
       299 zł — пионы
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v029-burgundy-hydrangea-stock-ru
     image: batch-50/var-029.jpg
@@ -1712,7 +1712,7 @@ posts:
     caption: |
       Бордо и пудра охапкой у стены
       179 zł — гортензия, георгина, левкоя
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b016-fiery-crocosmia-pl
     image: batch-100/batch-016.jpg
@@ -1723,7 +1723,7 @@ posts:
     caption: |
       Pomarańcz i czerwień łowią popołudniowe słońce
       89 zł — krokosmia, jagody
-      Warszawa #Warszawa
+      #Варшава #Warszawa
 
   - id: b022-flame-parrot-flowers-pl
     image: batch-100/batch-022.jpg
@@ -1734,7 +1734,7 @@ posts:
     caption: |
       Pomarańczowy tulipan wśród srebrzystych jagód
       99 zł — tulipan, zatrwian, jagody ligustru
-      Warszawa #Warszawa
+      #Варшава #Warszawa
 
   - id: b048-fiery-crocosmia-ru
     image: batch-100/batch-048.jpg
@@ -1745,7 +1745,7 @@ posts:
     caption: |
       Огненные блики осеннего рынка
       89 zł — крокосмия, красные ягоды
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b054-flame-parrot-flowers-ru
     image: batch-100/batch-054.jpg
@@ -1756,7 +1756,7 @@ posts:
     caption: |
       Яркий всплеск тюльпана среди сизых ягод
       99 zł — кермек, тюльпан, ягоды
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: b080-fiery-crocosmia-pl
     image: batch-100/batch-080.jpg
@@ -1767,7 +1767,7 @@ posts:
     caption: |
       Pomarańczowe płomienie krokosmii w ostrym słońcu
       89 zł — krokosmia, czerwone jagody
-      Warszawa #Warszawa
+      #Варшава #Warszawa
 
   - id: b086-flame-parrot-flowers-pl
     image: batch-100/batch-086.jpg
@@ -1778,7 +1778,7 @@ posts:
     caption: |
       Srebrzyste jagody i fioletowa mgiełka zatrwianu
       99 zł — zatrwian, pomarańczowe jagody, tulipan
-      Warszawa #Warszawa
+      #Варшава #Warszawa
 
   - id: v002-fiery-crocosmia-pl
     image: batch-50/var-002.jpg
@@ -1789,7 +1789,7 @@ posts:
     caption: |
       Czerwone jagody lśnią w ciepłym świetle słońca
       89 zł — krokosmia, dziurawiec ozdobny
-      Warszawa #Warszawa
+      #Варшава #Warszawa
 
   - id: v025-flame-parrot-flowers-ru
     image: batch-50/var-025.jpg
@@ -1800,7 +1800,7 @@ posts:
     caption: |
       Осенний натюрморт: тюльпан и две грозди ягод
       99 zł — тюльпаны, гиперикум, кермек
-      Варшава #Warszawa
+      #Варшава #Warszawa
 
   - id: v033-fiery-crocosmia-ru
     image: batch-50/var-033.jpg
@@ -1811,4 +1811,4 @@ posts:
     caption: |
       Контровый свет зажигает оранжевые лепестки
       89 zł — крокосмия, гиперикум
-      Варшава #Warszawa
+      #Варшава #Warszawa
