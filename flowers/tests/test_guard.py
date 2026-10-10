@@ -28,7 +28,7 @@ class GuardTest(unittest.TestCase):
         return fake_client.return_value.post.called, buf.getvalue()
 
     def test_blocks_when_last_post_recent(self):
-        posted, out = self.run_main(_log(60), [])
+        posted, out = self.run_main(_log(80), [])
         self.assertFalse(posted)
         self.assertIn("GUARD", out)
 
@@ -42,7 +42,7 @@ class GuardTest(unittest.TestCase):
         self.assertIn("bypassed", out)
 
     def test_posts_after_gap(self):
-        posted, _ = self.run_main(_log(151), [])
+        posted, _ = self.run_main(_log(91), [])
         self.assertTrue(posted)
 
     def test_dry_run_entries_ignored(self):

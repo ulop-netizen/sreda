@@ -5,7 +5,7 @@
     python -m src.post --only ID --force  — то же, в обход защиты от частых постов
 
 Guard: a real post is NOT published if the last logged real post was less than
-MIN_GAP_HOURS ago (default 2.5, env MIN_GAP_HOURS). This stops late GitHub cron
+MIN_GAP_HOURS ago (default 1.5, env MIN_GAP_HOURS). This stops late GitHub cron
 runs from bunching posts together. Only `--force` (meant for manual --only runs)
 bypasses it. A skipped run exits 0 so the Actions job stays green.
 """
@@ -21,7 +21,7 @@ from .threads_client import ThreadsClient
 
 
 def min_gap() -> timedelta:
-    return timedelta(hours=float(os.getenv("MIN_GAP_HOURS", "2.5")))
+    return timedelta(hours=float(os.getenv("MIN_GAP_HOURS", "1.5")))
 
 
 def too_soon(now: datetime | None = None) -> tuple[bool, str]:
