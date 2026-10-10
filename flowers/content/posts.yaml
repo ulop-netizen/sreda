@@ -484,14 +484,14 @@ posts:
       109 zł — молюцелла, амарант, антуриум, крокосмия
       Варшава #Warszawa
 
-  - id: b010-ranunculus-chamomile-vase-pl
+  - id: b010-ranunculus-chamomile-vase-ru
     image: batch-100/batch-010.jpg
-    name: "Obłok rumianku wśród kremowych pąków"
-    lang: pl
+    name: "Шероховатая ваза на фоне оранжевых дверец"
+    lang: ru
     caption: |
-      Obłok rumianku wśród kremowych pąków
-      149 zł — jaskier, rumianek
-      Warszawa #Warszawa
+      Шероховатая ваза на фоне оранжевых дверец
+      149 zł — ранункулюс, ромашка
+      Варшава #Warszawa
 
   - id: b009-ranunculus-carnival-ru
     image: batch-100/batch-009.jpg
