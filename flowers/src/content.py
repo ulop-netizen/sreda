@@ -44,7 +44,7 @@ def load_posts() -> list[dict]:
             "price": price,
             # Captions are single-language RU or PL (no English). Empty when no price —
             # the line is dropped from the template. Never invent prices.
-            "price_line": f"Cena: {price}" if price else "",
+            "price_line": f"{price}" if price else "",
             "cta": str(defaults.get("cta", "")).strip(),
             "delivery": str(defaults.get("delivery", "")).strip(),
         }
