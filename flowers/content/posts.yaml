@@ -538,13 +538,13 @@ posts:
       159 zł — георгина, физалис, антуриум, целозия
       Варшава #Warszawa
 
-  - id: b016-fiery-crocosmia-pl
-    image: batch-100/batch-016.jpg
-    name: "Pomarańcz i czerwień łowią popołudniowe słońce"
+  - id: b018-peach-pompon-dahlias-pl
+    image: batch-100/batch-018.jpg
+    name: "Spiralne płatki brzoskwiniowej dalii z bliska"
     lang: pl
     caption: |
-      Pomarańcz i czerwień łowią popołudniowe słońce
-      89 zł — krokosmia, jagody
+      Spiralne płatki brzoskwiniowej dalii z bliska
+      139 zł — dalie
       Warszawa #Warszawa
 
   - id: b015-burgundy-hydrangea-orange-dahlia-ru
@@ -556,13 +556,13 @@ posts:
       169 zł — гортензия, георгина, антуриум, краспедия
       Варшава #Warszawa
 
-  - id: b018-peach-pompon-dahlias-pl
-    image: batch-100/batch-018.jpg
-    name: "Spiralne płatki brzoskwiniowej dalii z bliska"
+  - id: b020-deep-hydrangea-pompons-pl
+    image: batch-100/batch-020.jpg
+    name: "Winna głębia i brzoskwiniowa piana przy oknie"
     lang: pl
     caption: |
-      Spiralne płatki brzoskwiniowej dalii z bliska
-      139 zł — dalie
+      Winna głębia i brzoskwiniowa piana przy oknie
+      179 zł — hortensja, lewkonia, dalia
       Warszawa #Warszawa
 
   - id: b017-pink-hydrangea-anthurium-ru
@@ -574,13 +574,13 @@ posts:
       169 zł — гортензия, антуриум, молюцелла, ранункулюс
       Варшава #Warszawa
 
-  - id: b020-deep-hydrangea-pompons-pl
-    image: batch-100/batch-020.jpg
-    name: "Winna głębia i brzoskwiniowa piana przy oknie"
+  - id: b024-green-berries-statice-pl
+    image: batch-100/batch-024.jpg
+    name: "Srebrzystozielone kiście wypełniają cały kadr"
     lang: pl
     caption: |
-      Winna głębia i brzoskwiniowa piana przy oknie
-      179 zł — hortensja, lewkonia, dalia
+      Srebrzystozielone kiście wypełniają cały kadr
+      89 zł — brunia, zatrwian
       Warszawa #Warszawa
 
   - id: b021-carmine-and-smoke-ru
@@ -592,13 +592,13 @@ posts:
       179 zł — гербера, антуриум, аллиум, хризантема
       Варшава #Warszawa
 
-  - id: b022-flame-parrot-flowers-pl
-    image: batch-100/batch-022.jpg
-    name: "Pomarańczowy tulipan wśród srebrzystych jagód"
+  - id: b028-dahlia-calla-gentian-pl
+    image: batch-100/batch-028.jpg
+    name: "Lustrzane odbicie wśród szafirowych kiści"
     lang: pl
     caption: |
-      Pomarańczowy tulipan wśród srebrzystych jagód
-      99 zł — tulipan, zatrwian, jagody ligustru
+      Lustrzane odbicie wśród szafirowych kiści
+      189 zł — dalia, kalia, goryczka
       Warszawa #Warszawa
 
   - id: b023-brunia-sea-lavender-ru
@@ -610,13 +610,13 @@ posts:
       89 zł — бруния, кермек
       Варшава #Warszawa
 
-  - id: b024-green-berries-statice-pl
-    image: batch-100/batch-024.jpg
-    name: "Srebrzystozielone kiście wypełniają cały kadr"
+  - id: b030-sunset-callas-sapphire-pl
+    image: batch-100/batch-030.jpg
+    name: "Kalia unosi się płomieniem nad dalią"
     lang: pl
     caption: |
-      Srebrzystozielone kiście wypełniają cały kadr
-      89 zł — brunia, zatrwian
+      Kalia unosi się płomieniem nad dalią
+      189 zł — kalia, dalia, goryczka
       Warszawa #Warszawa
 
   - id: b025-golden-chrysanthemums-ru
@@ -628,13 +628,13 @@ posts:
       129 zł — хризантема
       Варшава #Warszawa
 
-  - id: b028-dahlia-calla-gentian-pl
-    image: batch-100/batch-028.jpg
-    name: "Lustrzane odbicie wśród szafirowych kiści"
+  - id: b032-soft-morning-pl
+    image: batch-100/batch-032.jpg
+    name: "Wysokie łodygi na tle pomarańczowej ściany"
     lang: pl
     caption: |
-      Lustrzane odbicie wśród szafirowych kiści
-      189 zł — dalia, kalia, goryczka
+      Wysokie łodygi na tle pomarańczowej ściany
+      159 zł — gerbera, róże, tweedia
       Warszawa #Warszawa
 
   - id: b029-gentian-yellow-dahlia-ru
@@ -646,13 +646,13 @@ posts:
       189 zł — горечавка, калла, георгина
       Варшава #Warszawa
 
-  - id: b030-sunset-callas-sapphire-pl
-    image: batch-100/batch-030.jpg
-    name: "Kalia unosi się płomieniem nad dalią"
+  - id: b034-blush-hydrangea-anthurium-pl
+    image: batch-100/batch-034.jpg
+    name: "Zielone dzwonki pną się po kątowej ścianie"
     lang: pl
     caption: |
-      Kalia unosi się płomieniem nad dalią
-      189 zł — kalia, dalia, goryczka
+      Zielone dzwonki pną się po kątowej ścianie
+      169 zł — hortensja, anturium, molucela
       Warszawa #Warszawa
 
   - id: b031-gentian-pompon-dahlia-ru
@@ -664,13 +664,13 @@ posts:
       189 zł — георгина, калла, горечавка
       Варшава #Warszawa
 
-  - id: b032-soft-morning-pl
-    image: batch-100/batch-032.jpg
-    name: "Wysokie łodygi na tle pomarańczowej ściany"
+  - id: b036-crimson-still-life-pl
+    image: batch-100/batch-036.jpg
+    name: "Światło z okna pada skosem na czerwień"
     lang: pl
     caption: |
-      Wysokie łodygi na tle pomarańczowej ściany
-      159 zł — gerbera, róże, tweedia
+      Światło z okna pada skosem na czerwień
+      229 zł — anturium, kocanka, czosnek ozdobny
       Warszawa #Warszawa
 
   - id: b035-peach-callas-ru
@@ -682,13 +682,13 @@ posts:
       199 zł — калла, антуриум, аллиум
       Варшава #Warszawa
 
-  - id: b034-blush-hydrangea-anthurium-pl
-    image: batch-100/batch-034.jpg
-    name: "Zielone dzwonki pną się po kątowej ścianie"
+  - id: b038-chartreuse-cascade-pl
+    image: batch-100/batch-038.jpg
+    name: "Zwisające kiście na tle szyby i ulicy"
     lang: pl
     caption: |
-      Zielone dzwonki pną się po kątowej ścianie
-      169 zł — hortensja, anturium, molucela
+      Zwisające kiście na tle szyby i ulicy
+      109 zł — molucela, szarłat, anturium
       Warszawa #Warszawa
 
   - id: b037-ember-dahlias-ru
@@ -700,13 +700,13 @@ posts:
       169 zł — гортензия, георгины, краспедия, антуриум
       Варшава #Warszawa
 
-  - id: b036-crimson-still-life-pl
-    image: batch-100/batch-036.jpg
-    name: "Światło z okna pada skosem na czerwień"
+  - id: b041-ranunculus-carnival-pl
+    image: batch-100/batch-041.jpg
+    name: "Pomarańcz i róż wybuchają nad stołem"
     lang: pl
     caption: |
-      Światło z okna pada skosem na czerwień
-      229 zł — anturium, kocanka, czosnek ozdobny
+      Pomarańcz i róż wybuchają nad stołem
+      249 zł — jaskier, piwonia
       Warszawa #Warszawa
 
   - id: b042-ranunculus-chamomile-vase-ru
@@ -718,13 +718,13 @@ posts:
       149 zł — ранункулюс, ромашка
       Варшава #Warszawa
 
-  - id: b038-chartreuse-cascade-pl
-    image: batch-100/batch-038.jpg
-    name: "Zwisające kiście na tle szyby i ulicy"
+  - id: b043-red-rose-letters-pl
+    image: batch-100/batch-043.jpg
+    name: "Czerwone litery z róż obok brązowego konia"
     lang: pl
     caption: |
-      Zwisające kiście na tle szyby i ulicy
-      109 zł — molucela, szarłat, anturium
+      Czerwone litery z róż obok brązowego konia
+      99 zł / litera — róże
       Warszawa #Warszawa
 
   - id: b044-blushing-peonies-ru
@@ -736,13 +736,13 @@ posts:
       179 zł — пионы
       Варшава #Warszawa
 
-  - id: b041-ranunculus-carnival-pl
-    image: batch-100/batch-041.jpg
-    name: "Pomarańcz i róż wybuchają nad stołem"
+  - id: b045-anthurium-dahlia-physalis-pl
+    image: batch-100/batch-045.jpg
+    name: "Kraftowy papier odsłania bordowe wnętrze"
     lang: pl
     caption: |
-      Pomarańcz i róż wybuchają nad stołem
-      249 zł — jaskier, piwonia
+      Kraftowy papier odsłania bordowe wnętrze
+      159 zł — dalia, anturium, celozja, miechunka
       Warszawa #Warszawa
 
   - id: b046-burgundy-hydrangea-billy-balls-ru
@@ -754,31 +754,13 @@ posts:
       109 zł — краспедия, гортензия, георгина
       Варшава #Warszawa
 
-  - id: b043-red-rose-letters-pl
-    image: batch-100/batch-043.jpg
-    name: "Czerwone litery z róż obok brązowego konia"
+  - id: b047-burgundy-hydrangea-orange-dahlia-pl
+    image: batch-100/batch-047.jpg
+    name: "Jesienne światło przy oknie"
     lang: pl
     caption: |
-      Czerwone litery z róż obok brązowego konia
-      99 zł / litera — róże
-      Warszawa #Warszawa
-
-  - id: b048-fiery-crocosmia-ru
-    image: batch-100/batch-048.jpg
-    name: "Огненные блики осеннего рынка"
-    lang: ru
-    caption: |
-      Огненные блики осеннего рынка
-      89 zł — крокосмия, красные ягоды
-      Варшава #Warszawa
-
-  - id: b045-anthurium-dahlia-physalis-pl
-    image: batch-100/batch-045.jpg
-    name: "Kraftowy papier odsłania bordowe wnętrze"
-    lang: pl
-    caption: |
-      Kraftowy papier odsłania bordowe wnętrze
-      159 zł — dalia, anturium, celozja, miechunka
+      Jesienne światło przy oknie
+      169 zł — bordowa hortensja, pomarańczowa dalia, zielone anturium, kraspedia
       Warszawa #Warszawa
 
   - id: b050-peach-pompon-dahlias-ru
@@ -790,24 +772,6 @@ posts:
       139 zł — георгины
       Варшава #Warszawa
 
-  - id: b047-burgundy-hydrangea-orange-dahlia-pl
-    image: batch-100/batch-047.jpg
-    name: "Jesienne światło przy oknie"
-    lang: pl
-    caption: |
-      Jesienne światło przy oknie
-      169 zł — bordowa hortensja, pomarańczowa dalia, zielone anturium, kraspedia
-      Warszawa #Warszawa
-
-  - id: b052-deep-hydrangea-pompons-ru
-    image: batch-100/batch-052.jpg
-    name: "Утренний свет сквозь витрину"
-    lang: ru
-    caption: |
-      Утренний свет сквозь витрину
-      179 zł — гортензия, левкоя, георгина
-      Варшава #Warszawa
-
   - id: b049-pink-hydrangea-anthurium-pl
     image: batch-100/batch-049.jpg
     name: "Delikatne różowo-zielone detale z bliska"
@@ -817,13 +781,13 @@ posts:
       169 zł — różowa hortensja, zielona molucela, różowe anturium, różowy jaskier
       Warszawa #Warszawa
 
-  - id: b054-flame-parrot-flowers-ru
-    image: batch-100/batch-054.jpg
-    name: "Яркий всплеск тюльпана среди сизых ягод"
+  - id: b052-deep-hydrangea-pompons-ru
+    image: batch-100/batch-052.jpg
+    name: "Утренний свет сквозь витрину"
     lang: ru
     caption: |
-      Яркий всплеск тюльпана среди сизых ягод
-      99 zł — кермек, тюльпан, ягоды
+      Утренний свет сквозь витрину
+      179 zł — гортензия, левкоя, георгина
       Варшава #Warszawa
 
   - id: b053-carmine-and-smoke-pl
@@ -1006,13 +970,13 @@ posts:
       159 zł — антуриум, георгина, физалис
       Варшава #Warszawa
 
-  - id: b080-fiery-crocosmia-pl
-    image: batch-100/batch-080.jpg
-    name: "Pomarańczowe płomienie krokosmii w ostrym słońcu"
+  - id: b082-peach-pompon-dahlias-pl
+    image: batch-100/batch-082.jpg
+    name: "Biedronka na płatkach dalii, kropla rosy"
     lang: pl
     caption: |
-      Pomarańczowe płomienie krokosmii w ostrym słońcu
-      89 zł — krokosmia, czerwone jagody
+      Biedronka na płatkach dalii, kropla rosy
+      139 zł — dalie brzoskwiniowe i łososiowe
       Warszawa #Warszawa
 
   - id: b079-burgundy-hydrangea-orange-dahlia-ru
@@ -1024,13 +988,13 @@ posts:
       169 zł — гортензия, георгины, антуриум, краспедия
       Варшава #Warszawa
 
-  - id: b082-peach-pompon-dahlias-pl
-    image: batch-100/batch-082.jpg
-    name: "Biedronka na płatkach dalii, kropla rosy"
+  - id: b084-deep-hydrangea-pompons-pl
+    image: batch-100/batch-084.jpg
+    name: "Lewkonie sięgają ku szybie, za nią ulica"
     lang: pl
     caption: |
-      Biedronka na płatkach dalii, kropla rosy
-      139 zł — dalie brzoskwiniowe i łososiowe
+      Lewkonie sięgają ku szybie, za nią ulica
+      179 zł — hortensja, lewkonia, dalie
       Warszawa #Warszawa
 
   - id: b081-pink-hydrangea-anthurium-ru
@@ -1042,13 +1006,13 @@ posts:
       169 zł — гортензия, молюцелла, антуриум, ранункулюс
       Варшава #Warszawa
 
-  - id: b084-deep-hydrangea-pompons-pl
-    image: batch-100/batch-084.jpg
-    name: "Lewkonie sięgają ku szybie, za nią ulica"
+  - id: b088-green-berries-statice-pl
+    image: batch-100/batch-088.jpg
+    name: "Ostre południowe słońce rysuje cień na blacie"
     lang: pl
     caption: |
-      Lewkonie sięgają ku szybie, za nią ulica
-      179 zł — hortensja, lewkonia, dalie
+      Ostre południowe słońce rysuje cień na blacie
+      89 zł — brunia, zatrwian
       Warszawa #Warszawa
 
   - id: b085-carmine-and-smoke-ru
@@ -1060,13 +1024,13 @@ posts:
       179 zł — гербера, хризантема, антуриум, аллиум
       Варшава #Warszawa
 
-  - id: b086-flame-parrot-flowers-pl
-    image: batch-100/batch-086.jpg
-    name: "Srebrzyste jagody i fioletowa mgiełka zatrwianu"
+  - id: b092-dahlia-calla-gentian-pl
+    image: batch-100/batch-092.jpg
+    name: "Lustrzana ściana odbija pomarańcz i kobalt"
     lang: pl
     caption: |
-      Srebrzyste jagody i fioletowa mgiełka zatrwianu
-      99 zł — zatrwian, pomarańczowe jagody, tulipan
+      Lustrzana ściana odbija pomarańcz i kobalt
+      189 zł — dalia, kalia, goryczka
       Warszawa #Warszawa
 
   - id: b087-brunia-sea-lavender-ru
@@ -1078,13 +1042,13 @@ posts:
       89 zł — бруния, кермек
       Варшава #Warszawa
 
-  - id: b088-green-berries-statice-pl
-    image: batch-100/batch-088.jpg
-    name: "Ostre południowe słońce rysuje cień na blacie"
+  - id: b094-sunset-callas-sapphire-pl
+    image: batch-100/batch-094.jpg
+    name: "Płatki kalii łowią światło w rogu kadru"
     lang: pl
     caption: |
-      Ostre południowe słońce rysuje cień na blacie
-      89 zł — brunia, zatrwian
+      Płatki kalii łowią światło w rogu kadru
+      189 zł — dalia, kalia, goryczka
       Warszawa #Warszawa
 
   - id: b089-golden-chrysanthemums-ru
@@ -1096,13 +1060,13 @@ posts:
       129 zł — хризантемы
       Варшава #Warszawa
 
-  - id: b092-dahlia-calla-gentian-pl
-    image: batch-100/batch-092.jpg
-    name: "Lustrzana ściana odbija pomarańcz i kobalt"
+  - id: b096-soft-morning-pl
+    image: batch-100/batch-096.jpg
+    name: "Pudrowe gerbery otulone zieloną mgiełką traw"
     lang: pl
     caption: |
-      Lustrzana ściana odbija pomarańcz i kobalt
-      189 zł — dalia, kalia, goryczka
+      Pudrowe gerbery otulone zieloną mgiełką traw
+      159 zł — gerbera, róże, tweedia, szarłat
       Warszawa #Warszawa
 
   - id: b093-gentian-yellow-dahlia-ru
@@ -1114,13 +1078,13 @@ posts:
       189 zł — горечавка, георгина, калла
       Варшава #Warszawa
 
-  - id: b094-sunset-callas-sapphire-pl
-    image: batch-100/batch-094.jpg
-    name: "Płatki kalii łowią światło w rogu kadru"
+  - id: b098-blush-hydrangea-anthurium-pl
+    image: batch-100/batch-098.jpg
+    name: "Pastelowa chmura kwiatów w cichym kącie pokoju"
     lang: pl
     caption: |
-      Płatki kalii łowią światło w rogu kadru
-      189 zł — dalia, kalia, goryczka
+      Pastelowa chmura kwiatów w cichym kącie pokoju
+      169 zł — hortensja, anturium, czosnek ozdobny, molucela
       Warszawa #Warszawa
 
   - id: b095-gentian-pompon-dahlia-ru
@@ -1132,13 +1096,13 @@ posts:
       189 zł — горечавка, георгина, калла, краспедия
       Варшава #Warszawa
 
-  - id: b096-soft-morning-pl
-    image: batch-100/batch-096.jpg
-    name: "Pudrowe gerbery otulone zieloną mgiełką traw"
+  - id: b100-crimson-still-life-pl
+    image: batch-100/batch-100.jpg
+    name: "Głębia bordo i surowe trawy na parapecie"
     lang: pl
     caption: |
-      Pudrowe gerbery otulone zieloną mgiełką traw
-      159 zł — gerbera, róże, tweedia, szarłat
+      Głębia bordo i surowe trawy na parapecie
+      229 zł — anturium, czosnek ozdobny, chryzantema
       Warszawa #Warszawa
 
   - id: b099-peach-callas-ru
@@ -1150,13 +1114,13 @@ posts:
       199 zł — каллы, аллиум, антуриум, хризантема
       Варшава #Warszawa
 
-  - id: b098-blush-hydrangea-anthurium-pl
-    image: batch-100/batch-098.jpg
-    name: "Pastelowa chmura kwiatów w cichym kącie pokoju"
+  - id: v004-sunset-callas-sapphire-pl
+    image: batch-50/var-004.jpg
+    name: "Ciepła pomarańcz na tle intensywnego błękitu"
     lang: pl
     caption: |
-      Pastelowa chmura kwiatów w cichym kącie pokoju
-      169 zł — hortensja, anturium, czosnek ozdobny, molucela
+      Ciepła pomarańcz na tle intensywnego błękitu
+      189 zł — kalia, dalia, ostróżka
       Warszawa #Warszawa
 
   - id: v001-ranunculus-carnival-ru
@@ -1168,13 +1132,13 @@ posts:
       249 zł — ранункулюс, пион
       Варшава #Warszawa
 
-  - id: b100-crimson-still-life-pl
-    image: batch-100/batch-100.jpg
-    name: "Głębia bordo i surowe trawy na parapecie"
+  - id: v006-anthurium-dahlia-physalis-pl
+    image: batch-50/var-006.jpg
+    name: "Szmaragd i wino kwiatów na miejskim bruku"
     lang: pl
     caption: |
-      Głębia bordo i surowe trawy na parapecie
-      229 zł — anturium, czosnek ozdobny, chryzantema
+      Szmaragd i wino kwiatów na miejskim bruku
+      159 zł — dalia, anturium, miechunka
       Warszawa #Warszawa
 
   - id: v003-brunia-sea-lavender-ru
@@ -1186,13 +1150,13 @@ posts:
       89 zł — бруния, кермек
       Варшава #Warszawa
 
-  - id: v002-fiery-crocosmia-pl
-    image: batch-50/var-002.jpg
-    name: "Czerwone jagody lśnią w ciepłym świetle słońca"
+  - id: v010-ranunculus-chamomile-vase-pl
+    image: batch-50/var-010.jpg
+    name: "Miękkie światło okna wśród kremowych płatków"
     lang: pl
     caption: |
-      Czerwone jagody lśnią w ciepłym świetle słońca
-      89 zł — krokosmia, dziurawiec ozdobny
+      Miękkie światło okna wśród kremowych płatków
+      149 zł — jaskry, rumianek
       Warszawa #Warszawa
 
   - id: v005-ember-dahlias-ru
@@ -1204,13 +1168,13 @@ posts:
       169 zł — георгина, гортензия
       Варшава #Warszawa
 
-  - id: v004-sunset-callas-sapphire-pl
-    image: batch-50/var-004.jpg
-    name: "Ciepła pomarańcz na tle intensywnego błękitu"
+  - id: v012-green-berries-statice-pl
+    image: batch-50/var-012.jpg
+    name: "Cień gałązek na ścianie i południowe słońce"
     lang: pl
     caption: |
-      Ciepła pomarańcz na tle intensywnego błękitu
-      189 zł — kalia, dalia, ostróżka
+      Cień gałązek na ścianie i południowe słońce
+      89 zł — brunia, zatrwian
       Warszawa #Warszawa
 
   - id: v007-deep-hydrangea-pompons-ru
@@ -1222,13 +1186,13 @@ posts:
       179 zł — гортензия, левкой, хризантема
       Варшава #Warszawa
 
-  - id: v006-anthurium-dahlia-physalis-pl
-    image: batch-50/var-006.jpg
-    name: "Szmaragd i wino kwiatów na miejskim bruku"
+  - id: v014-chartreuse-cascade-pl
+    image: batch-50/var-014.jpg
+    name: "Bordowe frędzle zwisają nad seledynową zielenią"
     lang: pl
     caption: |
-      Szmaragd i wino kwiatów na miejskim bruku
-      159 zł — dalia, anturium, miechunka
+      Bordowe frędzle zwisają nad seledynową zielenią
+      109 zł — anturium, szarłat, molucela
       Warszawa #Warszawa
 
   - id: v009-blush-hydrangea-anthurium-ru
@@ -1240,13 +1204,13 @@ posts:
       169 zł — гортензия, антуриум, молюцелла
       Варшава #Warszawa
 
-  - id: v010-ranunculus-chamomile-vase-pl
-    image: batch-50/var-010.jpg
-    name: "Miękkie światło okna wśród kremowych płatków"
+  - id: v016-carmine-and-smoke-pl
+    image: batch-50/var-016.jpg
+    name: "Purpurowe trawy i czerwień wśród rozmytego światła"
     lang: pl
     caption: |
-      Miękkie światło okna wśród kremowych płatków
-      149 zł — jaskry, rumianek
+      Purpurowe trawy i czerwień wśród rozmytego światła
+      179 zł — anturium, czosnek ozdobny, stokrotka
       Warszawa #Warszawa
 
   - id: v011-pink-hydrangea-anthurium-ru
@@ -1258,13 +1222,13 @@ posts:
       169 zł — гортензия, антуриум, ранункулюс
       Варшава #Warszawa
 
-  - id: v012-green-berries-statice-pl
-    image: batch-50/var-012.jpg
-    name: "Cień gałązek na ścianie i południowe słońce"
+  - id: v018-peach-callas-pl
+    image: batch-50/var-018.jpg
+    name: "Smugi światła z okna wśród liści anturium"
     lang: pl
     caption: |
-      Cień gałązek na ścianie i południowe słońce
-      89 zł — brunia, zatrwian
+      Smugi światła z okna wśród liści anturium
+      199 zł — anturium, kalia, czosnek ozdobny
       Warszawa #Warszawa
 
   - id: v013-gentian-pompon-dahlia-ru
@@ -1276,13 +1240,13 @@ posts:
       189 zł — горечавка, георгина, калла
       Варшава #Warszawa
 
-  - id: v014-chartreuse-cascade-pl
-    image: batch-50/var-014.jpg
-    name: "Bordowe frędzle zwisają nad seledynową zielenią"
+  - id: v020-peach-pompon-dahlias-pl
+    image: batch-50/var-020.jpg
+    name: "Pszczoła na płatku i kropla rosy"
     lang: pl
     caption: |
-      Bordowe frędzle zwisają nad seledynową zielenią
-      109 zł — anturium, szarłat, molucela
+      Pszczoła na płatku i kropla rosy
+      139 zł — dalie brzoskwiniowe i koralowe
       Warszawa #Warszawa
 
   - id: v015-burgundy-hydrangea-billy-balls-ru
@@ -1294,13 +1258,13 @@ posts:
       109 zł — гортензия, краспедия, амарант
       Варшава #Warszawa
 
-  - id: v016-carmine-and-smoke-pl
-    image: batch-50/var-016.jpg
-    name: "Purpurowe trawy i czerwień wśród rozmytego światła"
+  - id: v022-soft-morning-pl
+    image: batch-50/var-022.jpg
+    name: "Pastelowe kwiaty na tle pomarańczowej ściany"
     lang: pl
     caption: |
-      Purpurowe trawy i czerwień wśród rozmytego światła
-      179 zł — anturium, czosnek ozdobny, stokrotka
+      Pastelowe kwiaty na tle pomarańczowej ściany
+      159 zł — gerbera, róże, tweedia
       Warszawa #Warszawa
 
   - id: v017-dahlia-calla-gentian-ru
@@ -1312,13 +1276,13 @@ posts:
       189 zł — георгина, калла, горечавка
       Варшава #Warszawa
 
-  - id: v018-peach-callas-pl
-    image: batch-50/var-018.jpg
-    name: "Smugi światła z okna wśród liści anturium"
+  - id: v024-burgundy-hydrangea-orange-dahlia-pl
+    image: batch-50/var-024.jpg
+    name: "Jesienne barwy przy oknie, bordo i pomarańcz"
     lang: pl
     caption: |
-      Smugi światła z okna wśród liści anturium
-      199 zł — anturium, kalia, czosnek ozdobny
+      Jesienne barwy przy oknie, bordo i pomarańcz
+      169 zł — hortensja, dalia, kraspedia, anturium
       Warszawa #Warszawa
 
   - id: v019-red-rose-letters-ru
@@ -1330,13 +1294,13 @@ posts:
       99 zł / буква — красные и белые розы
       Варшава #Warszawa
 
-  - id: v020-peach-pompon-dahlias-pl
-    image: batch-50/var-020.jpg
-    name: "Pszczoła na płatku i kropla rosy"
+  - id: v026-gentian-yellow-dahlia-pl
+    image: batch-50/var-026.jpg
+    name: "Intensywny błękit goryczki z bliska"
     lang: pl
     caption: |
-      Pszczoła na płatku i kropla rosy
-      139 zł — dalie brzoskwiniowe i koralowe
+      Intensywny błękit goryczki z bliska
+      189 zł — goryczka, kalia, dalia
       Warszawa #Warszawa
 
   - id: v021-golden-chrysanthemums-ru
@@ -1348,31 +1312,13 @@ posts:
       129 zł — хризантемы
       Варшава #Warszawa
 
-  - id: v022-soft-morning-pl
-    image: batch-50/var-022.jpg
-    name: "Pastelowe kwiaty na tle pomarańczowej ściany"
+  - id: v028-blushing-peonies-pl
+    image: batch-50/var-028.jpg
+    name: "Widok z góry na górę różowych falbanek"
     lang: pl
     caption: |
-      Pastelowe kwiaty na tle pomarańczowej ściany
-      159 zł — gerbera, róże, tweedia
-      Warszawa #Warszawa
-
-  - id: v025-flame-parrot-flowers-ru
-    image: batch-50/var-025.jpg
-    name: "Осенний натюрморт: тюльпан и две грозди ягод"
-    lang: ru
-    caption: |
-      Осенний натюрморт: тюльпан и две грозди ягод
-      99 zł — тюльпаны, гиперикум, кермек
-      Варшава #Warszawa
-
-  - id: v024-burgundy-hydrangea-orange-dahlia-pl
-    image: batch-50/var-024.jpg
-    name: "Jesienne barwy przy oknie, bordo i pomarańcz"
-    lang: pl
-    caption: |
-      Jesienne barwy przy oknie, bordo i pomarańcz
-      169 zł — hortensja, dalia, kraspedia, anturium
+      Widok z góry na górę różowych falbanek
+      179 zł — piwonie
       Warszawa #Warszawa
 
   - id: v027-crimson-still-life-ru
@@ -1384,31 +1330,13 @@ posts:
       229 zł — антуриум, гелихризум, аллиум
       Варшава #Warszawa
 
-  - id: v026-gentian-yellow-dahlia-pl
-    image: batch-50/var-026.jpg
-    name: "Intensywny błękit goryczki z bliska"
+  - id: v032-ranunculus-carnival-pl
+    image: batch-50/var-032.jpg
+    name: "Plątanina łodyg w świetle z okna"
     lang: pl
     caption: |
-      Intensywny błękit goryczki z bliska
-      189 zł — goryczka, kalia, dalia
-      Warszawa #Warszawa
-
-  - id: v033-fiery-crocosmia-ru
-    image: batch-50/var-033.jpg
-    name: "Контровый свет зажигает оранжевые лепестки"
-    lang: ru
-    caption: |
-      Контровый свет зажигает оранжевые лепестки
-      89 zł — крокосмия, гиперикум
-      Варшава #Warszawa
-
-  - id: v028-blushing-peonies-pl
-    image: batch-50/var-028.jpg
-    name: "Widok z góry na górę różowych falbanek"
-    lang: pl
-    caption: |
-      Widok z góry na górę różowych falbanek
-      179 zł — piwonie
+      Plątanina łodyg w świetle z okna
+      249 zł — jaskier, piwonia
       Warszawa #Warszawa
 
   - id: v035-sunset-callas-sapphire-ru
@@ -1420,13 +1348,13 @@ posts:
       189 zł — каллы, георгины, дельфиниум
       Варшава #Warszawa
 
-  - id: v032-ranunculus-carnival-pl
-    image: batch-50/var-032.jpg
-    name: "Plątanina łodyg w świetle z okna"
+  - id: v034-brunia-sea-lavender-pl
+    image: batch-50/var-034.jpg
+    name: "Delikatne kuleczki brunii skrzą się w słońcu"
     lang: pl
     caption: |
-      Plątanina łodyg w świetle z okna
-      249 zł — jaskier, piwonia
+      Delikatne kuleczki brunii skrzą się w słońcu
+      89 zł — brunia, zatrwian, krokosmia
       Warszawa #Warszawa
 
   - id: v037-anthurium-dahlia-physalis-ru
@@ -1438,13 +1366,13 @@ posts:
       159 zł — антуриум, георгина, целозия, физалис
       Варшава #Warszawa
 
-  - id: v034-brunia-sea-lavender-pl
-    image: batch-50/var-034.jpg
-    name: "Delikatne kuleczki brunii skrzą się w słońcu"
+  - id: v036-ember-dahlias-pl
+    image: batch-50/var-036.jpg
+    name: "Bordo i pomarańcz w blasku z okna"
     lang: pl
     caption: |
-      Delikatne kuleczki brunii skrzą się w słońcu
-      89 zł — brunia, zatrwian, krokosmia
+      Bordo i pomarańcz w blasku z okna
+      169 zł — hortensja, dalia, kraspedia
       Warszawa #Warszawa
 
   - id: v041-ranunculus-chamomile-vase-ru
@@ -1456,13 +1384,13 @@ posts:
       149 zł — ранункулюсы, ромашка
       Варшава #Warszawa
 
-  - id: v036-ember-dahlias-pl
-    image: batch-50/var-036.jpg
-    name: "Bordo i pomarańcz w blasku z okna"
+  - id: v038-deep-hydrangea-pompons-pl
+    image: batch-50/var-038.jpg
+    name: "Światło z okna muska bordowe płatki"
     lang: pl
     caption: |
-      Bordo i pomarańcz w blasku z okna
-      169 zł — hortensja, dalia, kraspedia
+      Światło z okna muska bordowe płatki
+      179 zł — hortensja, lewkonia, dalia
       Warszawa #Warszawa
 
   - id: v043-green-berries-statice-ru
@@ -1474,13 +1402,13 @@ posts:
       89 zł — зелёные ягоды, физалис, статице
       Варшава #Warszawa
 
-  - id: v038-deep-hydrangea-pompons-pl
-    image: batch-50/var-038.jpg
-    name: "Światło z okna muska bordowe płatki"
+  - id: v040-blush-hydrangea-anthurium-pl
+    image: batch-50/var-040.jpg
+    name: "Różowe skrzydła anturium w kącie światła"
     lang: pl
     caption: |
-      Światło z okna muska bordowe płatki
-      179 zł — hortensja, lewkonia, dalia
+      Różowe skrzydła anturium w kącie światła
+      169 zł — hortensja, anturium, molucela
       Warszawa #Warszawa
 
   - id: v045-chartreuse-cascade-ru
@@ -1492,13 +1420,13 @@ posts:
       109 zł — молюцелла, амарант, антуриум
       Варшава #Warszawa
 
-  - id: v040-blush-hydrangea-anthurium-pl
-    image: batch-50/var-040.jpg
-    name: "Różowe skrzydła anturium w kącie światła"
+  - id: v042-pink-hydrangea-anthurium-pl
+    image: batch-50/var-042.jpg
+    name: "Makro płatków w głębokim, ciepłym cieniu"
     lang: pl
     caption: |
-      Różowe skrzydła anturium w kącie światła
-      169 zł — hortensja, anturium, molucela
+      Makro płatków w głębokim, ciepłym cieniu
+      169 zł — hortensja, anturium, jaskier
       Warszawa #Warszawa
 
   - id: v047-carmine-and-smoke-ru
@@ -1510,13 +1438,13 @@ posts:
       179 zł — антуриум, аллиум, хризантема
       Варшава #Warszawa
 
-  - id: v042-pink-hydrangea-anthurium-pl
-    image: batch-50/var-042.jpg
-    name: "Makro płatków w głębokim, ciepłym cieniu"
+  - id: v044-gentian-pompon-dahlia-pl
+    image: batch-50/var-044.jpg
+    name: "Granat goryczki kontra bursztyn kalii"
     lang: pl
     caption: |
-      Makro płatków w głębokim, ciepłym cieniu
-      169 zł — hortensja, anturium, jaskier
+      Granat goryczki kontra bursztyn kalii
+      189 zł — goryczka, dalia, kalia
       Warszawa #Warszawa
 
   - id: v049-peach-callas-ru
@@ -1528,13 +1456,13 @@ posts:
       199 zł — каллы, антуриум, аллиум, гвоздика
       Варшава #Warszawa
 
-  - id: v044-gentian-pompon-dahlia-pl
-    image: batch-50/var-044.jpg
-    name: "Granat goryczki kontra bursztyn kalii"
+  - id: v046-burgundy-hydrangea-billy-balls-pl
+    image: batch-50/var-046.jpg
+    name: "Pęki w kraftowym papierze na drewnianej desce"
     lang: pl
     caption: |
-      Granat goryczki kontra bursztyn kalii
-      189 zł — goryczka, dalia, kalia
+      Pęki w kraftowym papierze na drewnianej desce
+      109 zł — hortensja, kraspedia, dalia
       Warszawa #Warszawa
 
   - id: v050-red-rose-letters-ru
@@ -1546,23 +1474,14 @@ posts:
       99 zł / буква — розы
       Варшава #Warszawa
 
-  - id: v046-burgundy-hydrangea-billy-balls-pl
-    image: batch-50/var-046.jpg
-    name: "Pęki w kraftowym papierze na drewnianej desce"
+  - id: v048-dahlia-calla-gentian-pl
+    image: batch-50/var-048.jpg
+    name: "Pomarańcz i kobalt splecione w jednej kompozycji"
     lang: pl
     caption: |
-      Pęki w kraftowym papierze na drewnianej desce
-      109 zł — hortensja, kraspedia, dalia
+      Pomarańcz i kobalt splecione w jednej kompozycji
+      189 zł — dalia, kalia, ostróżka
       Warszawa #Warszawa
-
-  - id: v048-dahlia-calla-gentian-ru
-    image: batch-50/var-048.jpg
-    name: "Красная россыпь прячется в оранжевом пламени"
-    lang: ru
-    caption: |
-      Красная россыпь прячется в оранжевом пламени
-      189 zł — георгины, каллы, дельфиниум
-      Варшава #Warszawa
 
   # ---------- PARKED (parked: true — ignored by the poster; kept, not deleted) ----------
   - id: b026-pink-rose-lilies-pl
@@ -1794,4 +1713,103 @@ posts:
     caption: |
       Бордо и пудра охапкой у стены
       179 zł — гортензия, георгина, левкоя
+      Варшава #Warszawa
+
+  - id: b016-fiery-crocosmia-pl
+    image: batch-100/batch-016.jpg
+    name: "Pomarańcz i czerwień łowią popołudniowe słońce"
+    parked: true
+    parked_reason: "photo shows part of a person's face (no people in shots; can't be blurred/cropped cleanly)"
+    lang: pl
+    caption: |
+      Pomarańcz i czerwień łowią popołudniowe słońce
+      89 zł — krokosmia, jagody
+      Warszawa #Warszawa
+
+  - id: b022-flame-parrot-flowers-pl
+    image: batch-100/batch-022.jpg
+    name: "Pomarańczowy tulipan wśród srebrzystych jagód"
+    parked: true
+    parked_reason: "photo shows a person's body/clothing holding the bouquet (no people in shots; can't be cropped cleanly)"
+    lang: pl
+    caption: |
+      Pomarańczowy tulipan wśród srebrzystych jagód
+      99 zł — tulipan, zatrwian, jagody ligustru
+      Warszawa #Warszawa
+
+  - id: b048-fiery-crocosmia-ru
+    image: batch-100/batch-048.jpg
+    name: "Огненные блики осеннего рынка"
+    parked: true
+    parked_reason: "photo shows part of a person's face (no people in shots; can't be blurred/cropped cleanly)"
+    lang: ru
+    caption: |
+      Огненные блики осеннего рынка
+      89 zł — крокосмия, красные ягоды
+      Варшава #Warszawa
+
+  - id: b054-flame-parrot-flowers-ru
+    image: batch-100/batch-054.jpg
+    name: "Яркий всплеск тюльпана среди сизых ягод"
+    parked: true
+    parked_reason: "photo shows a person's body/clothing holding the bouquet (no people in shots; can't be cropped cleanly)"
+    lang: ru
+    caption: |
+      Яркий всплеск тюльпана среди сизых ягод
+      99 zł — кермек, тюльпан, ягоды
+      Варшава #Warszawa
+
+  - id: b080-fiery-crocosmia-pl
+    image: batch-100/batch-080.jpg
+    name: "Pomarańczowe płomienie krokosmii w ostrym słońcu"
+    parked: true
+    parked_reason: "photo shows part of a person's face (no people in shots; can't be blurred/cropped cleanly)"
+    lang: pl
+    caption: |
+      Pomarańczowe płomienie krokosmii w ostrym słońcu
+      89 zł — krokosmia, czerwone jagody
+      Warszawa #Warszawa
+
+  - id: b086-flame-parrot-flowers-pl
+    image: batch-100/batch-086.jpg
+    name: "Srebrzyste jagody i fioletowa mgiełka zatrwianu"
+    parked: true
+    parked_reason: "photo shows a person's body/clothing holding the bouquet (no people in shots; can't be cropped cleanly)"
+    lang: pl
+    caption: |
+      Srebrzyste jagody i fioletowa mgiełka zatrwianu
+      99 zł — zatrwian, pomarańczowe jagody, tulipan
+      Warszawa #Warszawa
+
+  - id: v002-fiery-crocosmia-pl
+    image: batch-50/var-002.jpg
+    name: "Czerwone jagody lśnią w ciepłym świetle słońca"
+    parked: true
+    parked_reason: "photo shows part of a person's face (no people in shots; can't be blurred/cropped cleanly)"
+    lang: pl
+    caption: |
+      Czerwone jagody lśnią w ciepłym świetle słońca
+      89 zł — krokosmia, dziurawiec ozdobny
+      Warszawa #Warszawa
+
+  - id: v025-flame-parrot-flowers-ru
+    image: batch-50/var-025.jpg
+    name: "Осенний натюрморт: тюльпан и две грозди ягод"
+    parked: true
+    parked_reason: "photo shows a person's body/clothing holding the bouquet (no people in shots; can't be cropped cleanly)"
+    lang: ru
+    caption: |
+      Осенний натюрморт: тюльпан и две грозди ягод
+      99 zł — тюльпаны, гиперикум, кермек
+      Варшава #Warszawa
+
+  - id: v033-fiery-crocosmia-ru
+    image: batch-50/var-033.jpg
+    name: "Контровый свет зажигает оранжевые лепестки"
+    parked: true
+    parked_reason: "photo shows part of a person's face (no people in shots; can't be blurred/cropped cleanly)"
+    lang: ru
+    caption: |
+      Контровый свет зажигает оранжевые лепестки
+      89 zł — крокосмия, гиперикум
       Варшава #Warszawa
