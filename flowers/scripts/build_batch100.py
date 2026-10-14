@@ -152,19 +152,19 @@ def variant(img: Image.Image, seed: int) -> Image.Image:
     if bottom - top < h * 0.85:
         top, bottom = 0, h
     cropped = img.crop((left, top, right, bottom))
-    # occasional slight rotate (expand then center-crop back)
+    # occasional slight rotate, then crop inside the rotated area
     angle = rng.choice([0, 0, 0, -1.5, 1.5, -2.0, 2.0])
     if angle:
-        rotated = cropped.rotate(angle, resample=Image.Resampling.BICUBIC, expand=True, fillcolor=(255, 255, 255))
-        # center crop to original cropped size-ish
-        rw, rh = rotated.size
+        import math
         cw, ch = cropped.size
-        if rw >= cw and rh >= ch:
-            x0 = (rw - cw) // 2
-            y0 = (rh - ch) // 2
-            cropped = rotated.crop((x0, y0, x0 + cw, y0 + ch))
-        else:
-            cropped = rotated
+        rotated = cropped.rotate(angle, resample=Image.Resampling.BICUBIC, expand=False)
+        # crop to the largest same-aspect rectangle fully inside the rotated photo
+        # (no white/light fill wedges at the edges -- VAC, Oct 14)
+        c, s = math.cos(math.radians(abs(angle))), math.sin(math.radians(abs(angle)))
+        k = min(cw / (cw * c + ch * s), ch / (cw * s + ch * c))
+        w2, h2 = int(cw * k) - 6, int(ch * k) - 6
+        x0, y0 = (cw - w2) // 2, (ch - h2) // 2
+        cropped = rotated.crop((x0, y0, x0 + w2, y0 + h2))
     if cropped.mode != "RGB":
         cropped = cropped.convert("RGB")
     return cropped
