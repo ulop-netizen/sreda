@@ -16,6 +16,14 @@ on:
     - cron: "47 16 * * *"
     - cron: "31 17 * * *"
   workflow_dispatch: {}   # кнопка ручного запуска
+  # Backup trigger #1: any push to main that changes the trigger file.
+  # posted_log commits never touch this path (and GITHUB_TOKEN pushes don't trigger runs), so no loop.
+  push:
+    branches: [main]
+    paths: ["flowers/content/trigger/backup.txt"]
+  # Backup trigger #2: creating a branch named backup-* (e.g. via the GitHub connector's create_branch).
+  # Only repo writers can create branches. The run deletes that branch at the end.
+  create:
 
 permissions:
   contents: write         # чтобы коммитить posted_log.json обратно
@@ -24,8 +32,11 @@ jobs:
   post:
     runs-on: ubuntu-latest
     concurrency: post-to-threads
+    if: github.event_name != 'create' || (github.event.ref_type == 'branch' && startsWith(github.event.ref, 'backup-'))
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
 
       - uses: actions/setup-python@v5
         with:
@@ -50,5 +61,9 @@ jobs:
           git config user.email "actions@github.com"
           git add flowers/content/posted_log.json
           git diff --cached --quiet || git commit -m "log: posted $(date -u +%FT%TZ)"
-          git pull --rebase
-          git push
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Delete backup trigger branch
+        if: always() && github.event_name == 'create'
+        run: git push origin --delete "${{ github.event.ref }}" || true
