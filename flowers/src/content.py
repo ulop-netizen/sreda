@@ -10,6 +10,8 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 POSTS_FILE = ROOT / "content" / "posts.yaml"
+# Extra batch files (e.g. posts-1026.yaml) are merged after posts.yaml.
+EXTRA_POSTS_GLOB = "posts-*.yaml"
 LOG_FILE = ROOT / "content" / "posted_log.json"
 
 
@@ -26,10 +28,21 @@ def _price(base_pln, multiplier: float) -> str:
 
 
 def load_posts() -> list[dict]:
-    raw = yaml.safe_load(POSTS_FILE.read_text(encoding="utf-8")) or {}
+    out = []
+    files = [POSTS_FILE] + sorted((ROOT / "content").glob(EXTRA_POSTS_GLOB))
+    for f in files:
+        out.extend(_load_file(f))
+    if not out:
+        raise SystemExit(f"В {POSTS_FILE} нет ни одного поста.")
+    return out
+
+
+def _load_file(path: Path) -> list[dict]:
+    raw = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
     defaults = raw.get("defaults") or {}
     template = defaults.get("template", "{name}\n{price}")
     multiplier = defaults.get("price_multiplier", 1)
+    default_priority = int(defaults.get("priority", 0))
 
     out = []
     for item in raw.get("posts") or []:
@@ -65,11 +78,14 @@ def load_posts() -> list[dict]:
             {
                 "id": str(item.get("id") or _fingerprint(caption)),
                 "image": str(item.get("image") or "").strip(),
+                # images: 2+ files -> carousel; image stays the first one for logs/filters
+                "images": [str(x).strip() for x in (item.get("images") or []) if str(x).strip()],
+                "priority": int(item.get("priority", default_priority)),
                 "caption": caption,
             }
         )
-    if not out:
-        raise SystemExit(f"В {POSTS_FILE} нет ни одного поста.")
+        if out[-1]["images"] and not out[-1]["image"]:
+            out[-1]["image"] = out[-1]["images"][0]
     return out
 
 
@@ -135,5 +151,6 @@ def pick_next(kind: str | None = None) -> dict | None:
             last_seen.get("id:" + p["id"], ""),
         )
 
-    posts.sort(key=_seen)
+    # LRU first; among equally-unseen posts, higher priority (new batches) first.
+    posts.sort(key=lambda p: (_seen(p), -p.get("priority", 0)))
     return posts[0]

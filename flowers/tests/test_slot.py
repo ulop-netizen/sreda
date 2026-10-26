@@ -46,16 +46,16 @@ class SlotMissingTest(unittest.TestCase):
         self.assertEqual(why, "")
 
     def test_before_first_slot_nothing_is_due(self):
-        now = datetime(2026, 10, 16, 5, 0, tzinfo=timezone.utc)  # 07:00 Warsaw
+        now = datetime(2026, 10, 16, 3, 30, tzinfo=timezone.utc)  # 05:30 Warsaw (before 06:00)
         with mock.patch.object(P, "load_log", return_value=[]):
             full, why = P.slot_missing(now)
         self.assertTrue(full)
         self.assertEqual(why, "SLOT: сегодня уже 0 пост(ов), слотов наступило 0 — пропускаю.")
 
     def test_slots_follow_warsaw_local_time(self):
-        # CET (UTC+1): 07:09 UTC is 08:09 Warsaw, 07:10 UTC is 08:10.
-        early = datetime(2026, 1, 16, 7, 9, tzinfo=timezone.utc)
-        due = datetime(2026, 1, 16, 7, 10, tzinfo=timezone.utc)
+        # CET (UTC+1): 04:59 UTC is 05:59 Warsaw, 05:00 UTC is 06:00 (first slot).
+        early = datetime(2026, 1, 16, 4, 59, tzinfo=timezone.utc)
+        due = datetime(2026, 1, 16, 5, 0, tzinfo=timezone.utc)
         with mock.patch.object(P, "load_log", return_value=[]):
             full_early, _ = P.slot_missing(early)
             full_due, _ = P.slot_missing(due)

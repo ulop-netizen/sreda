@@ -1,0 +1,855 @@
+# Batch 26.10.2026 — all photos VAC added to Downloads 26.10 01:25 (81 files) + earlier picks.
+# Captions by Claude (claude -p, looked at each photo). Prices only 139/239/359 (prices.md premium tiers).
+# Aesthetic photos go only as 2-image carousels with a bouquet. parked: true = never posted.
+
+defaults:
+  priority: 1   # new batch goes before older unposted posts
+
+posts:
+  - id: b1026-a01
+    image: "batch-1026/a01.jpg"
+    price_pln: 139
+    caption: |
+      Мячики и герберы
+      139 zł — мини-герберы, зелёная гвоздика, гомфрена
+      Варшава
+
+  - id: b1026-a02
+    image: "batch-1026/a02.jpg"
+    price_pln: 359
+    caption: |
+      Голубое облако
+      359 zł — гортензия, кустовые пионовидные розы
+      Варшава
+
+  - id: b1026-a04
+    image: "batch-1026/a04.jpg"
+    price_pln: 139
+    caption: |
+      Только зелёное
+      139 zł — зелёная гвоздика, птицемлечник, ветки
+      Варшава
+
+  - id: b1026-c-a14-d28
+    images:
+      - "batch-1026/a14.jpg"
+      - "batch-1026/d28.jpg"
+    price_pln: 239
+    caption: |
+      Синий, как вечер
+      239 zł — антуриум, герберы, хризантемы, крокосмия
+      Варшава
+
+  - id: b1026-a05
+    image: "batch-1026/a05.jpg"
+    price_pln: 359
+    caption: |
+      Коралл и малина
+      359 zł — пионовидные розы, помпонные георгины
+      Варшава
+
+  - id: b1026-a06
+    image: "batch-1026/a06.jpg"
+    price_pln: 359
+    caption: |
+      Ветки в цвету
+      359 zł — цветущий боярышник
+      Варшава
+
+  - id: b1026-a07
+    image: "batch-1026/a07.jpg"
+    price_pln: 359
+    caption: |
+      Утро на рынке
+      359 zł — кустовые розы, левкой, краспедия, левкоспермум
+      Варшава
+
+  - id: b1026-c-d28-d46
+    images:
+      - "batch-1026/d28.jpg"
+      - "batch-1026/d46.jpg"
+    price_pln: 239
+    caption: |
+      Огни и тюльпаны
+      239 zł — тюльпаны, ранункулюсы, гиацинты
+      Варшава
+
+  - id: b1026-a08
+    image: "batch-1026/a08.jpg"
+    price_pln: 239
+    caption: |
+      Жёлтый водопад
+      239 zł — левкоспермум, амарант
+      Варшава
+
+  - id: b1026-a09
+    image: "batch-1026/a09.jpg"
+    price_pln: 239
+    caption: |
+      Пудра и ягоды
+      239 zł — крупные хризантемы, чёрные ягоды
+      Варшава
+
+  - id: b1026-a10
+    image: "batch-1026/a10.jpg"
+    price_pln: 239
+    caption: |
+      Ягоды у зеркала
+      239 zł — гортензия, илекс, левкоспермум, бруния
+      Варшава
+
+  - id: b1026-c-a10-d36
+    images:
+      - "batch-1026/a10.jpg"
+      - "batch-1026/d36.jpg"
+    price_pln: 239
+    caption: |
+      Свеча и ягоды
+      239 zł — гортензия, илекс, левкоспермум, бруния
+      Варшава
+
+  - id: b1026-a11
+    image: "batch-1026/a11.jpg"
+    price_pln: 139
+    caption: |
+      Медь в коробке
+      139 zł — помпонные георгины
+      Варшава
+
+  - id: b1026-a12
+    image: "batch-1026/a12.jpg"
+    price_pln: 239
+    caption: |
+      Сливовый вечер
+      239 zł — хризантемы, гортензия, нерине
+      Варшава
+
+  - id: b1026-a13
+    image: "batch-1026/a13.jpg"
+    price_pln: 139
+    caption: |
+      Бархатцы вверх
+      139 zł — бархатцы, гортензия
+      Варшава
+
+  - id: b1026-c-d36-d56
+    images:
+      - "batch-1026/d36.jpg"
+      - "batch-1026/d56.jpg"
+    price_pln: 359
+    caption: |
+      Пионы к торту
+      359 zł — королевская протея, пионы
+      Варшава
+
+  - id: b1026-a14
+    image: "batch-1026/a14.jpg"
+    price_pln: 239
+    caption: |
+      Синий антуриум
+      239 zł — антуриум, герберы, хризантемы, крокосмия
+      Варшава
+
+  - id: b1026-a15
+    image: "batch-1026/a15.jpg"
+    price_pln: 239
+    caption: |
+      Синее с оранжевым
+      239 zł — герберы, георгин, дельфиниум, бархатцы
+      Варшава
+
+  - id: b1026-a19
+    image: "batch-1026/a19.jpg"
+    price_pln: 239
+    caption: |
+      Целиком жёлтое
+      239 zł — хризантемы
+      Варшава
+
+  - id: b1026-c-a05-d18
+    images:
+      - "batch-1026/a05.jpg"
+      - "batch-1026/d18.jpg"
+    price_pln: 359
+    caption: |
+      Старше и ярче
+      359 zł — пионовидные розы, помпонные георгины
+      Варшава
+
+  - id: b1026-d07
+    image: "batch-1026/d07.jpg"
+    price_pln: 359
+    caption: |
+      Розовый пух
+      359 zł — ранункулюсы, розы, аспарагус
+      Варшава
+
+  - id: b1026-d12
+    image: "batch-1026/d12.jpg"
+    price_pln: 359
+    caption: |
+      Абрикосовые бутоны
+      359 zł — ранункулюсы
+      Варшава
+
+  - id: b1026-d24
+    image: "batch-1026/d24.jpg"
+    price_pln: 239
+    caption: |
+      Пудра и графит
+      239 zł — антуриум, лилии, розы, герберы
+      Варшава
+
+  - id: b1026-c-d18-d12
+    images:
+      - "batch-1026/d18.jpg"
+      - "batch-1026/d12.jpg"
+    price_pln: 359
+    caption: |
+      Повод есть
+      359 zł — ранункулюсы
+      Варшава
+
+  - id: b1026-d27
+    image: "batch-1026/d27.jpg"
+    price_pln: 239
+    caption: |
+      Коробочки мака
+      239 zł — маковые коробочки, подсолнухи
+      Варшава
+
+  - id: b1026-d35
+    image: "batch-1026/d35.jpg"
+    price_pln: 239
+    caption: |
+      Бордо в бумаге
+      239 zł — хризантемы
+      Варшава
+
+  - id: b1026-d46
+    image: "batch-1026/d46.jpg"
+    price_pln: 239
+    caption: |
+      Чернильные тюльпаны
+      239 zł — тюльпаны, ранункулюсы, гиацинты
+      Варшава
+
+  - id: b1026-c-a02-d43
+    images:
+      - "batch-1026/a02.jpg"
+      - "batch-1026/d43.jpg"
+    price_pln: 359
+    parked: true
+    park_reason: "d43 has private handwritten names on the cards — excluded"
+    caption: |
+      Открытки и облако
+      359 zł — гортензия, кустовые пионовидные розы
+      Варшава
+
+  - id: b1026-d51
+    image: "batch-1026/d51.jpg"
+    price_pln: 239
+    caption: |
+      Белые кудри
+      239 zł — хризантемы, георгины
+      Варшава
+
+  - id: b1026-d56
+    image: "batch-1026/d56.jpg"
+    price_pln: 359
+    caption: |
+      Протеи и пионы
+      359 zł — королевская протея, пионы
+      Варшава
+
+  - id: b1026-a03
+    image: "batch-1026/a03.jpg"
+    price_pln: 359
+    caption: |
+      Охапка солнца
+      359 zł — махровые подсолнухи
+      Варшава
+
+  - id: b1026-c-d43-d35
+    images:
+      - "batch-1026/d43.jpg"
+      - "batch-1026/d35.jpg"
+    price_pln: 239
+    parked: true
+    park_reason: "d43 has private handwritten names on the cards — excluded"
+    caption: |
+      Бордо к открыткам
+      239 zł — хризантемы
+      Варшава
+
+  - id: b1026-a16
+    image: "batch-1026/a16.jpg"
+    price_pln: 359
+    caption: |
+      Лето в бумаге
+      359 zł — подсолнухи, герберы, георгины, молюцелла
+      Варшава
+
+  - id: b1026-a17
+    image: "batch-1026/a17.jpg"
+    price_pln: 359
+    caption: |
+      Красная охапка
+      359 zł — ранункулюсы
+      Варшава
+
+  - id: b1026-a18
+    image: "batch-1026/a18.jpg"
+    price_pln: 359
+    caption: |
+      Тюльпаны охапкой
+      359 zł — тюльпаны
+      Варшава
+
+  - id: b1026-a20
+    image: "batch-1026/a20.jpg"
+    price_pln: 239
+    caption: |
+      Лохматые хризантемы
+      239 zł — игольчатые хризантемы
+      Варшава
+
+  - id: b1026-i7616
+    image: "batch-1026/i7616.jpg"
+    price_pln: 139
+    caption: |
+      Георгины с рынка
+      139 zł — красные и пёстрые георгины
+      Варшава
+
+  - id: b1026-i0317
+    image: "batch-1026/i0317.jpg"
+    price_pln: 139
+    caption: |
+      Циннии в персике
+      139 zł — циннии
+      Варшава
+
+  - id: b1026-c2-i3567-a03
+    images:
+      - "batch-1026/a03.jpg"
+      - "batch-1026/i3567.jpg"
+    price_pln: 359
+    caption: |
+      Гадалка в жёлтом
+      359 zł — махровые подсолнухи
+      Варшава
+
+  - id: b1026-i0507
+    image: "batch-1026/i0507.jpg"
+    price_pln: 359
+    caption: |
+      Пионы на переходе
+      359 zł — пионы
+      Варшава
+
+  - id: b1026-i1782
+    image: "batch-1026/i1782.jpg"
+    price_pln: 359
+    caption: |
+      Красные шапки
+      359 zł — гортензия
+      Варшава
+
+  - id: b1026-c2-i3567-a16
+    images:
+      - "batch-1026/i3567.jpg"
+      - "batch-1026/a16.jpg"
+    price_pln: 359
+    caption: |
+      Жёлтое с бубенцами
+      359 zł — подсолнухи, герберы, георгины, молюцелла
+      Варшава
+
+  - id: b1026-i1796
+    image: "batch-1026/i1796.jpg"
+    price_pln: 239
+    caption: |
+      Гортензии и тыквы
+      239 zł — метельчатая гортензия
+      Варшава
+
+  - id: b1026-i1839
+    image: "batch-1026/i1839.jpg"
+    price_pln: 239
+    caption: |
+      Георгины с капустой
+      239 zł — георгины, декоративная капуста
+      Варшава
+
+  - id: b1026-c2-i3568-a17
+    images:
+      - "batch-1026/a17.jpg"
+      - "batch-1026/i3568.jpg"
+    price_pln: 359
+    caption: |
+      Красный лабиринт
+      359 zł — ранункулюсы
+      Варшава
+
+  - id: b1026-i2230
+    image: "batch-1026/i2230.jpg"
+    price_pln: 239
+    caption: |
+      Венок из пробок
+      239 zł — аспарагус
+      Варшава
+
+  - id: b1026-i2231
+    image: "batch-1026/i2231.jpg"
+    price_pln: 359
+    caption: |
+      Оранжевая корзина
+      359 zł — помпонные георгины
+      Варшава
+
+  - id: b1026-c2-i3568-a18
+    images:
+      - "batch-1026/i3568.jpg"
+      - "batch-1026/a18.jpg"
+    price_pln: 359
+    caption: |
+      Тюльпаны с поля
+      359 zł — тюльпаны
+      Варшава
+
+  - id: b1026-i2237
+    image: "batch-1026/i2237.jpg"
+    price_pln: 139
+    caption: |
+      Подсолнух в лепестках
+      139 zł — подсолнух
+      Варшава
+
+  - id: b1026-i2269
+    image: "batch-1026/i2269.jpg"
+    price_pln: 359
+    caption: |
+      Дым и золото
+      359 zł — скумпия, тысячелистник
+      Варшава
+
+  - id: b1026-c2-i3576-a20
+    images:
+      - "batch-1026/a20.jpg"
+      - "batch-1026/i3576.jpg"
+    price_pln: 239
+    caption: |
+      Хризантемы у такси
+      239 zł — игольчатые хризантемы
+      Варшава
+
+  - id: b1026-i3339
+    image: "batch-1026/i3339.jpg"
+    price_pln: 359
+    caption: |
+      Георгины и бук
+      359 zł — помпонные георгины, листья бука
+      Варшава
+
+  - id: b1026-i3340
+    image: "batch-1026/i3340.jpg"
+    price_pln: 359
+    caption: |
+      Розы в машине
+      359 zł — розы
+      Варшава
+
+  - id: b1026-c2-i3576-a01
+    images:
+      - "batch-1026/i3576.jpg"
+      - "batch-1026/a01.jpg"
+    price_pln: 139
+    caption: |
+      Красное и мох
+      139 zł — мини-герберы, зелёная гвоздика, гомфрена
+      Варшава
+
+  - id: b1026-i3383
+    image: "batch-1026/i3383.jpg"
+    price_pln: 239
+    caption: |
+      Тыквенная башня
+      239 zł — чёрная пампасная трава, мини-тыквы
+      Варшава
+
+  - id: b1026-i3384
+    image: "batch-1026/i3384.jpg"
+    price_pln: 139
+    caption: |
+      Илекс в тыкве
+      139 zł — илекс, хризантема
+      Варшава
+
+  - id: b1026-c2-i3577-a06
+    images:
+      - "batch-1026/a06.jpg"
+      - "batch-1026/i3577.jpg"
+    price_pln: 359
+    caption: |
+      Розовый боярышник
+      359 zł — цветущий боярышник
+      Варшава
+
+  - id: b1026-i3437
+    image: "batch-1026/i3437.jpg"
+    price_pln: 359
+    caption: |
+      Протея в коробке
+      359 zł — протея, орхидеи, хризантемы, левкоспермум
+      Варшава
+
+  - id: b1026-i3438
+    image: "batch-1026/i3438.jpg"
+    price_pln: 359
+    caption: |
+      Гортензия в чернилах
+      359 zł — гортензия, хризантемы, розы, скиммия
+      Варшава
+
+  - id: b1026-c2-i3577-a07
+    images:
+      - "batch-1026/i3577.jpg"
+      - "batch-1026/a07.jpg"
+    price_pln: 359
+    caption: |
+      Краспедия и левкой
+      359 zł — кустовые розы, левкой, краспедия, левкоспермум
+      Варшава
+
+  - id: b1026-i3467
+    image: "batch-1026/i3467.jpg"
+    price_pln: 239
+    caption: |
+      Тёмные подсолнухи
+      239 zł — подсолнухи, сорго, злаки
+      Варшава
+
+  - id: b1026-i3468
+    image: "batch-1026/i3468.jpg"
+    price_pln: 139
+    caption: |
+      Зелёные косы
+      139 zł — амарант
+      Варшава
+
+  - id: b1026-c2-i3578-a02
+    images:
+      - "batch-1026/a02.jpg"
+      - "batch-1026/i3578.jpg"
+    price_pln: 359
+    caption: |
+      Гортензия и фуксия
+      359 zł — гортензия, кустовые пионовидные розы
+      Варшава
+
+  - id: b1026-i3470
+    image: "batch-1026/i3470.jpg"
+    price_pln: 239
+    caption: |
+      Осенний холмик
+      239 zł — гортензия, очиток, кровохлёбка
+      Варшава
+
+  - id: b1026-i3471
+    image: "batch-1026/i3471.jpg"
+    price_pln: 359
+    caption: |
+      Розы в дыму
+      359 zł — скумпия, розы
+      Варшава
+
+  - id: b1026-c2-i3578-d56
+    images:
+      - "batch-1026/i3578.jpg"
+      - "batch-1026/d56.jpg"
+    price_pln: 359
+    caption: |
+      Письма и протеи
+      359 zł — королевская протея, пионы
+      Варшава
+
+  - id: b1026-i3472
+    image: "batch-1026/i3472.jpg"
+    price_pln: 239
+    caption: |
+      Лотос и гладиолусы
+      239 zł — хризантемы, гладиолусы, лотос, амарант
+      Варшава
+
+  - id: b1026-i3482
+    image: "batch-1026/i3482.jpg"
+    price_pln: 239
+    caption: |
+      Рогоз и метёлки
+      239 zł — рогоз, тростник, злаки
+      Варшава
+
+  - id: b1026-c2-i3759-a04
+    images:
+      - "batch-1026/a04.jpg"
+      - "batch-1026/i3759.jpg"
+    price_pln: 139
+    caption: |
+      Зелёный ёжик
+      139 zł — зелёная гвоздика, птицемлечник, ветки
+      Варшава
+
+  - id: b1026-i3488
+    image: "batch-1026/i3488.jpg"
+    price_pln: 359
+    caption: |
+      Зелёная шапка
+      359 zł — гортензия, кустовые розы, георгины, гвоздика
+      Варшава
+
+  - id: b1026-i3489
+    image: "batch-1026/i3489.jpg"
+    price_pln: 139
+    caption: |
+      Шоколадный космос
+      139 zł — шоколадный космос, ковыль
+      Варшава
+
+  - id: b1026-c2-i3759-a08
+    images:
+      - "batch-1026/i3759.jpg"
+      - "batch-1026/a08.jpg"
+    price_pln: 239
+    caption: |
+      Блеск и горчица
+      239 zł — левкоспермум, амарант
+      Варшава
+
+  - id: b1026-i3490
+    image: "batch-1026/i3490.jpg"
+    price_pln: 359
+    caption: |
+      Медовые георгины
+      359 zł — хризантема, георгины, пионовидные розы, скабиоза
+      Варшава
+
+  - id: b1026-i3491
+    image: "batch-1026/i3491.jpg"
+    price_pln: 359
+    caption: |
+      Амарант в галерее
+      359 zł — орхидеи, подсолнухи, гортензия, амарант
+      Варшава
+
+  - id: b1026-c2-i3765-a09
+    images:
+      - "batch-1026/a09.jpg"
+      - "batch-1026/i3765.jpg"
+    price_pln: 239
+    caption: |
+      Чёрные бусины
+      239 zł — крупные хризантемы, чёрные ягоды
+      Варшава
+
+  - id: b1026-i3494
+    image: "batch-1026/i3494.jpg"
+    price_pln: 239
+    caption: |
+      Сливки и баклажан
+      239 zł — хризантемы, гортензия
+      Варшава
+
+  - id: b1026-i3527
+    image: "batch-1026/i3527.jpg"
+    price_pln: 239
+    caption: |
+      Георгины в тыкве
+      239 zł — георгины, ромашки, эвкалипт
+      Варшава
+
+  - id: b1026-c2-i3765-a11
+    images:
+      - "batch-1026/i3765.jpg"
+      - "batch-1026/a11.jpg"
+    price_pln: 139
+    caption: |
+      Георгины в крафте
+      139 zł — помпонные георгины
+      Варшава
+
+  - id: b1026-i3575
+    image: "batch-1026/i3575.jpg"
+    price_pln: 359
+    caption: |
+      Дельфиниум на чёрном
+      359 zł — дельфиниум, протея, гортензия, герберы
+      Варшава
+
+  - id: b1026-i3598
+    image: "batch-1026/i3598.jpg"
+    price_pln: 359
+    caption: |
+      Шиповник и антуриум
+      359 zł — антуриум, шиповник, книфофия, левкоспермум
+      Варшава
+
+  - id: b1026-c2-i3767-a12
+    images:
+      - "batch-1026/a12.jpg"
+      - "batch-1026/i3767.jpg"
+    price_pln: 239
+    caption: |
+      Фиолетовые шапки
+      239 zł — хризантемы, гортензия, нерине
+      Варшава
+
+  - id: b1026-i3599
+    image: "batch-1026/i3599.jpg"
+    price_pln: 359
+    caption: |
+      Розовый пожар
+      359 zł — антуриум, амарант, гортензия
+      Варшава
+
+  - id: b1026-i3606
+    image: "batch-1026/i3606.jpg"
+    price_pln: 359
+    caption: |
+      Красное с лотосом
+      359 zł — антуриум, каллы, георгины, гладиолусы
+      Варшава
+
+  - id: b1026-c2-i3767-a13
+    images:
+      - "batch-1026/i3767.jpg"
+      - "batch-1026/a13.jpg"
+    price_pln: 139
+    caption: |
+      Оранжевые помпоны
+      139 zł — бархатцы, гортензия
+      Варшава
+
+  - id: b1026-i3625
+    image: "batch-1026/i3625.jpg"
+    price_pln: 359
+    caption: |
+      Бело-красные георгины
+      359 zł — георгины
+      Варшава
+
+  - id: b1026-d73
+    image: "batch-1026/d73.jpg"
+    price_pln: 359
+    caption: |
+      Кремовые розы
+      359 zł — кустовые пионовидные розы
+      Варшава
+
+  - id: b1026-c2-i3771-a15
+    images:
+      - "batch-1026/a15.jpg"
+      - "batch-1026/i3771.jpg"
+    price_pln: 239
+    caption: |
+      Синяя гербера
+      239 zł — герберы, георгин, дельфиниум, бархатцы
+      Варшава
+
+  - id: b1026-d74
+    image: "batch-1026/d74.jpg"
+    price_pln: 139
+    caption: |
+      Тюльпаны в рисунках
+      139 zł — тюльпаны
+      Варшава
+
+  - id: b1026-c2-i3771-a19
+    images:
+      - "batch-1026/i3771.jpg"
+      - "batch-1026/a19.jpg"
+    price_pln: 239
+    caption: |
+      Лимонные шары
+      239 zł — хризантемы
+      Варшава
+
+  - id: b1026-c2-i3772-d07
+    images:
+      - "batch-1026/d07.jpg"
+      - "batch-1026/i3772.jpg"
+    price_pln: 359
+    caption: |
+      Розовый шатёр
+      359 zł — ранункулюсы, розы, аспарагус
+      Варшава
+
+  - id: b1026-c2-i3772-d27
+    images:
+      - "batch-1026/i3772.jpg"
+      - "batch-1026/d27.jpg"
+    price_pln: 239
+    caption: |
+      Мак и подсолнух
+      239 zł — маковые коробочки, подсолнухи
+      Варшава
+
+  - id: b1026-c2-i3773-d24
+    images:
+      - "batch-1026/d24.jpg"
+      - "batch-1026/i3773.jpg"
+    price_pln: 239
+    caption: |
+      Чёрные герберы
+      239 zł — антуриум, лилии, розы, герберы
+      Варшава
+
+  - id: b1026-c2-i3773-d35
+    images:
+      - "batch-1026/i3773.jpg"
+      - "batch-1026/d35.jpg"
+    price_pln: 239
+    caption: |
+      Тёмные шары
+      239 zł — хризантемы
+      Варшава
+
+  - id: b1026-c2-i3785-d51
+    images:
+      - "batch-1026/d51.jpg"
+      - "batch-1026/i3785.jpg"
+    price_pln: 239
+    caption: |
+      Сливочные хризантемы
+      239 zł — хризантемы, георгины
+      Варшава
+
+  - id: b1026-c2-i3785-a10
+    images:
+      - "batch-1026/i3785.jpg"
+      - "batch-1026/a10.jpg"
+    price_pln: 239
+    caption: |
+      Красный илекс
+      239 zł — гортензия, илекс, левкоспермум, бруния
+      Варшава
+
+  - id: b1026-c2-d53-a05
+    images:
+      - "batch-1026/a05.jpg"
+      - "batch-1026/d53.jpg"
+    price_pln: 359
+    caption: |
+      Коктейль из георгинов
+      359 zł — пионовидные розы, помпонные георгины
+      Варшава
+
+  - id: b1026-c2-d53-d12
+    images:
+      - "batch-1026/d53.jpg"
+      - "batch-1026/d12.jpg"
+    price_pln: 359
+    caption: |
+      Персиковые ранункулюсы
+      359 zł — ранункулюсы
+      Варшава

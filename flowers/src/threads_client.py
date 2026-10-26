@@ -7,6 +7,7 @@ import requests
 
 BASE = "https://graph.threads.net/v1.0"
 TEXT_LIMIT = 500
+CAROUSEL_MAX = 20
 
 
 class ThreadsError(RuntimeError):
@@ -35,14 +36,40 @@ class ThreadsClient:
             time.sleep(self.publish_delay)
         return self._post(f"{self.user_id}/threads_publish", {"creation_id": creation_id})["id"]
 
-    def post(self, text: str, image_url: str | None = None) -> str:
-        """Полный цикл: вернёт id опубликованного поста."""
+    def post(self, text: str, image_url: str | None = None,
+             image_urls: list[str] | None = None) -> str:
+        """Полный цикл: вернёт id опубликованного поста.
+
+        image_urls с 2+ картинками -> карусель (media_type=CAROUSEL).
+        """
         if len(text) > TEXT_LIMIT:
             raise ThreadsError(f"Текст {len(text)} символов, лимит Threads — {TEXT_LIMIT}")
+        urls = [u for u in (image_urls or []) if u]
+        if len(urls) >= 2:
+            return self.post_carousel(text, urls)
+        if urls and not image_url:
+            image_url = urls[0]
         if image_url:
             creation_id = self._create_container(
                 {"media_type": "IMAGE", "image_url": image_url, "text": text}
             )
         else:
             creation_id = self._create_container({"media_type": "TEXT", "text": text})
+        return self.publish(creation_id)
+
+    def post_carousel(self, text: str, image_urls: list[str]) -> str:
+        """Карусель: 2–20 картинок -> item-контейнеры -> CAROUSEL -> publish."""
+        if not 2 <= len(image_urls) <= CAROUSEL_MAX:
+            raise ThreadsError(f"Карусель: нужно 2–{CAROUSEL_MAX} картинок, дано {len(image_urls)}")
+        children = [
+            self._create_container(
+                {"media_type": "IMAGE", "image_url": url, "is_carousel_item": "true"}
+            )
+            for url in image_urls
+        ]
+        if self.publish_delay:
+            time.sleep(self.publish_delay)  # дать item-контейнерам обработаться
+        creation_id = self._create_container(
+            {"media_type": "CAROUSEL", "children": ",".join(children), "text": text}
+        )
         return self.publish(creation_id)

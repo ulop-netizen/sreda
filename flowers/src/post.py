@@ -45,7 +45,7 @@ def too_soon(now: datetime | None = None) -> tuple[bool, str]:
     return False, ""
 
 
-SLOTS = [(8, 10), (11, 10), (18, 10)]  # Warsaw local
+SLOTS = [(6, 0), (9, 0), (11, 0), (13, 0), (15, 0), (17, 0), (19, 0)]  # Warsaw local, 7/day
 
 
 def slot_missing(now=None):
@@ -75,10 +75,14 @@ def main(argv: list[str] | None = None) -> None:
             raise SystemExit("Нет постов для публикации.")
     text = post["caption"]
     img = config.image_url(post["image"]) if post["image"] else ""
+    imgs = [config.image_url(x) for x in post.get("images") or []]
 
     print(f"--- POST: {post['id']} ---")
     print(text)
-    print(f"--- {len(text)} символов | картинка: {img or 'нет'} ---")
+    if len(imgs) >= 2:
+        print(f"--- {len(text)} символов | карусель ({len(imgs)}): {' , '.join(imgs)} ---")
+    else:
+        print(f"--- {len(text)} символов | картинка: {img or 'нет'} ---")
 
     blocked, why = too_soon()
     if blocked and not force:
@@ -102,7 +106,7 @@ def main(argv: list[str] | None = None) -> None:
         config.THREADS_ACCESS_TOKEN,
         publish_delay=config.PUBLISH_DELAY_SECONDS,
     )
-    post_id = client.post(text, image_url=img or None)
+    post_id = client.post(text, image_url=img or None, image_urls=imgs or None)
     print(f"Опубликовано. post_id={post_id}")
     append_log(post, post_id=post_id, dry_run=False)
 
